@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login - Hospitality Villa/Properties Services Level 2 Programme Repository</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+        <div 
+            style="
+                background:linear-gradient(to bottom, rgb(0,0,0,0.2) 100%, rgb(250,250,250,0.1) 0%),url('/public/img/keeba-repo-login-background.png'); 
+                background-repeat:no-repeat;
+                background-size:cover;
+                background-position:fixed;
+                
+                widht:100vw;
+                height:100vh;
+                margin:0px;
+        ">
+            <div class="w3-col w3-half w3-passing">
+                <div class="w3-display-container w3-white w3-card-4 w3-padding" style="margin-left:2%">
+                <center><h3>Register For Repository</h3>
+                <h5>Welcome New User</h5>
+                <p id="alert"></p>
+                </center>
+                <form class="w3-container" id="register">
+                <p><label>First Name</label>
+                <input class="w3-input" name="Inputfname" type="text" style="width:100%" required>
+                </p>     
+                <p><label>Last Name</label>
+                <input class="w3-input" name="Inputlname" type="text" style="width:100%" required>
+                </p>
+                <p><label>Username</label>
+                <input class="w3-input" name="InputUsername" type="text" style="width:100%" required>
+                </p>
+                <p><label>Email</label>
+                <input class="w3-input" name="InputEmail" type="text" style="width:100%" required>
+                </p>                
+                <p><label>Password</label>
+                <input class="w3-input" name="InputPassword" type="password"  style="width:100%" required>
+                </p>
+                <p><label>Confirm Password</label>
+                <input class="w3-input" name="InputConfirmPassword" type="password"  style="width:100%" required>
+                </p>                
+                
+                <p>
+                <center><button type="submit" class="w3-button w3-section w3-orange w3-ripple"> Register Now </button></p></center>
+                <div>
+                    <p>Already Registered? <a href="login" class="w3-link w3-text-red">Login Here</a></p>
+                </div>                
+                </form>
+
+                </div>
+               
+                
+            </div>
+            <div class="w3-col w3-half w3-passing">
+                &nbsp;
+            </div>
+        
+        
+        
+        
+         <script> 
+        $(document).ready(function () { 
+            $('#register').submit(function (e) { 
+                e.preventDefault(); 
+                var formData = $(this).serialize(); 
+                
+                $.ajax({ 
+                    url: 'index.php?route=auth/processRegister', 
+                    type: 'POST', 
+                    data: formData, 
+                    success: function (response) { 
+                        let message = response.message;
+                        let redirect = response.redirect;
+                        $("#alert").append(message);
+                        location.assign(redirect);
+                    }, 
+                    error: function (jqXHR, textStatus, errorThrown) { 
+                        alert(errorThrown); 
+                    } 
+                }); 
+            }); 
+        }); 
+    </script> 
+    </div>
+</body>
+</html>

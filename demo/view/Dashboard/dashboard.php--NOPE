@@ -1,0 +1,104 @@
+<?php
+require(VIEWS . "Dashboard/headers.php");
+require  ("acessconfig.php");
+
+
+?>
+
+
+
+<!-- !PAGE CONTENT! -->
+
+<!-- Header -->
+<header class="w3-container" style="padding-top:22px">
+    <h5><b><i class="fa fa-dashboard"></i> My Dashboard</b></h5>
+</header>
+<hr />
+
+
+
+<?php
+if ($access ===3|| $access ===2) {
+    // Display content for Owner
+    echo '<div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-third">
+            <div class="w3-container w3-red w3-padding-16">
+                <div class="w3-left"><i class="fa fa-file w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Files</h4>
+            </div>
+        </div>
+        <div class="w3-third">
+            <div class="w3-container w3-blue w3-padding-16">
+                <div class="w3-left"><i class="fa fa-cloud-upload w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Resources</h4>
+            </div>
+        </div>
+        <div class="w3-third">
+            <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Users</h4>
+            </div>
+        </div>
+    </div>'; }
+    else{
+        
+         echo '<div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-third">
+            <div class="w3-container w3-red w3-padding-16">
+                <div class="w3-left"><i class="fa fa-file w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Files</h4>
+            </div>
+        </div>
+        <div class="w3-third">
+            <div class="w3-container w3-blue w3-padding-16">
+                <div class="w3-left"><i class="fa fa-qrcode w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>QR CODE </h4>
+            </div>
+        </div>
+        <div class="w3-third">
+            <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                    <h3>content here</h3>
+                </div>
+                <div class="w3-clear"></div>
+                <h4>Users</h4>
+            </div>
+        </div>
+    </div>';
+        
+$link =  $_SESSION['fname'];
+$encodedLink = $link; // URL encode the link
+echo '<center>Share link';
+echo '</br><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' . $encodedLink . '" alt="QR Code"/></center>';
+
+        
+        
+    }
+    
+    
+    
+?>
+
+
+<?php include("footers.php"); ?>

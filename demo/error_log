@@ -1,0 +1,1265 @@
+[20-Sep-2024 20:16:01 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:16:01 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:16:06 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:16:06 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:92
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 92
+[20-Sep-2024 20:16:45 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:16:45 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:16:47 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:16:47 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:17:31 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:17:31 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:17:32 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:17:32 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:17:33 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:17:33 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:17:34 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:17:34 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:18:00 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:18:00 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:18:02 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:18:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:92
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 92
+[20-Sep-2024 20:18:05 UTC] PHP Warning:  Undefined variable $username2 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/finconfig.php on line 19
+[20-Sep-2024 20:18:05 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:92
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 92
+[20-Sep-2024 20:19:49 UTC] PHP Parse error:  Unmatched ')' in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 19
+[20-Sep-2024 20:20:14 UTC] PHP Parse error:  Unmatched ')' in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 19
+[20-Sep-2024 20:20:18 UTC] PHP Parse error:  Unmatched ')' in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 19
+[20-Sep-2024 20:20:29 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 20:20:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 20:20:40 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:20:45 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:92
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 92
+[20-Sep-2024 20:21:13 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:22:36 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 20:22:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 20:24:12 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:92
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 92
+[20-Sep-2024 20:26:36 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:26:38 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:26:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:26:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:26:46 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:33 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:38 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:39 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:46 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:27:58 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 82
+[20-Sep-2024 20:28:00 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 82
+[20-Sep-2024 20:28:22 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 82
+[20-Sep-2024 20:28:48 UTC] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 82
+[20-Sep-2024 20:29:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:29:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:30:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:33:15 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:85
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 85
+[20-Sep-2024 20:34:02 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:89
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(37): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 89
+[20-Sep-2024 20:50:57 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[20-Sep-2024 20:50:57 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[20-Sep-2024 20:51:17 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[20-Sep-2024 20:51:17 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[20-Sep-2024 21:02:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function counter() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php:34
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#2 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 34
+[20-Sep-2024 21:03:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function counter() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php:34
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#2 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 34
+[20-Sep-2024 21:04:03 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 34
+[20-Sep-2024 21:04:03 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOException given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:147
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(42): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:04:32 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, PDOException given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:147
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 174
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:11:23 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:11:23 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:11:56 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:11:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 174
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:11:57 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:11:57 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:12:30 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:12:30 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 179
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:16:40 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:16:40 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 179
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:17:44 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:17:44 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 179
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 175
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "lname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 176
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:18:11 UTC] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 177
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "dateCreated" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 178
+[20-Sep-2024 21:18:11 UTC] PHP Warning:  Undefined array key "price" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 179
+[20-Sep-2024 21:19:52 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:19:52 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 172
+[20-Sep-2024 21:22:22 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 37
+[20-Sep-2024 21:22:22 UTC] PHP Warning:  Undefined variable $table in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 38
+[20-Sep-2024 21:22:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE WHERE Array='RTu6UC050quaRw5'' at line 1 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:106
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(106): PDO->query()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(84): Model->count()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(38): DashboardModel->counter()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 106
+[20-Sep-2024 21:24:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE affiliate='RTu6UC050quaRw5'' at line 1 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:106
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(106): PDO->query()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(84): Model->count()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(38): DashboardModel->counter()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 106
+[20-Sep-2024 21:26:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE affiliate = 'RTu6UC050quaRw5'' at line 1 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:106
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(106): PDO->query()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(84): Model->count()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(38): DashboardModel->counter()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 106
+[20-Sep-2024 21:27:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yardieadventures.transactions' doesn't exist in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:106
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(106): PDO->query()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(84): Model->count()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(38): DashboardModel->counter()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 106
+[20-Sep-2024 21:28:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE affiliate = 'RTu6UC050quaRw5'' at line 1 in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:106
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(106): PDO->query()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(84): Model->count()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(38): DashboardModel->counter()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 106
+[20-Sep-2024 21:28:46 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:28:46 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 172
+[20-Sep-2024 21:31:25 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:31:25 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 172
+[20-Sep-2024 21:32:47 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:33:51 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:33:54 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 147
+[20-Sep-2024 21:37:14 UTC] PHP Warning:  Undefined variable $price in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 119
+[20-Sep-2024 21:37:14 UTC] PHP Warning:  Undefined variable $count in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 120
+[20-Sep-2024 21:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function numberformat() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:148
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 148
+[20-Sep-2024 21:43:06 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:43:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:43:19 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:43:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:43:26 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:43:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:57:31 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:57:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 21:58:41 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:182
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(182): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 182
+[20-Sep-2024 21:59:34 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:182
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(182): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 182
+[20-Sep-2024 21:59:36 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:182
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(182): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 182
+[20-Sep-2024 22:01:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date_format() expects exactly 2 arguments, 1 given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:183
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(183): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 183
+[20-Sep-2024 22:01:43 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:183
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(183): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 183
+[20-Sep-2024 22:02:24 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:183
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(183): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 183
+[20-Sep-2024 22:02:26 UTC] PHP Fatal error:  Uncaught TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php:183
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php(183): date_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(41): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->index()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Influencer/userprofile.php on line 183
+[20-Sep-2024 22:49:39 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 22:49:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 22:49:42 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 22:49:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 23:15:51 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[20-Sep-2024 23:15:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 61
+[21-Sep-2024 00:32:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DashboardController::order() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php:74
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once()
+#1 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 74
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 45
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 45
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:32:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 45
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 45
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:33:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 46
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 47
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 48
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 49
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 50
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 51
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 52
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 53
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 54
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 55
+[21-Sep-2024 00:33:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 55
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 00:46:48 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/order.php on line 44
+[21-Sep-2024 01:05:17 UTC] PHP Warning:  Undefined variable $value in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 58
+[21-Sep-2024 01:05:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/users.php on line 58
+[23-Sep-2024 15:47:23 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 15:47:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 15:47:38 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 15:47:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:40:20 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:40:20 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:06 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:09 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:14 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:16 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:16 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:38 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:42:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:51:48 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:51:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:10 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:10 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:38 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:39 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:52:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:53:29 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:53:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/user-input.php on line 3
+[23-Sep-2024 16:55:10 UTC] PHP Warning:  Undefined array key "InputPhone" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/AuthController.php on line 96
+[23-Sep-2024 16:55:10 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/AuthController.php on line 96
+[28-Sep-2024 21:59:16 UTC] PHP Parse error:  syntax error, unexpected string content "home_footer.php";?>" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/home.php on line 1188
+[28-Sep-2024 22:00:36 UTC] PHP Parse error:  syntax error, unexpected string content "home_footer.php";?>" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/home.php on line 1188
+[28-Sep-2024 22:00:38 UTC] PHP Parse error:  syntax error, unexpected string content "home_footer.php";?>" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/home.php on line 1188
+[01-Oct-2024 14:47:46 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[01-Oct-2024 14:47:46 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[21-Oct-2024 21:16:06 UTC] PHP Warning:  Undefined variable $USD in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/service.php on line 21
+[21-Oct-2024 21:17:52 UTC] PHP Fatal error:  Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/service.php:21
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/service.php(21): number_format()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(51): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->product()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/service.php on line 21
+[26-Oct-2024 00:04:28 UTC] PHP Warning:  Undefined array key "username" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 64
+[26-Oct-2024 00:04:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 64
+[26-Oct-2024 00:04:28 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 121
+[26-Oct-2024 00:04:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 121
+[26-Oct-2024 00:04:28 UTC] PHP Warning:  Undefined variable $uname in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/dashboard.php on line 3
+[26-Oct-2024 00:04:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/dashboard.php on line 3
+[26-Oct-2024 00:04:28 UTC] PHP Warning:  Undefined array key "username" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 64
+[26-Oct-2024 00:04:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 64
+[26-Oct-2024 00:04:28 UTC] PHP Warning:  Undefined array key "fname" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 121
+[26-Oct-2024 00:04:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/Dashboard/headers.php on line 121
+[26-Oct-2024 01:09:10 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/service.php on line 3
+[01-Nov-2024 19:52:37 UTC] PHP Warning:  Undefined array key "time" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/checkout/fac_checkout.php on line 66
+[05-Nov-2024 01:04:31 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:31 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:39 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:39 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:41 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:41 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:46 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:46 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:56 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:04:56 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:05:29 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:05:29 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:05:51 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:05:51 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:06:24 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:06:24 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:06:37 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:06:37 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:07:16 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[05-Nov-2024 01:07:16 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[09-Nov-2024 11:39:01 UTC] PHP Warning:  include(../../../404.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:39:01 UTC] PHP Warning:  include(): Failed opening '../../../404.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:12 UTC] PHP Warning:  include(../../../../../404.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:12 UTC] PHP Warning:  include(): Failed opening '../../../../../404.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:30 UTC] PHP Warning:  include(../../../../../404.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:30 UTC] PHP Warning:  include(): Failed opening '../../../../../404.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:50 UTC] PHP Warning:  include(../../../../../4j04.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:50 UTC] PHP Warning:  include(): Failed opening '../../../../../4j04.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:55 UTC] PHP Warning:  include(../../../../../4j04.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:40:55 UTC] PHP Warning:  include(): Failed opening '../../../../../4j04.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:41:23 UTC] PHP Warning:  include(/404.shtml): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:41:23 UTC] PHP Warning:  include(): Failed opening '/404.shtml' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_status_code() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php:32
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(123): Router->run()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#3 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 32
+[09-Nov-2024 11:46:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_status_code() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php:32
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(123): Router->run()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#3 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 32
+[09-Nov-2024 11:46:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_status_code() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php:32
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(123): Router->run()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#3 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 32
+[09-Nov-2024 11:53:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_status_code() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php:33
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(123): Router->run()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#3 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[09-Nov-2024 11:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function http_status_code() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php:33
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(123): Router->run()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#3 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 33
+[21-Nov-2024 00:23:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ZePc5s0F2fazvnS' in 'where clause' in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:49
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(49): PDOStatement->execute()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(107): Model->get()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(298): DashboardModel->getRandomString()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateAffiliate()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 49
+[21-Nov-2024 01:28:11 UTC] PHP Warning:  Undefined array key "id" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 43
+[21-Nov-2024 01:28:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getService() on null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php:45
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(20): HomeController->product()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(28): {closure}()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(166): Router->run()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 45
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  Undefined array key "Name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 59
+[21-Nov-2024 01:32:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 59
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  Undefined array key "Email" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 60
+[21-Nov-2024 01:32:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 60
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  Undefined array key "Subject" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 61
+[21-Nov-2024 01:32:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 61
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  Undefined array key "Comment" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 62
+[21-Nov-2024 01:32:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 62
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 14
+[21-Nov-2024 01:32:49 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 01:32:49 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(16): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/HomeModel.php(36): Model->insert()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(66): HomeModel->put()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->send_mail()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 01:42:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 29
+[21-Nov-2024 03:30:42 UTC] PHP Warning:  Undefined array key "id" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 43
+[21-Nov-2024 03:30:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getService() on null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php:45
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(20): HomeController->product()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(166): Router->run()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 45
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  Undefined array key "Name" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 59
+[21-Nov-2024 03:41:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 59
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  Undefined array key "Email" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 60
+[21-Nov-2024 03:41:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 60
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  Undefined array key "Subject" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 61
+[21-Nov-2024 03:41:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 61
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  Undefined array key "Comment" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 62
+[21-Nov-2024 03:41:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 62
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 14
+[21-Nov-2024 03:41:04 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 03:41:04 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(16): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/HomeModel.php(36): Model->insert()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(66): HomeModel->put()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->send_mail()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 03:51:18 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 03:51:18 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(16): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/CheckoutModel.php(10): Model->insert()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/CheckoutController.php(24): CheckoutModel->put()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): CheckoutController->cart()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 03:51:37 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 03:51:37 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(16): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/CheckoutModel.php(10): Model->insert()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/CheckoutController.php(24): CheckoutModel->put()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): CheckoutController->cart()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 16
+[21-Nov-2024 04:14:40 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:14:44 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/spage.php on line 3
+[21-Nov-2024 04:14:44 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:14:49 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:14:55 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/spage.php on line 3
+[21-Nov-2024 04:14:56 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:15:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:15:10 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/spage.php on line 3
+[21-Nov-2024 04:15:46 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:15:49 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:15:52 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:15:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:05 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:10 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:15 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:19 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:27 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:16:30 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:17:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:18:07 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:18:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:18:14 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:18:16 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:18:27 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:23:34 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:23:34 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:23:34 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:23:54 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:23:54 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:23:54 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:24:30 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:24:30 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:24:30 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:25:07 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:25:07 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:25:07 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:33:04 UTC] PHP Warning:  move_uploaded_file(/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/public/uploads/content/park-life.jpg): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php on line 47
+[21-Nov-2024 04:33:04 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUQckFx' to '/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/public/uploads/content/park-life.jpg' in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php on line 47
+[21-Nov-2024 04:33:30 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:33:38 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:36:55 UTC] PHP Warning:  Undefined array key "InputPhone" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/AuthController.php on line 96
+[21-Nov-2024 04:36:55 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/AuthController.php on line 96
+[21-Nov-2024 04:40:14 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:40:16 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:02 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:04 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:26 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:33 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:55 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:41:58 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 04:43:10 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:43:10 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:43:10 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:45:32 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:45:32 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:45:32 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:46:13 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:46:13 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:46:13 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:50:17 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:50:17 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:50:17 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:50:41 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:50:41 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:50:41 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:51:08 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:51:08 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:51:08 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 04:53:00 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 04:53:00 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 04:53:00 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:53:00 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 04:57:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DashboardController::test() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php:74
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once()
+#1 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 74
+[21-Nov-2024 04:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DashboardController::test() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php:74
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once()
+#1 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 74
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:00:37 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:00:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:00:37 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:02:35 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:02:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:02:35 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:03:19 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:03:24 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:03:27 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:05:35 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:05:36 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:05:42 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:08:05 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:08:05 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:08:05 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:09:02 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:09:02 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:09:02 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:11:54 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:11:54 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:11:54 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:13:01 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:13:01 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:13:01 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:16:14 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 130
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 131
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 133
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Undefined array key "fileToUpload" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:16:14 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php on line 149
+[21-Nov-2024 05:25:15 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:25:23 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:25:26 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:26:35 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:26:35 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:26:35 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:26:44 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:26:44 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:26:44 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:31:17 UTC] PHP Warning:  foreach() argument must be of type array|object, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 70
+[21-Nov-2024 05:31:17 UTC] PHP Warning:  Undefined variable $ins in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:31:17 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php:73
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php(73): implode()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/model/DashboardModel.php(63): Model->update()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/DashboardController.php(181): DashboardModel->edit()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): DashboardController->updateContent()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(5): require_once('/home/cxiksmw1g...')
+#5 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Model.php on line 73
+[21-Nov-2024 05:38:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:38:26 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:40:53 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 05:54:34 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:03:26 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:05:39 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:05:40 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:08:45 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:14:14 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:22:07 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:22:14 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:22:29 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:22:36 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:24:02 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:25:03 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:25:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:26:18 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:26:23 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:30:06 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:30:44 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:30:59 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:31:11 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:32:00 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:32:48 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:33:18 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:34:31 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:34:40 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:42:59 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:43:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 06:43:12 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:51:58 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:52:16 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:53:01 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:55:04 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:57:56 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:58:00 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 12:58:31 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 13:00:35 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 13:50:34 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:39:32 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:39:39 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:39:47 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:40:09 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:40:09 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:40:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 18:40:38 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:02:40 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:07:43 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:07:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:08:01 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:08:24 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:13:29 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:13:38 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:16:41 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:25:06 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:15 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:21 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:24 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:30 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:34 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:30:39 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:15 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:20 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:30 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:33 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:44 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:33:50 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:34:05 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:34:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:34:46 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:34:56 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:34:59 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:35:55 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:38:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:39:59 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:40:08 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:40:21 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:40:22 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:41:05 UTC] PHP Warning:  Undefined array key "expyear" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[21-Nov-2024 19:41:05 UTC] PHP Warning:  Undefined array key "expmonth" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/FirstAtlanticCommerceController.php on line 70
+[21-Nov-2024 19:52:15 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:54:05 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:59:20 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:59:21 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 19:59:23 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:02 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:06 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:09 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:09 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:30 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:35 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:11:42 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:13:43 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:13:49 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 20:13:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:46:34 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:46:40 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:46:53 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:46:58 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:50:06 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:50:13 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:50:36 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[21-Nov-2024 23:50:46 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[22-Nov-2024 00:12:07 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[22-Nov-2024 00:12:14 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[22-Nov-2024 00:12:54 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[22-Nov-2024 00:12:59 UTC] PHP Warning:  Undefined variable $BASE_URL_SSL in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 41
+[22-Nov-2024 01:00:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function HomeController::product(), 0 passed in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 74 and exactly 1 expected in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php:34
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->product()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#2 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 34
+[22-Nov-2024 01:00:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function HomeController::product(), 0 passed in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 74 and exactly 1 expected in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php:34
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->product()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#2 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 34
+[22-Nov-2024 01:00:59 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "model" on null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php:72
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once()
+#1 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php on line 72
+[22-Nov-2024 01:01:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "productID" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php:43
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(74): HomeController->product()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#2 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php on line 43
+[22-Nov-2024 01:09:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 35 and exactly 1 expected in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(167): Router->run()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php on line 16
+[22-Nov-2024 01:11:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php on line 35 and exactly 1 expected in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php:16
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(167): Router->run()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#4 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php on line 16
+[22-Nov-2024 01:57:39 UTC] PHP Warning:  Undefined variable $title in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/home_header.php on line 2
+[22-Nov-2024 01:57:52 UTC] PHP Warning:  Undefined variable $title in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/home_header.php on line 2
+[22-Nov-2024 04:26:57 UTC] PHP Warning:  include_once(/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventures.php): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php on line 19
+[22-Nov-2024 04:26:57 UTC] PHP Warning:  include_once(): Failed opening '/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventures.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php on line 19
+[22-Nov-2024 04:27:13 UTC] PHP Warning:  include_once(/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventures.php): Failed to open stream: No such file or directory in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php on line 19
+[22-Nov-2024 04:27:13 UTC] PHP Warning:  include_once(): Failed opening '/home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventures.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php on line 19
+[22-Nov-2024 04:29:40 UTC] PHP Parse error:  syntax error, unexpected token "return", expecting "," or ";" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 3
+[22-Nov-2024 04:30:37 UTC] PHP Warning:  Array to string conversion in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 2
+[22-Nov-2024 04:47:59 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 537
+[22-Nov-2024 04:50:36 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 537
+[22-Nov-2024 04:51:13 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 537
+[22-Nov-2024 04:51:43 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 537
+[22-Nov-2024 04:53:26 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting "]" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 537
+[22-Nov-2024 05:14:37 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 376
+[22-Nov-2024 05:15:16 UTC] PHP Fatal error:  Uncaught ValueError: DOMDocument::loadHTML(): Argument #1 ($source) must not be empty in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:376
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php(376): DOMDocument->loadHTML()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#7 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#8 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 376
+[22-Nov-2024 05:16:55 UTC] PHP Fatal error:  Uncaught ValueError: DOMDocument::loadHTML(): Argument #1 ($source) must not be empty in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:376
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php(376): DOMDocument->loadHTML()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#7 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#8 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 376
+[22-Nov-2024 05:17:25 UTC] PHP Fatal error:  Uncaught ValueError: DOMDocument::loadHTML(): Argument #1 ($source) must not be empty in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:376
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php(376): DOMDocument->loadHTML()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#7 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#8 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 376
+[22-Nov-2024 05:17:56 UTC] PHP Fatal error:  Uncaught ValueError: DOMDocument::loadHTML(): Argument #1 ($source) must not be empty in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:376
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php(376): DOMDocument->loadHTML()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#7 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#8 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 376
+[22-Nov-2024 05:24:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: strip_tags() expects at most 2 arguments, 3 given in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:379
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php(379): strip_tags()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once('/home/cxiksmw1g...')
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#7 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#8 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 379
+[22-Nov-2024 05:25:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function strip_tagsxxx() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:379
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#7 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 379
+[22-Nov-2024 05:25:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function strip_tagsxxx() in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:379
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#7 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 379
+[22-Nov-2024 05:36:58 UTC] PHP Warning:  Undefined variable $service in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 373
+[22-Nov-2024 05:36:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 373
+[22-Nov-2024 05:36:58 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 373
+[22-Nov-2024 05:43:21 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "s" in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php:380
+Stack trace:
+#0 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/View.php(19): include_once()
+#1 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/controller/HomeController.php(48): View::render()
+#2 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(92): HomeController->adventures()
+#3 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/classes/Router.php(35): {closure}()
+#4 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/routes/webRoutes.php(177): Router->run()
+#5 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/system/kernel.php(77): include('/home/cxiksmw1g...')
+#6 /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/index.php(3): require_once('/home/cxiksmw1g...')
+#7 {main}
+  thrown in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 380
+[22-Nov-2024 06:09:52 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 364
+[22-Nov-2024 06:10:23 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/cxiksmw1g7q1/public_html/yardyadventures.com/demo/view/adventure.php on line 364

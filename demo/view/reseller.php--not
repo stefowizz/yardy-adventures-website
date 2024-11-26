@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <?php
+include "home_header.php"; ?>
+    
+    
+
+  
+  
+  
+  
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    /* Header and Hero Section */
+    header {
+         /*background: linear-gradient(90deg, #e9f371, #596e65);*/
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+
+    }
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5em;
+      margin: 15px 0;
+    }
+    .cta-btn {
+      background-color: #fff;
+      color: #ff0066;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    /* Hero Banner */
+    .hero-banner {
+      background: url('assets/images/frontend/blog/bn1.png') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-banner h2 {
+      color: white;
+      font-size: 3em;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Main Content */
+    main {
+      background-color: white;
+      padding: 50px 0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .content-section {
+      padding: 30px;
+      margin-bottom: 30px;
+      text-align: left;
+      border-radius: 10px;
+    }
+    .content-section h3 {
+      color: #6a00ff;
+      margin-bottom: 20px;
+    }
+    .content-section p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    /* Image and Text alternating sections */
+    .image-text-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .image-text-section img {
+      width: 50%;
+      border-radius: 10px;
+    }
+    .image-text-section .text {
+      width: 50%;
+      padding: 20px;
+    }
+    .image-text-section.reverse {
+      flex-direction: row-reverse;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+      .container {
+        width: 90%;
+      }
+      .image-text-section {
+        flex-direction: column;
+      }
+      .image-text-section img, .image-text-section .text {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+    
+    
+
+
+</br></br>
+<!-- ==================== Header End Here ==================== -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <header>
+      </br></br></br></br>
+    <div class="container">
+  <h1>YARDY Independent Seller Programme</h1>
+            <p>Join us in offering high-quality eco-adventure experiences</p>
+            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">Join Now</button></a>
+        </div>
+    </header>
+
+    <section class="hero-banner">
+        <h2>Experience Nature Like Never Before</h2>
+    </section>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h3>Programme Objectives</h3>
+                <p>Independent sellers are integral to Yardy’s market penetration strategy for the tours, attractions, and activities (TAA) sector both locally and internationally. You are invited to become an approved partner in delivering authentic eco-adventure experiences to up to 3000 guests daily.</p>
+                <p><strong>Objectives:</strong></p>
+                <ul>
+                    <li>Create and maintain a network of independent sellers with the values: SATISFACTION | PARTNERSHIP | FINANCIAL STRENGTH.</li>
+                    <li>Leverage micro marketing efforts aligned with product innovation and quality, both locally and internationally.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Benefits</h3>
+                <p>As an Independent Seller, you will enjoy the following benefits:</p>
+                <ul>
+                    <li>Earn 25% commission on sales from leads originating from your unique QR Code used on social media, digital platforms, or printed materials.</li>
+                    <li>Expand your income by optimizing your leisure activities.</li>
+                    <li>Monitor earnings and transfers through a private account.</li>
+                    <li>Track client bookings and leverage their feedback to enhance your market appeal.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="image-text-section">
+            <img src="assets/images/frontend/blog/bn2.png" alt="Nature Experience">
+            <div class="text">
+                <h3>Yardy’s Unique Selling Proposition (USP)</h3>
+                <p>Our product augments the natural environment, providing immersive experiences for nature lovers and eco-culture adventurers. Westmoreland's rainfall, limestone mountains, pristine rivers, and rural heritage form the backdrop of these unique experiences.</p>
+            </div>
+        </section>
+
+        <section class="image-text-section reverse">
+            <div class="text">
+                <h3>Comparative and Competitive Advantages</h3>
+                <p><strong>Comparative Advantage:</strong> Proximity to major resort areas like Montego Bay, Negril, and South Coast with improved road networks allows guests to experience nature without long travel times.</p>
+                <p><strong>Competitive Advantage:</strong> Our products are competitively priced and include flexible promotional packages and wholesaling, appealing to individual adventurists, families, social groups, and corporate clients.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Yardy ISP Terms of Reference</h3>
+                <p><strong>Independent Sellers Will:</strong></p>
+                <ul>
+                    <li>Attend ISP training workshops.</li>
+                    <li>Leverage or augment personal marketing channels to sell Yardy products via a unique QR Code.</li>
+                    <li>Use Yardy resources responsibly to maintain a positive brand image.</li>
+                </ul>
+
+                <p><strong>Yardy Will:</strong></p>
+                <ul>
+                    <li>Maintain communication channels with the seller network.</li>
+                    <li>Provide training workshops and assign unique promotional codes to each seller.</li>
+                    <li>Ensure high-quality product delivery in a safe and secure environment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Market Breakdown</h3>
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <td>Seamless augmentation of natural rustic environment for immersive experiences.</td>
+                    </tr>
+                    <tr>
+                        <th>Place</th>
+                        <td>Proximity to resort areas like Montego Bay, Negril, and South Coast with improving road networks, ensuring accessibility for a variety of experiences.</td>
+                    </tr>
+                    <tr>
+                        <th>Price</th>
+                        <td>Competitive pricing, leveraging differentiated products for promotional packages and wholesaling.</td>
+                    </tr>
+                    <tr>
+                        <th>Markets</th>
+                        <td>Segments include nature lovers, eco-adventurers, and a broad range of market segments such as individuals, families, social groups, and corporate clients.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+
+    <!-- all js link -->
+    <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/popper.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/slick.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/odometer.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/viewport.jquery.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/smoothscroll.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/lightcase.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.en.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/wow.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/admin/js/select2.min.js"></script>
+<script src="https://yardyadventures.com/demo/assets/common/js/ckeditor.js"></script>
+<script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
+
+        <script>
+   function addToWishlist(element) {
+
+    "use strict"
+
+        var isAddingToWishlist = false;
+        var isLoggedIn = false;
+
+        if (!isAddingToWishlist && isLoggedIn) {
+            isAddingToWishlist = true;
+            var propertyId = $(element).data('id');
+
+            $.ajax({
+                url: 'https://yardyadventures.com/demo/client/property-wishlist-add',
+                type: 'get',
+                data: {
+                    propertyId: propertyId,
+                },
+                complete: function() {
+                    isAddingToWishlist = false;
+                },
+                success: function(response) {
+                    if (response.hasOwnProperty('message')) {
+                        Toast.fire({
+                            icon: 'success',
+                            title: response.message
+                        });
+                        var heartIcon = $(element).find('i');
+                        heartIcon.removeClass('far fa-heart').addClass('fas fa-heart');
+                    } else {
+                        Toast.fire({
+                            icon: 'warning',
+                            title: response.error
+                        });
+                    }
+                },
+                error: function(xhr, status, error) {
+                    var errorMessage = 'Error occurred while adding the item to the wishlist.';
+                    Toast.fire({
+                        icon: 'error',
+                        title: errorMessage
+                    });
+                }
+            });
+        } else {
+            var errorMessage = 'Please log in to add items to your wishlist and insure are you client?';
+            Toast.fire({
+                icon: 'warning',
+                title: errorMessage
+            });
+
+            isAddingToWishlist = false;
+        }
+    }
+</script>
+        <script src="https://yardyadventures.com/demo/assets/common/js/sweetalert2.min.js"></script>
+<script>
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-right',
+        customClass: {
+            popup: 'colored-toast'
+        },
+        showConfirmButton: false,
+        timer: 2000,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+</script>
+
+
+
+
+<script>
+    (function ($) {
+        "use strict";
+
+        $(".langSel").on("change", function() {
+            window.location.href = "https://yardyadventures.com/demo/change/"+$(this).val() ;
+        });
+
+        $('.policy').on('click',function(){
+            $.get('https://yardyadventures.com/demo/cookie/accept', function(response){
+                $('.cookies-card').addClass('d-none');
+            });
+        });
+
+        setTimeout(function(){
+            $('.cookies-card').removeClass('hide')
+        },2000);
+
+    })(jQuery);
+</script>
+
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl506098'},{'dcenter':'p3'},{'cp_id':'9984899'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
+<?php include"home_footer.php";?>
+     
+</html>
