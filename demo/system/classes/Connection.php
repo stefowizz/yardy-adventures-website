@@ -18,7 +18,7 @@ class Connection{
                 return self::$connection;
             }
         }
-        catch(\PDOExeption $e){
+        catch(\PDOException $e){
             echo $e->getMessage();
             exit;
         }

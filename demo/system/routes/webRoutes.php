@@ -172,9 +172,17 @@
         }
     );
     
+       # added about page 
+       $router->addRoute(path: "/demo/about-us",method: "GET", handler: function(){
+         View::render("about");
+       });
+
+       
     
     try {
         $router->run();
     } catch (Exception $e) {
         echo $e->getMessage();
     }
+
+ 

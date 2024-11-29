@@ -298,6 +298,10 @@
                             <a href="https://yardyadventures.com/demo/contact" class="nav-link " aria-current="page">Contact</a>
                         </li>
                     
+                                            <li class="nav-item">
+                            <a href="https://yardyadventures.com/demo/about-us" class="nav-link " aria-current="page">About Us</a>
+                        </li>
+                    
                                    </ul>
                 <div class="nav-end d-lg-flex d-md-flex d-block align-items-center py-lg-0 py-1">
                     <div class="d-flex mx-2">

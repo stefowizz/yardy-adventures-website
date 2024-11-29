@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about_container {
+    padding: 10px;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+.about_title {
+    font-weight: bold;
+    background: linear-gradient(to right, #5DBB2F, #DDA521);
+    /* Adjust the colors based on your image */
+    background-clip: text;
+    -webkit-text-fill-color: #9f9b274a !important;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.about-video-contianer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.about-video-contianer video {
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.about_content {
+    margin-top: 50px;
+}
+
+.about_content p {
+    margin-bottom: 15px;
+}
+
+.adventures {
+    padding: 10px;
+}
+
+.attraction_title, .adventures_title, .eco_commitment_title {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    background-clip: text !important;
+    -webkit-text-fill-color: #9f9b274a !important;
+    background: linear-gradient(to right, #5DBB2F, #DDA521);
+    font-weight: bold;
+}
+
+.adventures p {
+    margin-bottom: 16px;
+}
+
+.adventures_list {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.adventures_list li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.explore__link {
+    padding: 10px;
+    background-color: #28b9f5;
+    color: white;
+    border-radius: 5px;
+}
+.book__link{
+    padding: 6px;
+    background-color: #28b9f5;
+    color: white;
+    border-radius: 5px;
+    margin-top:30px;
+}
+
+.eco_commitment_content_contaniner {
+    display: flex;
+    width: 100%;
+}
+
+.eco_commitment_content{
+    width: 60%;
+    height: auto;
+}
+
+
+.eco_commitment_diagram{
+    width: 20%;
+    height: 20%;
+    height: fit-content;
+}
+
+.eco_commitment_diagram img {
+    margin: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.key_features_content {
+    display: grid;
+    width: 100%;
+    column-gap: 100px;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+}
+.key_features{
+    margin-top: 100px;
+}
+
+.card_title h4, .key_features_title  {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    background-clip: text !important;
+    -webkit-text-fill-color: #9f9b274a !important;
+    background: linear-gradient(to right, #427a27, #FDD403);
+}
+
+.card {
+    padding: 9px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.307);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.208);
+}
+
+/* Extra Small: Mobile Phones */
+@media (max-width: 376px) {
+    .about-video-contianer {
+        flex-direction: column;
+    }
+
+    .about-video-contianer video {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .about_content h1 {
+        text-align: center;
+    }
+
+    .attraction {
+        text-align: center;
+    }
+
+    .eco_commitment_content {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .eco_commitment_content {
+        width: 100%;
+        height: auto;
+    }
+
+    .eco_commitment_content p,.attraction p {
+        text-align: left;
+    }
+
+    .key_features_content {
+        row-gap:20px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+
+}
+
+/* Small Devices: Tablets and Larger Phones */
+@media (min-width: 376px) and (max-width: 767px) {
+    .about-video-contianer {
+        flex-direction: column;
+    }
+
+    .about-video-contianer video {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .about_content h1 {
+        text-align: center;
+    }
+
+    .attraction {
+        text-align: center;
+    }
+
+    .eco_commitment_content_contaniner {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .eco_commitment_content {
+        width: 100%;
+        height: auto;
+    }
+
+    .eco_commitment_content p,.attraction p {
+        text-align: left;
+    }
+
+    .key_features_content {
+        row-gap:20px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+}
+
+
+
+
+
+
+
+ 
+/* Medium Devices: Laptops and Tablets (Landscape) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-video-contianer {
+        flex-direction: column;
+    }
+
+    .about-video-contianer video {
+        width: 100%;
+    }
+
+    .about_content h1 {
+        text-align: center;
+    }
+   .about_content{
+    width:100%;
+   }
+    .attraction {
+        text-align: center;
+    }
+
+    .eco_commitment_content_contaniner {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .eco_commitment_content{
+        width: 100%;
+        height: auto;
+    }
+
+    .eco_commitment_content p,.attraction p {
+        text-align: left;
+    }
+
+    .key_features_content {
+        row-gap:20px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+}
+
+/* Large Devices: Desktop Monitors */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .about-video-contianer {
+        flex-direction: column;
+    }
+}
