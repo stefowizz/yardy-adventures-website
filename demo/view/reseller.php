@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     
     <?php
 include "home_header.php"; ?>
@@ -41,21 +42,26 @@ include "home_header.php"; ?>
   h1{color: #427A27 !important;}
   
   .table>:not(caption)>*>* {
-   background-color: #427A27 !important;
+   /* background-color: #427A27 !important; */
    text-align: left !important;
-   color: #fff !important;
+   /* color: #fff ; */
     }
-  
   
   .table thead tr th {
     background-color: #ffc107 !important;
     color: #000 !important;
 }
-  
-  
-  .table tbody {
+  .table tbody  {
     border: 0 !important;
-    background-color: #198754;
+    /* background-color: #198754; */
+}
+.table tbody tr:nth-child(odd) {
+  background-color: #198754 !important; 
+  color: #fff !important;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #f0c153 !important;
+  color: #000 !important;
 }
   
   
@@ -114,6 +120,8 @@ include "home_header.php"; ?>
       width: 80%;
       margin: 0 auto;
       text-align: center;
+      color: #000;
+
     }
     .content-section {
       padding: 30px;
@@ -159,9 +167,28 @@ include "home_header.php"; ?>
 p{
     font-weight:100;
 }
+ul {
+    list-style-type: none;
+}
+
+.carousel-item img {
+        width:100%;
+        height: 490px;
+        object-fit: contain;
+        border-radius: 14px;
+    }
+
+    .bk{
+       background-color: #ffffff78;;  
+       border-radius: 77px;
+       /* border: 1px solid transparent;*/
+    }
 
     /* Responsive Styles */
     @media only screen and (max-width: 768px) {
+      .carousel-item img {
+            height: 300px;
+      }
       header h1 {
         font-size: 2.5em;
       }
@@ -175,6 +202,7 @@ p{
         width: 100%;
         text-align: center;
       }
+      
     }
   </style>
 </head>
@@ -201,27 +229,68 @@ p{
   <header>
       </br></br></br></br>
     <div class="container">
-       <h1>YARDY Independent Seller Programme</h1>
-            <p>Join us in offering high-quality eco-adventure experiences</p>
-            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">Join Now</button></a>
+       <h1>Independent Seller Programme</h1>
+            <p>Explore & Earn</p>
+            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">Earn 25% Commission</button></a>
+            <p>This progamme offers a lucrative income opportunity. Every sale generated from your promotional effeorts boosts your income.</p>
         </div>
     </header>
 
-    <section class="hero-banner">
+    <!-- <section class="hero-banner">
         <h2>Experience Nature Like Never Before</h2>
-    </section>
+    </section> -->
+
+    <div class="row gy-4 justify-content-center mt-2">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="demo\assets\images\frontend\blog\riverrafting.jpg" class="d-block w-100" alt="First Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="bk"> <h5>Free Registration</h5></div>
+                            <!--<p class="ch">Yardy Tours and Cabaritta Expeditions are ecotourism companies in Williamsfield and Friendship Districts in Westmoreland, Jamaica. We offer a variety of activities including river tubing, horseback riding, and dune buggy riding.</p>-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="demo\assets\images\frontend\blog\bn2.png" class="d-block w-100" alt="Second Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                              <div class="bk"> <h5>Earn a 25% commission</h5></div> 
+                            <!--<p>Experience the adventure of a lifetime with our river tubing and jungle expeditions.</p>--->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="demo\assets\images\frontend\blog\dune.jpg" class="d-block w-100" alt="Third Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                              <div class="bk"><h5>Work Form Anywhere</h5> </div>
+                           <!-- <p>Relax by the river and enjoy the authentic Jamaican cuisine.</p>-->
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
 
     <main>
         <section class="content-section">
             <div class="container">
                 <h3>Welcome to YARDY Independent Seller Programme!</h3>
-                <p>Independent sellers are integral to Yardy’s market penetration strategy for the growing market segment of the tours, attraction and activity (TAA) sector both locally and internationally.  You are invited to become an approved partner for Yardy’s rich portfolio supported by a unique selling preposition (USP) that appeals to nature lovers and eco-culture adventurers.  Our hallmark is consistent delivery of high-quality products which will be for up to 3000 guests daily.</p><br>
+                <p>Independent sellers are integral to Yardy’s market penetration strategy in the growing market segment of the tours, attraction and activity (TAA) sector both locally and internationally.  You are invited to become an approved partner for Yardy’s rich portfolio that is supported by a range of unique selling preposition (USP) that appeals to nature lovers and eco-culture adventurers.  Our hallmark is consistent delivery of quality adventures for 3000 guests daily.</p><br>
                 <p class="ob"><strong>Objectives:</strong></p>
                 <ul class="ob" style="list-style-type: disc;">
-  <li>● To create and maintain a network of independent sellers through adaptation of our values:<br>  
-    <strong>SATISFACTION | PARTNERSHIP | FINANCIAL STRENGTH</strong>
-  </li>
-  <li>● To leverage micro marketing efforts that are congruent with our hallmark of excellence through product innovation and quality both locally and internationally.</li>
+  <li> To create and maintain a network of independent sellers through adaptation of our values: <strong>SATISFACTION, PARTNERSHIP, FINANCIAL STRENGTH</strong>
+  </li><br>
+  <li> To leverage micro marketing efforts that are congruent with our hallmark of excellence through product innovation and quality both locally and internationally.</li>
 </ul>
             </div>
         </section>
@@ -231,11 +300,12 @@ p{
                 
                 <p class="ob"><strong>Benefits:</strong></p>
                 <ul class="ob" style="list-style-type: disc;">
-  <li>●	Earn 25% commission for sales generated from leads originating from own unique QR Code<br> incorporated on social media accounts, other digital platforms or printed cards or brochures.<br>  
-  </li>
-  <li>● Expand your income by optimizing your leisure activities </li>
-  <li>● Monitor your efforts with access to private account that display earnings and provide<br> confirmation for transfers to your bank account. </li>
-  <li>● Keep track of client’s booking and leverage their feedback for added market appeal on your<br> own platforms </li>
+  <li> Free Registration </li>
+  <li> Expand your income </li>
+  <li> Work & earn from anywhere</li>
+  <li> One of a kind experince</li>
+  <li> Develop your network</li>
+  <li> Be a part of something bigger</li>
   
 </ul>
             </div>
@@ -247,55 +317,62 @@ p{
     <div class="table-responsive">
         <table class="table table-bordered">
             <thead>
-                <tr>
-                    <th>Aspect</th>
-                    <th>Description</th>
+                <tr class="text-center p-4">
+                    <center><th>Aspect</th></center>
+                    <center><th>Description</th></center>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row"><center>Product</center></th>
+                    <th scope="row"><center>Product</center><br>
+                    <center><strong>UNIQUE</strong> – Authentic experiences are not readily duplicated.</center>
+                  </th>
                     <td>
-                        Seamless augmentation of natural, rustic environment that provide authentic immersive experiences for a variety of nature lovers and eco-culture adventurers:
+                        
                         <ul>
-                            <li><strong>&nbsp;&nbsp;&nbsp;&nbsp;● Westmoreland</strong> rainfall is above the national average and the watersheds are preserved limestone mountains that provide a flow of high-quality water all year round. The rushing waters of the Roaring River cascades into deeper and more dramatic Cabaritta with pristine blue holes and shallow water for hiking or lounging.</li>
-                            <li>&nbsp;&nbsp;&nbsp;&nbsp;● The Georges Plain is used traditionally for farming and has vast expanses of meadows.</li>
-                            <li>&nbsp;&nbsp;&nbsp;&nbsp;● The surrounding mountains are home to a wide range of flora, fruits, curative herbs, and well-preserved rural living heritage.</li>
+                            <li>Seamless augmentation of natural, rustic environment that provide authentic immersive experiences for a variety of nature lovers and eco-culture adventurers:</li><br>
+                            <li><strong>&nbsp;&nbsp;&nbsp;&nbsp;Westmoreland</strong> rainfall is above the national average and the watersheds are preserved limestone mountains that provide a flow of high-quality water all year round. The rushing waters of the Roaring River cascades into deeper and more dramatic Cabaritta with pristine blue holes and shallow water for hiking or lounging.</li><br>
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp;The Georges Plain is used traditionally for farming and has vast expanses of meadows.</li><br>
+                            <li>&nbsp;&nbsp;&nbsp;&nbsp;The surrounding mountains are home to a wide range of flora, fruits, curative herbs, and well-preserved rural living heritage.</li>
                         </ul>
-                        <strong>UNIQUE</strong> – Authentic experiences are not readily duplicated.
+                        
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row"><center>Place</center></th>
+                    <th scope="row"><center>Place</center><br>
+                        <center><strong>COMPARATIVE ADVANTAGE</strong> – Proximity and diverse product offering minimize travelling time for single or multiple experiences.</center>
+                    </th>
                     <td>
                         <ul>
-                            <li>● Proximity to resort areas: <strong>Montego Bay | Negril | South Coast</strong></li>
-                            <li>● Improving road network: Montego Bay Bypass and South Coast Highway</li>
-                            <li>  &nbsp;&nbsp;&nbsp;&nbsp;-Proximity to additional resort areas: <strong>Falmouth | Ocho Rios | Kingston</strong></li>
-                            <li>  &nbsp;&nbsp;&nbsp;&nbsp;-Proximity to Jamaica: Corporate Clients</li>
-                            <li>● 80% of tourists in Negril opt for an excursion outside of <strong>Westmoreland</strong> and Hanover because of limited options in these parishes.</li>
+                            <li> Proximity to resort areas: <strong>Montego Bay | Negril | South Coast</strong></li><br>
+                            <li> Improving road network: Montego Bay Bypass and South Coast Highway</li><br>
+                            <li> Proximity to additional resort areas: <strong>Falmouth | Ocho Rios | Kingston</strong></li><br>
+                            <li> Proximity to Jamaica: Corporate Clients</li><br>
+                            <li> 80% of tourists in Negril opt for an excursion outside of <strong>Westmoreland</strong> and Hanover because of limited options in these parishes.</li><br>
                         </ul>
-                        <strong>COMPARATIVE ADVANTAGE</strong> – Proximity and diverse product offering minimize travelling time for single or multiple experiences.
+                        
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row"><center>Price</center></th>
+                    <th scope="row"><center>Price</center><br>
+                        <center><strong>COMPETITIVE ADVANTAGE</strong> – Distinguished product is sold at competitive market prices.</center>
+                    </th>
                     <td>
                         <ul>
-                            <li>● Differentiated products are priced competitively.</li>
-                            <li>● Competitive prices can be leveraged for promotional packages and wholesaling.</li>
+                            <li> Differentiated products are priced competitively.</li><br>
+                            <li> Competitive prices can be leveraged for promotional packages and wholesaling.</li>
                         </ul>
-                        <strong>COMPETITIVE ADVANTAGE</strong> – Distinguished product is sold at competitive market prices.
+                        
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><center>Markets</center></th>
                     <td>
                         <ul>
-                            <li>● Distinguished Segments of Adventurists: <strong>Soft, Moderate, and Hard</strong></li>
-                            <li>Nature | Culture | Gastronomy</li>
-                            <li>● Multiple Dimensions: <strong>Individuals | Family | Friends | Social & Corporate Groups</strong></li>
-                            <li>COMPREHENSIVE - marketing and sales strategy has dynamic components that appeal to market segments.</li>
+                            <li> Distinguished Segments of Adventurists: <strong>Soft, Moderate, and Hard</strong></li><br>
+                            <li> Nature | Culture | Gastronomy</li><br>
+                            <li> Multiple Dimensions: <strong>Individuals | Family | Friends | Social & Corporate Groups</strong></li><br>
+                            <li> COMPREHENSIVE - marketing and sales strategy has dynamic components that appeal to market segments.</li>
                         </ul>
                     </td>
                 </tr>
@@ -309,15 +386,15 @@ p{
     <section class="image-text-section">
       <img src="assets/images/frontend/blog/bn3.png" alt="Placeholder Image">
       <div class="text">
-        <h3>Yardy ISP Terms of Reference</h3>
+        <h3>Terms of Reference</h3>
         <p><strong>Independent Sellers Will:</strong></p>
-        <ul>
-          <li>1. Registration.</li>
-          <li>2. Attend and participate in ISP training workshops.</li>
-          <li>3. Leverage or augment own marketing and selling channels to sell Yardy product via a unique QR Code </li>
-          <li>4. Utilize Yardy resources only for the purpose intended:  to create and maintain a positive brand. </li>
-          <li>5. Sell standardized products as displayed on yardyadventures.com or communicate directly<br> with Manager, Planning and Market Relations for customized groups.</li>
-        </ul>
+        <ol>
+          <li> Registration</li><br>
+          <li> Attend and participate in ISP training workshops</li><br>
+          <li> Leverage or augment own marketing and selling channels to sell Yardy product via a unique QR Code </li><br>
+          <li> Utilize Yardy resources only for the purpose intended:  to create and maintain a positive brand </li><br>
+          <li> Sell standardized products as displayed on yardyadventures.com or communicate directly<br> with Manager, Planning and Market Relations for customized groups</li><br>
+        </ol>
 
         
       </div>
@@ -346,7 +423,7 @@ p{
 <script src="https://yardyadventures.com/demo/assets/admin/js/select2.min.js"></script>
 <script src="https://yardyadventures.com/demo/assets/common/js/ckeditor.js"></script>
 <script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script>
    function addToWishlist(element) {
 

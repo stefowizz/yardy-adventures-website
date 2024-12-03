@@ -28,7 +28,7 @@ include 'home_header.php';
   
     
     
-    img{ width: 80% !importnat;
+    img{ width: 80% !important;
         height: 490px !important;
         
         
@@ -72,7 +72,7 @@ include 'home_header.php';
     }
 
     .about-section {
-        //background-color: #22564e;
+        background-color: #22564e;
         background-color: #fff;
         padding: 20px;
         border-radius: 8px;
