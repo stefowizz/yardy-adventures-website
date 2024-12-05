@@ -1,7 +1,7 @@
 <?php
-   if(!isset($title)){
-       $title = "Yardy Adventures";
-   }
+if(!isset($title)) {
+    $title = "Yardy Adventures";
+}
 ?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
@@ -273,15 +273,18 @@
                     </li>--->
                     
                                    <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo" class="nav-link " aria-current="page">Home</a>
+                            <a href="https://yardyadventures.com/demo/" class="nav-link " aria-current="page">Home</a>
                         </li>
                     
                            
-                                       
-                                            <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/services" class="nav-link " aria-current="page">Services</a>
+                            <li class="nav-item">
+                            <a href="https://yardyadventures.com/demo/about-us" class="nav-link " aria-current="page">About</a>
                         </li>
+                                       
                     
+                        <li class="nav-item">
+                            <a href="https://yardyadventures.com/demo/contact" class="nav-link " aria-current="page">Contact</a>
+                        </li>
                                        
                                             <li class="nav-item">
                             <a href="https://yardyadventures.com/demo/adventures" class="nav-link " aria-current="page">Adventures</a>
@@ -294,13 +297,7 @@
                     
                     
                                        
-                                            <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/contact" class="nav-link " aria-current="page">Contact</a>
-                        </li>
                     
-                                            <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/about-us" class="nav-link " aria-current="page">About Us</a>
-                        </li>
                     
                                    </ul>
                 <div class="nav-end d-lg-flex d-md-flex d-block align-items-center py-lg-0 py-1">
