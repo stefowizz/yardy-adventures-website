@@ -59,6 +59,7 @@ include "home_header.php"; ?>
         
         .qr{
             width:150px;
+
         }
         
 
@@ -74,7 +75,7 @@ include "home_header.php"; ?>
 
 .breadcumb{
     overflow: hidden !important;
-    background-color: #EBF3EF !important;
+    /* background-color: #EBF3EF !important; */
 }
 
 .footer-area {
@@ -184,72 +185,8 @@ include "home_header.php"; ?>
     </div>
 </div>-->
 <!-- ==================== Header End Here ==================== -->
-
-         <!-- ==================== Breadcumb Start ==================== -->
-<section class="breadcumb py-80">
-    <div class="container">
-        <div class="d-flex justify-content-center mt-5">
-            <div class="content">
-                <h2>Shareable QR code</h2>
-                 <!---<p>
-                    <a href="https://yardyadventures.com/test">Home</a> /
-                   <a href="https://yardyadventures.com/demo/contact">Contact Us</a>
-                </p>-->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ==================== Breadcumb End ==================== -->
-<center>        
-<img class="qr" src="https://yardyadventures.com/demo/assets/images/frontend/blog/yardy.jpg" alt="qr" /></center>
-    
     <!-- ==================== Contact Form & Map Start ==================== -->
-<section class="contact py-80">
-    <div class="shape">
-
-   
-        
-        <img src="https://yardyadventures.com/demo/assets/presets/default/images/shape/shape7.png" alt="shape">
-    </div>
-    <div class="container">
-        
-        <div class="row gy-4 mb-5 justify-content-center">
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                <div class="card">
-                    <div class="content">
-                        <h5><i class="fas fa-map-marker-alt"></i> Location</h5>
-                        <p>Westmoreland, Jamaica</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                <div class="card">
-                    <div class="content">
-                        <h5><i class="fas fa-envelope"></i> Email</h5>
-                        <a href="sales@yardyadventures.com">sales@yardyadventures.com</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                <div class="card">
-                    <div class="content">
-                        <h5><i class="fas fa-phone-square"></i> Phone</h5>
-                        <a href="tel:8767811741">8767811741</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                <div class="card">
-                    <div class="content">
-                        <h5><i class="fas fa-headset"></i> Support</h5>
-                        <p>24/7 Support</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="row gy-4 mt-5">
+        <div class="row gy-4 mt-5 p-5">
             <div class="col-lg-6">
                <div class="contact-body">
                 <h4 class="contact__title">Send Your Message To Us</h4>
@@ -298,9 +235,170 @@ include "home_header.php"; ?>
             </div>
         </div>
     </div>
+    <section class="contact py-80">
+    <div class="shape">
+
+   
+        
+        <img src="https://yardyadventures.com/demo/assets/presets/default/images/shape/shape7.png" alt="shape">
+    </div>
+    <div class="container">
+
+  <!-- ==================== Location Maps Start ==================== -->  
+
+  <div style="margin-bottom: 150px;">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+        <!-- First Map -->
+        <div class="col-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-3">
+                        <i class="fas fa-map-marker-alt"></i> Negril to Yardy
+                    </h5>
+                    <div class="ratio ratio-4x3">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d121250.09614746991!2d-78.29024280876985!3d18.25281847452839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x8ed97adc20939e0d%3A0x636417c1ea8fb9d9!2sPetersfield!3m2!1d18.2616156!2d-78.0712516!4m5!1s0x8ed90d8512302c85%3A0x7bc0f136de355913!2sNegril%2C%20Jamaica!3m2!1d18.2788727!2d-78.3444296!5e0!3m2!1sen!2sjm!4v1732893356992!5m2!1sen!2sjm"
+                            style="border:0;" 
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Second Map -->
+        <div class="col-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-5">
+                        <i class="fas fa-map-marker-alt"></i>Montego Bay to Yardy
+                    </h5>
+                    <div class="ratio ratio-4x3">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d242346.16838155314!2d-78.16074213281263!3d18.362840374408307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x8ed97adc20939e0d%3A0x636417c1ea8fb9d9!2sPetersfield!3m2!1d18.2616156!2d-78.0712516!4m5!1s0x8eda2a5dfd77e2b1%3A0xfcd69adb5acc5766!2sMontego%20Bay!3m2!1d18.4713814!2d-77.9228676!5e0!3m2!1sen!2sjm!4v1732893626253!5m2!1sen!2sjm"
+                            style="border:0;" 
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third Map -->
+        <div class="col-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-3">
+                        <i class="fas fa-map-marker-alt"></i> Falmouth to Yardy
+                    </h5>
+                    <div class="ratio ratio-4x3">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d242309.72564819697!2d-78.02832032978495!3d18.38877903842601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x8ed97adc20939e0d%3A0x636417c1ea8fb9d9!2sPetersfield!3m2!1d18.2616156!2d-78.0712516!4m5!1s0x8eda33f8c3cfab6b%3A0x947175f8cf7d2536!2sFalmouth%2C%20Jamaica!3m2!1d18.4928457!2d-77.656476!5e0!3m2!1sen!2sjm!4v1732894125347!5m2!1sen!2sjm"
+                            style="border:0;" 
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fourth Map -->
+        <div class="col-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title text-center mb-3">
+                        <i class="fas fa-map-marker-alt"></i> Sandals South Coast to Yardy
+                    </h5>
+                    <div class="ratio ratio-4x3">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d121296.71043150518!2d-78.11161991064677!3d18.1859114301944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x8ed97adc20939e0d%3A0x636417c1ea8fb9d9!2sPetersfield!3m2!1d18.2616156!2d-78.0712516!4m5!1s0x8ed961108449dac7%3A0xa03e8dd42965422b!2sSandals%20South%20Coast%2C%20White%20House!3m2!1d18.1086339!2d-77.99151789999999!5e0!3m2!1sen!2sjm!4v1732894223894!5m2!1sen!2sjm"
+                            style="border:0;" 
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+ 
+  <!-- ==================== Location Map End ==================== -->
+        
+        <div class="row gy-4 mb-5 justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="content">
+                        <h5><i class="fas fa-map-marker-alt"></i> Address</h5>
+                        <p> Fort William, Petersfield PO, Westmoreland, JAMAICA
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="content">
+                        <h5><i class="fas fa-envelope"></i> Email</h5>
+                        <a href="info@yardyadventures.com">info@yardyadventures.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="content">
+                        <h5><i class="fas fa-phone-square"></i>Whatsapp Phone</h5>
+                        <a href="tel:8768378082">8768378082</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="content">
+                        <h5><i class="fas fa-phone-square"></i>Telephone</h5>
+                        <a href="tel:8767811741">8767811741</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="card">
+                    <div class="content">
+                        <h5><i class="fas fa-headset"></i> Support</h5>
+                        <p>24/7 Support</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
 </section>
 <!-- ==================== Contact Form & Map End ==================== -->
   
+         <!-- ==================== Breadcumb Start ==================== -->
+<!-- <section class="breadcumb py-80">
+    <div class="container">
+        <div class="d-flex justify-content-center mt-5">
+            <div class="content">
+                <h2>Shareable QR code</h2>
+                 <p>
+                    <a href="https://yardyadventures.com/test">Home</a> /
+                   <a href="https://yardyadventures.com/demo/contact">Contact Us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- ==================== Breadcumb End ==================== -->
+
+
+
+
+
     
 
 
