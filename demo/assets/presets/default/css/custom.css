@@ -1,1 +1,445 @@
 /* Write your css codes here */
+:root {
+    --primary-yellow: #FDD402;
+    --primary-blue: #28B9F5;
+    --primary-green: #427A27;
+    --secondary-blue: #2BA9EA;
+    --secondary-yellow: #F0C153;
+    --neutral: #EBF3EF;
+
+    --primary-green-rgba: 66, 122, 39;
+}
+
+.heroContainer-fluid {
+    background-color: var(--primary-green);
+    position: relative;
+}
+
+.heroContainer h1 {
+    text-shadow: 1px 1px 2px hsla(96, 100%, 99%, 0.311);
+}
+
+.heroContainer h2 {
+    color: var(--secondary-yellow);
+    margin-bottom: 0;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0px !important;
+}
+
+.AdventureCard {
+    position: relative;
+    min-width: 120px;
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgba(var(--primary-green-rgba), .8);
+    align-self: center;
+}
+
+.AdventureCard-Tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: var(--neutral);
+    background-color: var(--primary-green);
+    padding: 10px;
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+
+.AdventureCard-image {
+    height: 130px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.AdventureCard-image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+.adventure-card-title {
+    color: #35462c;
+    text-shadow: 1px 2px 3px var(--cta-color);
+    margin-bottom: 0!important;
+    width: 100%;
+}
+
+.adventure-card-title.smallFont {
+    font-size: 20px;
+}
+
+.adventure-card-title.mediumFont {
+    font-size: 23px;
+}
+
+.adventure-card-title.largeFont {
+    font-size: 27px;
+}
+
+.adventure-card-body {
+    background-color: hsl(101, 34%, 67%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.adventure-card-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adventure-card-links a {
+    cursor: pointer;
+}
+
+.adventure-card-readMore {
+    color: var(--neutral)!important;
+    text-shadow: 1px 1px 2px hsl(103, 6%, 23%);
+}
+
+.adventure-card-readMore, .adventure-card-bookNow {
+    text-wrap: nowrap;
+    margin: 5px 10px!important;
+}
+
+.adventure-card-bookNow {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: var(--neutral)!important;
+    background-color: var(--primary-green);
+}
+
+.adventure-card-bookNow:hover {
+    opacity: 0.8;
+}
+
+.AdventureCardModalExitAnchor {
+    position: fixed;
+    display: none;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.AdventureCardModalExitAnchor.display {
+    display: block;
+}
+
+.modalExit {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.modalExit .x {
+    color: var(--secondary-yellow);
+    font-size: 30px;
+} 
+
+.AdventureCardModal-ScrollContainer {
+    overflow-y: auto;
+    height: 70vh;
+    min-height: 300px;
+    max-height: 450px;
+    border-radius: 10px;
+}
+
+.modalBackdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 98;
+    background-color: hsla(0, 0%, 59%, 0.687);
+}
+
+.modalBackdrop.displayBackDrop {
+    display: block;
+}
+
+.AdventureCardModalExitAnchor {
+    width: 95%;
+}
+
+.AdventureCard-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-green);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    text-align: center;
+}
+
+.AdventureCard-modal-imageContainer {
+    width: 100%;
+    height: 300px;
+}
+
+.AdventureCard-modal-imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.adventureCardModal-card-title {
+    margin: 0;
+    margin-top: 12px;
+    color: var(--secondary-yellow);
+}
+
+.adventureCardModal-card-include, .adventureCardModal-card-include h4, .adventure-modal-info, .adventure-modal-list {
+    color: var(--neutral);
+}
+
+.adventure-modal-info {
+    margin: 10px 5px;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px hsla(30, 2%, 35%, 0.705);
+}
+
+.adventureModalBookNow {
+    display: block;
+    padding: 17px;
+    border-radius: 10px;
+    color: var(--neutral)!important;
+    text-shadow: 1px 1px 2px hsla(30, 3%, 15%, 0.705);
+    background-color: var(--secondary-yellow);
+    width: 95%;
+    margin: 20px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ModaltableContainer {
+    overflow-y: auto;
+}
+
+.Modaltable {
+    width: 95%;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    margin-top: 20px;
+}
+
+.Modaltable thead {
+    background-color: #e0b141;
+}
+
+.Modaltable th {
+    text-wrap: nowrap;
+}
+
+.Modaltable th, .Modaltable td {
+    padding: 20px 5px;
+}
+
+.Modaltable tbody tr:nth-child(odd) {
+    background-color: #f0c86a;
+}
+
+.Modaltable tr:nth-child(even) {
+    background-color: var(--secondary-yellow);
+}
+
+.Explore {
+    background-color: var(--primary-green);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+.ExploreMainHeading, .ExploreSubHeading, .WhyJoin, .ExploreListContainer li, .Explore > p {
+    color: var(--neutral);
+}
+
+.ExploreListContainer strong {
+    color: var(--secondary-yellow);
+}
+
+.ExploreListContainer li {
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.Explore > p {
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.GetStarted {
+    border-radius: 20px;
+    background-color: var(--secondary-yellow);
+    color: var(--primary-green)!important;
+    font-weight: 600;
+    padding: 15px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.GetStarted:hover {
+    opacity: .8;
+}
+
+.comingSoonSpring, .comingSoonSummer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0px !important;
+}
+
+.comingSoonMainHeadingContainer {
+    background-color: var(--neutral);
+}
+
+.comingSoonMainHeading {
+    color: var(--primary-green);
+}
+
+.comingSoonSpringHeading {
+    color: var(--primary-green);
+    border-radius: 50px;
+    border: 2px solid var(--primary-green);
+}
+
+.comingSoonSummerHeading {
+    background-color: var(--secondary-yellow);
+    border: 2px solid var(--secondary-yellow);
+    color: var(--neutral);
+    border-radius: 50px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+    .adventure-card-title {
+        font-size: 15px;
+    }
+
+    .adventure-card-readMore {
+        margin-top: 0;
+    }
+}
+
+
+@media only screen and (min-width: 350px) {
+    .AdventureCard-image {
+        height: 160px;
+    }
+
+    .adventure-card-links a {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 640px) {
+    .adventure-card-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .AdventureCard {
+        padding: 10px;
+    }
+
+    .AdventureCard-image {
+        height: 180px;
+    }
+
+    .adventure-card-links a {
+        font-size: 17px;
+    }
+
+    .AdventureCard-Tag {
+        font-size: 17px;
+    }
+
+    .adventureModalBookNow, .Modaltable {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .AdventureCardModalExitAnchor {
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .card-container {
+        gap: 20px;
+    }
+
+    .AdventureCard-image {
+        height: 215px;
+    }
+
+    .Explore > p, .ExploreListContainer {
+        font-size: 18px;
+    }
+
+    .GetStarted {
+        padding: 20px 60px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .card-container, .comingSoonSpring, .comingSoonSummer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Explore {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .card-container, .comingSoonSpring, .comingSoonSummer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .adventure-card-links a {
+        font-size: 20px;
+    }
+
+    .AdventureCard-Tag {
+        font-size: 20px;
+    }
+
+    .adventure-card-title-container {
+        /* height: 75px!important; */
+    }
+
+    .GetStarted {
+        padding: 25px 80px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .card-container, .comingSoonSpring, .comingSoonSummer {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+
