@@ -1221,24 +1221,31 @@
     <script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
 
     <script>
+        // Wait for the DOM content to load before executing the script
         window.addEventListener("DOMContentLoaded", () => {
+            // Select all elements with the class "AdventureCard" and convert NodeList to an array
             const adventureCards = Array.from(document.querySelectorAll(".AdventureCard"));
 
+            // Exit if no adventure cards are found
             if (!adventureCards) return;
 
+            // Function to handle modal toggle functionality
             const toggleModal = () => {
                 adventureCards.forEach((card) => {
+                    // Select the modal backdrop and elements within the card
                     const backDrop = document.querySelector(".modalBackdrop");
                     const modal = card.querySelector(".AdventureCardModalExitAnchor");
                     const readMore = card.querySelector(".adventure-card-links").querySelector(".adventure-card-readMore");
 
+                    // Function to display the modal
                     const displayModal = () => {
                         if (modal) {
                             modal.classList.add("display");
                             backDrop.classList.add("displayBackDrop");
                         }
-                    }
+                    };
 
+                    // Function to remove modal on global click (outside modal or on the backdrop)
                     const removeModalOnGlobalClick = (e) => {
                         if (backDrop && modal) {
                             if (!backDrop.contains(e.target) || e.target === backDrop) {
@@ -1246,35 +1253,40 @@
                                 backDrop.classList.remove("displayBackDrop");
                             }
                         }
-                    }
+                    };
 
+                    // Select the modal exit button
                     const modalExit = modal?.querySelector(".modalExit");
 
+                    // Function to close the modal when exit button is clicked
                     const ExitModal = () => {
                         if (modal && modalExit) {
                             modal.classList.remove("display");
                             backDrop.classList.remove("displayBackDrop");
                         }
-                    }
+                    };
 
+                    // Add event listeners for modal interactions
                     setTimeout(() => modalExit.addEventListener("click", ExitModal), 50);
                     readMore.addEventListener("click", displayModal);
                     backDrop.addEventListener("click", removeModalOnGlobalClick);
-
                 });
-            }
+            };
 
+            // Initialize modal toggle functionality
             toggleModal();
 
-            /*Currently not in use*/
+            /* Function currently not in use */
             const setLinkSpace = () => {
                 adventureCards.forEach((card) => {
                     const cardLinks = card.querySelector(".adventure-card-links");
 
                     if (!cardLinks) return;
 
+                    // Get the computed height of card links
                     let cardLinksHeight = parseInt(getComputedStyle(cardLinks).height, 10) || parseInt(cardLinks.style.height, 10);
 
+                    // Adjust the alignment based on height
                     if (cardLinksHeight >= 60) {
                         if (getComputedStyle(cardLinks).justifyContent === "space-between") {
                             cardLinks.classList.add("centered");
@@ -1285,6 +1297,7 @@
                 });
             };
 
+            // Function to truncate card title text based on container height
             const TruncateCardTitleText = () => {
                 adventureCards.forEach((card) => {
                     const cardTitleContainer = card.querySelector(".adventure-card-body")?.querySelector(".adventure-card-title-container");
@@ -1292,8 +1305,9 @@
 
                     if (!cardTitleContainer || !cardTitle) return;
 
+                    // Save original text if not already saved
                     if (!card.dataset.originalText) {
-                        card.dataset.originalText = cardTitle.textContent; // Save the original text
+                        card.dataset.originalText = cardTitle.textContent;
                     }
 
                     const cardTitleImmutable = card.dataset.originalText;
@@ -1305,19 +1319,20 @@
                     let truncatedText = cardTitleImmutable;
                     cardTitle.textContent = truncatedText;
 
+                    // Truncate text until it fits within the desired height
                     while (cardTitle.scrollHeight > desiredHeight && truncatedText.length) {
                         truncatedText = truncatedText.slice(0, -1); // Remove the last character
                         cardTitle.textContent = `${truncatedText}`;
                     }
 
+                    // Add ellipsis if text was truncated
                     if (truncatedText.length < cardTitleImmutable.length) {
                         cardTitle.textContent = `${truncatedText.trim().concat('...')}`;
                     }
-
                 });
             };
 
-
+            // Function to adjust card title font size based on card width
             const cardTitleSizeResponsiveness = () => {
                 adventureCards.forEach((card) => {
                     const cardWidth = parseInt(getComputedStyle(card).width, 10);
@@ -1335,17 +1350,20 @@
                         cardTitle.classList.add("largeFont");
                     }
                 });
-            }
+            };
 
+            // Initial execution of functions
             TruncateCardTitleText();
             cardTitleSizeResponsiveness();
 
+            // Re-execute functions on window resize
             window.addEventListener("resize", () => {
                 TruncateCardTitleText();
                 cardTitleSizeResponsiveness();
             });
         });
     </script>
+
 
     <script>
         (function($) {
