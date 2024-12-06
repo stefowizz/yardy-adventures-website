@@ -5,8 +5,11 @@
         <div class="row justify-content-center g-5">
             <div class="col-xl-3 col-sm-6">
                 <div class="footer-item">
-                    <div class="footer-item__logo">
-                        <a href="https://yardyadventures.com/test"> <img src="https://yardyadventures.com/demo/assets/images/general/logo_white.png" alt="InfluencerFly"></a>
+                    <div class="social-icons">
+                         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                         <a href="https://www.google.com"><i class="fa-brands fa-google"></i></a>
+                         <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
                     </div>
                     <p class="footer-item__desc">
                                                Join us at Yardy Adventures to soak in the lush scenery and enjoy a variety of exciting activities tailored just for you.
@@ -21,6 +24,7 @@
             <div class="col-xl-2 col-sm-6">
                 <div class="footer-item">
                     <h5 class="footer-item__title">Important Links</h5>
+                    <!--Links here 
                     <ul class="footer-menu">
                                                     
                                                     <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/services" class="footer-menu__link">Services </a></li>
@@ -28,7 +32,7 @@
                                                     <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/reseller" class="footer-menu__link">Independent Sellers </a></li>
                                                     <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/contact" class="footer-menu__link">Contact </a></li>
                                                     
-                                            </ul>
+                    </ul>  -->
                 </div>
             </div>
             <div class="col-xl-2 col-sm-6">
@@ -42,7 +46,8 @@
                 </div>
             </div>
             <div class="col-xl-2 col-sm-6">
-                <div class="footer-item">
+            
+            <!--    <div class="footer-item">
                     <h5 class="footer-item__title">Address</h5>
                     <ul class="footer-menu">
                         <li class="footer-menu__item"><a href="tel:8767811741">8767811741</a></li>
@@ -51,7 +56,7 @@
                             <a target="_blank" href="">Westmoreland, Jamaica</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
             <div class="col-xl-3 col-sm-6">
                 <div class="footer-item">
@@ -149,22 +154,7 @@
     }
 </script>
         <script src="https://yardyadventures.com/demo/assets/common/js/sweetalert2.min.js"></script>
-<script>
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-right',
-        customClass: {
-            popup: 'colored-toast'
-        },
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.addEventListener('mouseenter', Swal.stopTimer)
-            toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-    })
-</script>
+<script></script>
 
 
 

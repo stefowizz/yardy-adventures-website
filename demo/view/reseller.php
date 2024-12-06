@@ -5,7 +5,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     
     <?php
-include "home_header.php"; ?>
+    require "home_header.php"; ?>
     
     
 
@@ -249,21 +249,21 @@ ul {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="demo\assets\images\frontend\blog\riverrafting.jpg" class="d-block w-100" alt="First Slide">
+                        <img src="assets/images/frontend/blog/riverrafting.jpg" class="d-block w-100" alt="First Slide">
                         <div class="carousel-caption d-none d-md-block">
                             <div class="bk"> <h5>Free Registration</h5></div>
                             <!--<p class="ch">Yardy Tours and Cabaritta Expeditions are ecotourism companies in Williamsfield and Friendship Districts in Westmoreland, Jamaica. We offer a variety of activities including river tubing, horseback riding, and dune buggy riding.</p>-->
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="demo\assets\images\frontend\blog\bn2.png" class="d-block w-100" alt="Second Slide">
+                        <img src="assets/images/frontend/blog/bn2.png" class="d-block w-100" alt="Second Slide">
                         <div class="carousel-caption d-none d-md-block">
                               <div class="bk"> <h5>Earn a 25% commission</h5></div> 
                             <!--<p>Experience the adventure of a lifetime with our river tubing and jungle expeditions.</p>--->
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="demo\assets\images\frontend\blog\dune.jpg" class="d-block w-100" alt="Third Slide">
+                        <img src="assets/images/frontend/blog/dune.jpg" class="d-block w-100" alt="Third Slide">
                         <div class="carousel-caption d-none d-md-block">
                               <div class="bk"><h5>Work Form Anywhere</h5> </div>
                            <!-- <p>Relax by the river and enjoy the authentic Jamaican cuisine.</p>-->
@@ -523,6 +523,6 @@ ul {
 
 </body>
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl506098'},{'dcenter':'p3'},{'cp_id':'9984899'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
-<?php include"home_footer.php";?>
+<?php require"home_footer.php";?>
      
 </html>

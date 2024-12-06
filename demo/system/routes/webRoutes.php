@@ -82,7 +82,7 @@
         }
     );
 
-      $router->addRoute(
+    $router->addRoute(
         '/demo/adventures', 'GET', function () {
             $Controller = new HomeController();
             $Model = new HomeModel(CONNECTION);
@@ -172,10 +172,12 @@
         }
     );
     
-       # added about page 
-       $router->addRoute(path: "/demo/about-us",method: "GET", handler: function(){
-         View::render("about");
-       });
+       // added about page 
+    $router->addRoute(
+        path: "/demo/about", method: "GET", handler: function () {
+            View::render("about");
+        }
+    );
 
        
     

@@ -102,6 +102,11 @@ if(!isset($title)) {
         user-select: none;
       }
 
+      .social-icons i{
+        color:black;
+        font-size:32px;
+      }
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -272,35 +277,34 @@ if(!isset($title)) {
                        
                     </li>--->
                     
-                                   <li class="nav-item">
+                        <li class="nav-item">
                             <a href="https://yardyadventures.com/demo/" class="nav-link " aria-current="page">Home</a>
                         </li>
                     
                            
-                            <li class="nav-item">
+                        <li class="nav-item">
+                            <a href="https://yardyadventures.com/demo/adventures" class="nav-link " aria-current="page">Adventures</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="https://yardyadventures.com/demo/reseller" class="nav-link " aria-current="page">Independent Sellers</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a href="https://yardyadventures.com/demo/about-us" class="nav-link " aria-current="page">About</a>
                         </li>
                                        
+           
                     
                         <li class="nav-item">
                             <a href="https://yardyadventures.com/demo/contact" class="nav-link " aria-current="page">Contact</a>
                         </li>
-                                       
-                                            <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/adventures" class="nav-link " aria-current="page">Adventures</a>
-                        </li>
-                    
-           
-                                            <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/reseller" class="nav-link " aria-current="page">Independent Sellers</a>
-                        </li>
-                    
                     
                                        
                     
                     
                                    </ul>
-                <div class="nav-end d-lg-flex d-md-flex d-block align-items-center py-lg-0 py-1">
+                <!---<div class="nav-end d-lg-flex d-md-flex d-block align-items-center py-lg-0 py-1">
                     <div class="d-flex mx-2">
                         <div class="icon">
                             <i class="fa-solid fa-globe"></i>
@@ -311,7 +315,7 @@ if(!isset($title)) {
                                 English
                             </option>
                                                     </select>
-                    </div>
+                    </div> --->
 
                     
                     

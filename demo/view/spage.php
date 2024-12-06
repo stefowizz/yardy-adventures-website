@@ -1,6 +1,6 @@
 
 <?php
-include 'home_header.php';
+require 'home_header.php';
 
 ?>
          <!-- ==================== Breadcumb Start ==================== -->
@@ -174,19 +174,20 @@ include 'home_header.php';
             <div class="col-12">
                 <h4>Top ways to experience nearby attractions</h4>
                 <div class="row">
-                <?php if(!empty($services) && $services != false){?>
-                <?php foreach ($services as $service){?>
+                <?php if(!empty($services) && $services != false) {?>
+                    <?php foreach ($services as $service){?>
                     <div class="col-md-3 col-sm-6 mb-4">
                         <div class="card attraction-card">
                             <img src="<?php echo $service['image_url']; ?>" alt="<?php echo $service['name'];?>">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $service['name'];?></h5>
-                                <p class="card-text text-body"><?php echo "$ ".number_format($service['price'],2);?></p>
+                                <p class="card-text text-body"><?php echo "$ ".number_format($service['price'], 2);?></p>
                                 <a href="https://yardyadventures.com/demo/?route=home/product&id=<?php echo $service['id'];?>" class="btn btn-primary">BUY NOW</a>
                             </div>
                         </div>
                     </div>
-                <?php }}?>                    
+                    <?php }
+                }?>                    
                 </div>
             </div>
 
@@ -195,7 +196,7 @@ include 'home_header.php';
 </section>
   
     
-<?php include 'home_footer.php'; ?>
+<?php require 'home_footer.php'; ?>
 <!-- ==================== Footer End ==================== -->
 
 
@@ -220,25 +221,6 @@ include 'home_header.php';
 <script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
 
                 <script src="https://yardyadventures.com/demo/assets/common/js/sweetalert2.min.js"></script>
-<script>
-    const Toast = Swal.mixin({
-        toast: true,
-        position: 'top-right',
-        customClass: {
-            popup: 'colored-toast'
-        },
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.addEventListener('mouseenter', Swal.stopTimer)
-            toast.addEventListener('mouseleave', Swal.resumeTimer)
-        }
-    })
-</script>
-
-
-
 
 <script>
     (function ($) {

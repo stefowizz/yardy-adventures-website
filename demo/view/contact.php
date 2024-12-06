@@ -48,7 +48,7 @@
 <link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/custom.css">
 <link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">--->
 <?php
-include "home_header.php"; ?>
+require "home_header.php"; ?>
          
 </head>
 <body class="ltr">
@@ -465,7 +465,7 @@ include "home_header.php"; ?>
 </script>
 
 </body>
-<?php include"home_footer.php";?>
+<?php require"home_footer.php";?>
      
 
 
