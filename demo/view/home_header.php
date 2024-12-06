@@ -249,7 +249,7 @@
     <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5-premium-features/43.0.0/ckeditor5-premium-features.css" />
 
 
-<div class="header" id="header">
+<div class="" id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand logo" href="https://yardyadventures.com/demo">
