@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +23,12 @@ include "home_header.php"; ?>
 }
 
   
-  .ob{text-align: left;}
+  .ob{
+    text-align: left;
+    /* padding: 40px; */
+    padding-left: 60px;
+    padding-right: 60px;
+  }
   
   
   
@@ -61,6 +65,7 @@ include "home_header.php"; ?>
 }
 .table tbody tr:nth-child(even) {
   background-color: #f0c153 !important;
+  /* background-color: #28B9F5 !important; */
   color: #000 !important;
 }
   
@@ -99,7 +104,7 @@ include "home_header.php"; ?>
     
     /* Hero Banner */
     .hero-banner {
-      background: url('assets/images/frontend/blog/bn1.png') no-repeat center center/cover;
+      background: url('assets/images/frontend/blog/PictureISPBanner.png') no-repeat center center/cover;
       height: 400px;
       display: flex;
       justify-content: center;
@@ -171,13 +176,6 @@ ul {
     list-style-type: none;
 }
 
-.carousel-item img {
-        width:100%;
-        height: 490px;
-        object-fit: contain;
-        border-radius: 14px;
-    }
-
     .bk{
        background-color: #ffffff78;;  
        border-radius: 77px;
@@ -186,9 +184,6 @@ ul {
 
     /* Responsive Styles */
     @media only screen and (max-width: 768px) {
-      .carousel-item img {
-            height: 300px;
-      }
       header h1 {
         font-size: 2.5em;
       }
@@ -210,8 +205,6 @@ ul {
     
     
 
-
-</br></br>
 <!-- ==================== Header End Here ==================== -->
     
     
@@ -230,84 +223,30 @@ ul {
       </br></br></br></br>
     <div class="container">
        <h1>Independent Seller Programme</h1>
-            <p>Explore & Earn</p>
+            <h2>Explore Promote Earn</h2>
             <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">Earn 25% Commission</button></a>
             <p>This progamme offers a lucrative income opportunity. Every sale generated from your promotional effeorts boosts your income.</p>
         </div>
     </header>
 
-    <!-- <section class="hero-banner">
-        <h2>Experience Nature Like Never Before</h2>
-    </section> -->
-
-    <div class="row gy-4 justify-content-center mt-2">
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="demo\assets\images\frontend\blog\riverrafting.jpg" class="d-block w-100" alt="First Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="bk"> <h5>Free Registration</h5></div>
-                            <!--<p class="ch">Yardy Tours and Cabaritta Expeditions are ecotourism companies in Williamsfield and Friendship Districts in Westmoreland, Jamaica. We offer a variety of activities including river tubing, horseback riding, and dune buggy riding.</p>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="demo\assets\images\frontend\blog\bn2.png" class="d-block w-100" alt="Second Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                              <div class="bk"> <h5>Earn a 25% commission</h5></div> 
-                            <!--<p>Experience the adventure of a lifetime with our river tubing and jungle expeditions.</p>--->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="demo\assets\images\frontend\blog\dune.jpg" class="d-block w-100" alt="Third Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                              <div class="bk"><h5>Work Form Anywhere</h5> </div>
-                           <!-- <p>Relax by the river and enjoy the authentic Jamaican cuisine.</p>-->
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
+    <section class="hero-banner">
+    </section>
 
     <main>
         <section class="content-section">
             <div class="container">
-                <h3>Welcome to YARDY Independent Seller Programme!</h3>
-                <p>Independent sellers are integral to Yardy’s market penetration strategy in the growing market segment of the tours, attraction and activity (TAA) sector both locally and internationally.  You are invited to become an approved partner for Yardy’s rich portfolio that is supported by a range of unique selling preposition (USP) that appeals to nature lovers and eco-culture adventurers.  Our hallmark is consistent delivery of quality adventures for 3000 guests daily.</p><br>
-                <p class="ob"><strong>Objectives:</strong></p>
-                <ul class="ob" style="list-style-type: disc;">
-  <li> To create and maintain a network of independent sellers through adaptation of our values: <strong>SATISFACTION, PARTNERSHIP, FINANCIAL STRENGTH</strong>
-  </li><br>
-  <li> To leverage micro marketing efforts that are congruent with our hallmark of excellence through product innovation and quality both locally and internationally.</li>
-</ul>
+                <p>Join the Yardy Community</p>
+                <p>The tours, attraction and activities (TAA) sector of the travel industry is in growth mode.  Increasing number of travelers are seeking immersive experiences and thrilling adventures.</p><br>
+                <p>True to our vision, To Innovate Adventures, Preserve Culture and Advance Communities, Yardy has a rich rich product portfolio and unique selling prepositions that are appealing to both local and international travelers.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSet54wEKNEQJVxaSJRQfpSr_CdgogvuDIweZZ3QGA7l1GE6VQ/viewform"><button class="cta-btn">Register Now</button></a>
             </div>
         </section>
 
-       <section class="content-section">
+       <section class="image-text-section">
             <div class="container">
                 
-                <p class="ob"><strong>Benefits:</strong></p>
-                <ul class="ob" style="list-style-type: disc;">
-  <li> Free Registration </li>
-  <li> Expand your income </li>
-  <li> Work & earn from anywhere</li>
-  <li> One of a kind experince</li>
-  <li> Develop your network</li>
-  <li> Be a part of something bigger</li>
-  
-</ul>
+                <h1 class="ob"><strong>Benefits:</strong></h1>
+   <img src="assets/images/frontend/blog/PictureISPBenefits.png" alt="">
             </div>
         </section>
 
@@ -317,15 +256,15 @@ ul {
     <div class="table-responsive">
         <table class="table table-bordered">
             <thead>
-                <tr class="text-center p-4">
-                    <center><th>Aspect</th></center>
-                    <center><th>Description</th></center>
+                <tr class="text-center p-2">
+                    <th>Aspect</th>
+                    <th>Description</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row"><center>Product</center><br>
-                    <center><strong>UNIQUE</strong> – Authentic experiences are not readily duplicated.</center>
+                    <th scope="row">Product<br>
+                    <strong>UNIQUE</strong> – Authentic experiences are not readily duplicated.
                   </th>
                     <td>
                         
@@ -339,8 +278,8 @@ ul {
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row"><center>Place</center><br>
-                        <center><strong>COMPARATIVE ADVANTAGE</strong> – Proximity and diverse product offering minimize travelling time for single or multiple experiences.</center>
+                    <th scope="row">Place<br>
+                        <strong>COMPARATIVE ADVANTAGE</strong> – Proximity and diverse product offering minimize travelling time for single or multiple experiences.
                     </th>
                     <td>
                         <ul>
@@ -354,8 +293,8 @@ ul {
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row"><center>Price</center><br>
-                        <center><strong>COMPETITIVE ADVANTAGE</strong> – Distinguished product is sold at competitive market prices.</center>
+                    <th scope="row">Price<br>
+                        <strong>COMPETITIVE ADVANTAGE</strong> – Distinguished product is sold at competitive market prices.
                     </th>
                     <td>
                         <ul>
@@ -366,13 +305,16 @@ ul {
                     </td>
                 </tr>
                 <tr>
-                    <th scope="row"><center>Markets</center></th>
+                    <th scope="row">
+                      Markets <br>
+                      <strong>COMPREHENSIVE</strong> - marketing and sales strategy has dynamic components that appeal to market segments.
+                    </th>
+
                     <td>
                         <ul>
                             <li> Distinguished Segments of Adventurists: <strong>Soft, Moderate, and Hard</strong></li><br>
                             <li> Nature | Culture | Gastronomy</li><br>
                             <li> Multiple Dimensions: <strong>Individuals | Family | Friends | Social & Corporate Groups</strong></li><br>
-                            <li> COMPREHENSIVE - marketing and sales strategy has dynamic components that appeal to market segments.</li>
                         </ul>
                     </td>
                 </tr>
@@ -395,8 +337,7 @@ ul {
           <li> Utilize Yardy resources only for the purpose intended:  to create and maintain a positive brand </li><br>
           <li> Sell standardized products as displayed on yardyadventures.com or communicate directly<br> with Manager, Planning and Market Relations for customized groups</li><br>
         </ol>
-
-        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSet54wEKNEQJVxaSJRQfpSr_CdgogvuDIweZZ3QGA7l1GE6VQ/viewform"><button class="cta-btn">Register Now</button></a>
       </div>
     </section>
 
