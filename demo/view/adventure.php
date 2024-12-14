@@ -2,9 +2,10 @@
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 
 
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title> Yardy Adventures - Supa Page</title>
+<title> Yardy Adventures</title>
 <meta name="title" Content="Yardy Adventures - Supa Page">
 <meta name="description" content="Unlock the secrets to influencer success with expert insights and practical tips. Join our community and elevate your influence today.">
 <meta name="keywords" content="Influencer marketing,Social media influencers,Content creation,Brand collaborations,Instagram marketing,YouTube influencers">
