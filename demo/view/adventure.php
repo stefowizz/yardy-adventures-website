@@ -32,10 +32,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <script src="https://kit.fontawesome.com/6d9ea1370a.js" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="/demo/assets/common/css/bootstrap.min.css">
 <link rel="stylesheet" href="/demo/assets/presets/default/css/custom.css">
-
-
+<link rel="stylesheet" href="/demo/assets/common/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -80,7 +78,7 @@
                                     Escape the ordinary and dive into fun and relaxation on our thrilling Yardy River Tubing Tour! Race along rapid currents and pause to enjoy the surrounding scenery, where lush greenery meets crystal-clear waters. Perfect for families, friends, or solo adventurers. This guided experience combines the excitement of floating with the serenity of nature.
                                     Our experienced tour guides and life guards ensures your safety while you create unforgettable memories. Whether you are a seasoned rafter or a first-time tuber, this is the perfect way to unhinge from the rigors of normal and connect with the great outdoors.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -107,12 +105,16 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row">Booking cycle </th>
-                                                <td>Hourly | 8am – 4pm</td>
+                                                <td class="adventureTableBookingCycle">Hourly | 8am – 4pm</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <div class="adventureModalBookNowContainer">
+                                        <a class="adventureModalBookNow">Book Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,7 +147,7 @@
                                     Our experienced guides will ensure you are ready to tackle every twist and turn while you connect with nature breathtaking sceneries.
 
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -156,7 +158,7 @@
                                         <tbody>
                                             <tr>
                                                 <th scope="row">Price:</th>
-                                                <td>USD120 pp Children (6-12 years) N/A</td>
+                                                <td class="adventureTablePrice">USD120 pp Children (6-12 years) N/A</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Includes:</th>
@@ -177,7 +179,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,7 +215,7 @@
                                     Escape the ordinary and indulge the Jamaica’s best River Tubing Adventure. Race along rapids of the Roaring River. Pause to enjoy the surrounding scenery, where lush greenery meets crystal-clear waters. Our expert tour guides ensure your safety while you immerse into the making of unforgettable memories. Whether you are a seasoned rafter or a first-time tuber, this is the perfect way to unhinge from the rigors of normal and connect with the great outdoors.
                                     A THRILLING adventure enjoyed solo or with the entire family and friends.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -243,7 +247,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -279,7 +285,7 @@
                                     Our experience tour guides will ensure your safety while you give into the making of unforgettable memories. Whether you are a seasoned rafter or a first-time tuber, this is the perfect way to unhinge from the rigors of normal and connect with the great outdoors.
                                     A THRILLING ALL DAY adventure enjoyed solo or with family and friends.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -311,7 +317,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -342,7 +350,7 @@
                                 <p class="p-1 adventure-modal-info">Experience the convergence of cool mineral springs, miniature under water caves, fish habitats, seasonal fruits, towering bamboos and natural flora on the riverbanks and in the Cabaritta.
                                     Our experienced tour guide ensures your safety and enthral you facts on the eco-environment that creates and sustain the continuous flow of the rivers. Experience the hot water from undercurrents at the confluence of the Cabaritta and Roaring River and submerge into to natures jacuzzi.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -374,7 +382,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -405,7 +415,7 @@
                                 <p class="p-1 adventure-modal-info">Enjoy the walking trails along the embankment, plunge into blue holes, get carried away by the wind in a hammock, have an interchange of culture at Yardy University or just listen to the sound of water on a park bench or log. Yardy Park life is soothing for the soft adventurer or pulsating for the hard adventurer.
                                     Our experience tour guide will cater to your pace while you explore and immerse yourself in the unscathed rustic outdoor at Yardy.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -439,7 +449,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -470,7 +482,7 @@
                                 <p class="p-1 adventure-modal-info">Ride along the old country road on beautiful horses to discover the origin of streams and breathe in the natural country air while your tour guide highlights indigenous plants and historic landmarks.
                                     The nature packed adventure through meadows will create opportunities to interact with members of the community and the option to purchase of tasty treats that forms part of our culinary history. such as dukunoo and drops, refreshing water coconuts and sweet sugar cane.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -504,7 +516,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -535,7 +549,7 @@
                                 <p class="p-1 adventure-modal-info">Rev your path to Breezy Hill for a panoramic view of mountain ranges to the north and miles across the Georges Plain out to the Caribbean Sea.
                                     Dune buggy/ ATV trail begins in the adjoining community of Williamsfield unto the unending forest of towering bamboo, fruit trees and yam fields on the 360 acres privately owned Glenislay.
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -571,7 +585,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -606,7 +622,7 @@
                                     Our expert team ensures your safety while you immerse into the making of unforgettable memories. Whether you are a seasoned rafter or a first-time tuber, this is the perfect way to unhinge from the rigors of normal and connect with the great outdoors.
                                     An EXHILARATING adventure enjoyed solo or with the entire family and friends
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -639,7 +655,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -674,7 +692,7 @@
                                     Venture to the HEALING JACUZZI for a natural whirlpool that will satiate and calm not only your muscles but create a presence that will capture your mind OR yield to the hands of certified masseuse for exfoliating limestone clay massage.
                                     An RELAXING adventure enjoyed solo or with family and friends
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -708,7 +726,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -745,7 +765,7 @@
                                     Our experienced tour guide ensured your safety while you give in to the making of unforgettable memories. Whether you are a seasoned rafter or a first-time tuber, this is the perfect way to unhinge from the rigors of normal and connect with the great outdoors.
                                     An EXHILARATING ALL DAY adventure enjoyed solo or with the entire family and friends
                                 </p>
-                                <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                <div class="ModaltableContainer d-flex justify-content-center">
                                     <table class="Modaltable">
                                         <thead>
                                             <tr>
@@ -779,7 +799,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -790,26 +812,16 @@
     </section>
 
     <section class="container-fluid my-md-3">
-        <div class="container Explore text-center pt-5 pb-4 px-2 px-md-3">
+        <div class="container Explore d-flex flex-column align-items-center text-center py-4 py-xl-5 px-2">
             <h2 class="ExploreMainHeading">You Will Also Want To Explore</h2>
-            <h4 class="ExploreSubHeading">Become a Yardy Partner – Unlock Earnings in Eco-Adventures!</h4>
+            <h4 class="ExploreSubHeading"><strong>Become a Yardy Partner</strong> – <strong>Unlock Earnings</strong> in Eco-Adventures!</h4>
             <p>Join Yardy’s growing network of independent sellers and earn up to 25% commission by promoting unique eco-tours and activities.</p>
-            <div>
-                <h4 class="WhyJoin my-3">Why Join?</h4>
-                <ul class="ExploreListContainer mb-3">
-                    <li><strong>Earn 25% commission</strong> on sales from your unique QR code.</li>
-                    <li><strong>Expand your income</strong> by promoting adventure experiences.</li>
-                    <li><strong>Track earnings</strong> easily through your private account.</li>
-                    <li><strong>Boost your market appeal</strong> with real customer feedback.</li>
-                </ul>
-            </div>
-            <p>Ready to start? Partner with Yardy today and tap into a world of adventure and earnings!</p>
             <a href="https://yardyadventures.com/demo/reseller" class="GetStarted">Get Started</a>
         </div>
     </section>
 
 
-    <div class="comingSoonMainHeadingContainer text-center mt-5 py-3 py-md-4 py-xl-5 w-100">
+    <div class="comingSoonMainHeadingContainer text-center mt-5 py-3  w-100">
         <h1 class="comingSoonMainHeading m-0">Coming Soon</h1>
     </div>
     <section class="container-fluid d-flex flex-column align-items-center mt-lg-3 mb-5">
@@ -842,7 +854,7 @@
                                         <p class="p-1 adventure-modal-info">
                                             Experience Jamaican food and beverages aboard a floating restaurant gliding on the relaxing current of the Cabaritta and return to the park on a traditional farm inspired transportation. Have a private party for 2 or enjoy with the family and friends.
                                         </p>
-                                        <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                        <div class="ModaltableContainer d-flex justify-content-center">
                                             <table class="Modaltable">
                                                 <thead>
                                                     <tr>
@@ -876,7 +888,9 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <a class="adventureModalBookNow">Book Now</a>
+                                        <div class="adventureModalBookNowContainer">
+                                            <a class="adventureModalBookNow">Book Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -908,7 +922,7 @@
                                         <p class="p-1 adventure-modal-info">Journey on traditional farm inspired transportation to the top of Bird Mountain to behold the island’s single largest rock and proceed downhill on bicycles through villages. Through Woods Crag, Naggo Town. Stop at shops and scenic lookout points for an unparallel Yardy adventure with our experienced tour guides that knows every nook and cranny on this escape to nature.
                                             The downward incline overlooks the George’s Plain, one of the islands largest expanses of flat land that stretches for miles to meet the Caribbean Sea. The scenic views and lush flora are breathtaking and your basic biking skills makes this the ultimate choice all adventurers and nature lovers.
                                         </p>
-                                        <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                        <div class="ModaltableContainer d-flex justify-content-center">
                                             <table class="Modaltable">
                                                 <thead>
                                                     <tr>
@@ -942,7 +956,9 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <a class="adventureModalBookNow">Book Now</a>
+                                        <div class="adventureModalBookNowContainer">
+                                            <a class="adventureModalBookNow">Book Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -974,7 +990,7 @@
                                             Learn about indigenous herbs and spices and interact with local farmers.
                                             Learn about the sugar plantation era, hillside peasant farming and the creation of sustainable organic farming with new technologies.
                                         </p>
-                                        <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                        <div class="ModaltableContainer d-flex justify-content-center">
                                             <table class="Modaltable">
                                                 <thead>
                                                     <tr>
@@ -1010,7 +1026,9 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <a class="adventureModalBookNow">Book Now</a>
+                                        <div class="adventureModalBookNowContainer">
+                                            <a class="adventureModalBookNow">Book Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1027,7 +1045,9 @@
                                 <p class="p-1 adventure-modal-info">Attend scheduled storytelling, patios, music and dance sessions.
                                     Complete it with on the spot assessment to earn bragging rights to using the Jamaica dialect and become a certified Yardy University.
                                 </p>
-                                <a class="adventureModalBookNow">Book Now</a>
+                                <div class="adventureModalBookNowContainer">
+                                    <a class="adventureModalBookNow">Book Now</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1062,7 +1082,9 @@
                                             <li>Coffee | Tea with Jamaican Pastry and Frozen Novelties/Drink</li>
                                             <li>Other</li>
                                         </ul>
-                                        <a class="adventureModalBookNow">Book Now</a>
+                                        <div class="adventureModalBookNowContainer">
+                                            <a class="adventureModalBookNow">Book Now</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1098,7 +1120,7 @@
                                                 Enjoy themed weekly late evening events including live entertainment. Choose from sumptuous buffet or a la carte service. Stay amongst the crowd or book a secluded spot along the riverbank.
                                                 Our expert tour guides ensures your safety while you create unforgettable memories with this innovative adventure.
                                             </p>
-                                            <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                            <div class="ModaltableContainer d-flex justify-content-center">
                                                 <table class="Modaltable">
                                                     <thead>
                                                         <tr>
@@ -1131,7 +1153,9 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <a class="adventureModalBookNow">Book Now</a>
+                                            <div class="adventureModalBookNowContainer">
+                                                <a class="adventureModalBookNow">Book Now</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1163,7 +1187,7 @@
                                                 Learn about indigenous herbs and spices and interact with local farmers.
                                                 Learn about the sugar plantation era, hillside peasant farming and the creation of sustainable organic farming with new technologies.
                                             </p>
-                                            <div class="ModaltableContainer w-100 d-flex justify-content-center">
+                                            <div class="ModaltableContainer d-flex justify-content-center">
                                                 <table class="Modaltable">
                                                     <thead>
                                                         <tr>
@@ -1199,7 +1223,9 @@
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <a class="adventureModalBookNow">Book Now</a>
+                                            <div class="adventureModalBookNowContainer">
+                                                <a class="adventureModalBookNow">Book Now</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1219,202 +1245,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
     <script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        // Wait for the DOM content to load before executing the script
-        window.addEventListener("DOMContentLoaded", () => {
-            // Select all elements with the class "AdventureCard" and convert NodeList to an array
-            const adventureCards = Array.from(document.querySelectorAll(".AdventureCard"));
-
-            // Exit if no adventure cards are found
-            if (!adventureCards) return;
-
-            // Function to handle modal toggle functionality
-            const toggleModal = () => {
-                adventureCards.forEach((card) => {
-                    // Select the modal backdrop and elements within the card
-                    const backDrop = document.querySelector(".modalBackdrop");
-                    const modal = card.querySelector(".AdventureCardModalExitAnchor");
-                    const readMore = card.querySelector(".adventure-card-links").querySelector(".adventure-card-readMore");
-
-                    // Function to display the modal
-                    const displayModal = () => {
-                        if (modal) {
-                            modal.classList.add("display");
-                            backDrop.classList.add("displayBackDrop");
-                        }
-                    };
-
-                    // Function to remove modal on global click (outside modal or on the backdrop)
-                    const removeModalOnGlobalClick = (e) => {
-                        if (backDrop && modal) {
-                            if (!backDrop.contains(e.target) || e.target === backDrop) {
-                                modal.classList.remove("display");
-                                backDrop.classList.remove("displayBackDrop");
-                            }
-                        }
-                    };
-
-                    // Select the modal exit button
-                    const modalExit = modal?.querySelector(".modalExit");
-
-                    // Function to close the modal when exit button is clicked
-                    const ExitModal = () => {
-                        if (modal && modalExit) {
-                            modal.classList.remove("display");
-                            backDrop.classList.remove("displayBackDrop");
-                        }
-                    };
-
-                    // Add event listeners for modal interactions
-                    setTimeout(() => modalExit.addEventListener("click", ExitModal), 50);
-                    readMore.addEventListener("click", displayModal);
-                    backDrop.addEventListener("click", removeModalOnGlobalClick);
-                });
-            };
-
-            // Initialize modal toggle functionality
-            toggleModal();
-
-            /* Function currently not in use */
-            const setLinkSpace = () => {
-                adventureCards.forEach((card) => {
-                    const cardLinks = card.querySelector(".adventure-card-links");
-
-                    if (!cardLinks) return;
-
-                    // Get the computed height of card links
-                    let cardLinksHeight = parseInt(getComputedStyle(cardLinks).height, 10) || parseInt(cardLinks.style.height, 10);
-
-                    // Adjust the alignment based on height
-                    if (cardLinksHeight >= 60) {
-                        if (getComputedStyle(cardLinks).justifyContent === "space-between") {
-                            cardLinks.classList.add("centered");
-                        }
-                    } else {
-                        cardLinks.classList.remove("centered");
-                    }
-                });
-            };
-
-            // Function to truncate card title text based on container height
-            const TruncateCardTitleText = () => {
-                adventureCards.forEach((card) => {
-                    const cardTitleContainer = card.querySelector(".adventure-card-body")?.querySelector(".adventure-card-title-container");
-                    const cardTitle = cardTitleContainer?.querySelector(".adventure-card-title");
-
-                    if (!cardTitleContainer || !cardTitle) return;
-
-                    // Save original text if not already saved
-                    if (!card.dataset.originalText) {
-                        card.dataset.originalText = cardTitle.textContent;
-                    }
-
-                    const cardTitleImmutable = card.dataset.originalText;
-                    const cardTitlePaddingTop = parseFloat(getComputedStyle(cardTitle).paddingTop);
-                    const cardTitlePaddingBottom = parseFloat(getComputedStyle(cardTitle).paddingBottom);
-                    const desiredHeight = parseFloat(getComputedStyle(cardTitle).lineHeight) * 2;
-                    cardTitleContainer.style.height = `${desiredHeight}px`;
-
-                    let truncatedText = cardTitleImmutable;
-                    cardTitle.textContent = truncatedText;
-
-                    // Truncate text until it fits within the desired height
-                    while (cardTitle.scrollHeight > desiredHeight && truncatedText.length) {
-                        truncatedText = truncatedText.slice(0, -1); // Remove the last character
-                        cardTitle.textContent = `${truncatedText}`;
-                    }
-
-                    // Add ellipsis if text was truncated
-                    if (truncatedText.length < cardTitleImmutable.length) {
-                        cardTitle.textContent = `${truncatedText.trim().concat('...')}`;
-                    }
-                });
-            };
-
-            // Function to adjust card title font size based on card width
-            const cardTitleSizeResponsiveness = () => {
-                adventureCards.forEach((card) => {
-                    const cardWidth = parseInt(getComputedStyle(card).width, 10);
-
-                    if (cardWidth < 220 && window.innerWidth >= 640) {
-                        cardTitle.classList.remove("mediumFont");
-                        cardTitle.classList.remove("largeFont");
-                        cardTitle.classList.add("smallFont");
-                    } else if (cardWidth <= 240) {
-                        cardTitle.classList.remove("smallFont");
-                        cardTitle.classList.add("mediumFont");
-                    } else if (cardWidth <= 280) {
-                        cardTitle.classList.remove("largeFont");
-                        cardTitle.classList.remove("smallFont");
-                        cardTitle.classList.add("largeFont");
-                    }
-                });
-            };
-
-            // Initial execution of functions
-            TruncateCardTitleText();
-            cardTitleSizeResponsiveness();
-
-            // Re-execute functions on window resize
-            window.addEventListener("resize", () => {
-                TruncateCardTitleText();
-                cardTitleSizeResponsiveness();
-            });
-        });
-    </script>
-
-
-    <script>
-        (function($) {
-            "use strict";
-
-            $(".langSel").on("change", function() {
-                window.location.href = "https://yardyadventures.com/demo/change/" + $(this).val();
-            });
-
-            $('.policy').on('click', function() {
-                $.get('https://yardyadventures.com/demo/cookie/accept', function(response) {
-                    $('.cookies-card').addClass('d-none');
-                });
-            });
-
-            setTimeout(function() {
-                $('.cookies-card').removeClass('hide')
-            }, 2000);
-
-        })(jQuery);
-    </script>
-
-    <script>
-        $(document).ready(function() {
-            // Detect scroll and toggle class
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 50) { // Adjust the value as needed
-                    $('.header').addClass('scrolled');
-                } else {
-                    $('.header').removeClass('scrolled');
-                }
-            });
-        });
-    </script>
-
-    <script>
-        'undefined' === typeof _trfq || (window._trfq = []);
-        'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({
-            'tccl.baseHost': 'secureserver.net'
-        }, {
-            'ap': 'cpsh-oh'
-        }, {
-            'server': 'p3plzcpnl506098'
-        }, {
-            'dcenter': 'p3'
-        }, {
-            'cp_id': '9984899'
-        }, {
-            'cp_cl': '8'
-        }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
-    </script>
+    <script src="/demo/assets/presets/default/js/adventure.js"></script>
 </body>
 
 </html>
