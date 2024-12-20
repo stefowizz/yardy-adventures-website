@@ -164,6 +164,7 @@
 
 
 
+    require SYSTEMS.'routes/apiRoutes.php';  
 
 
     $router->addRoute(

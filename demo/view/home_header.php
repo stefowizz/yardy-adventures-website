@@ -291,7 +291,7 @@ if(!isset($title)) {
                         </li>
 
                         <li class="nav-item">
-                            <a href="https://yardyadventures.com/demo/about-us" class="nav-link " aria-current="page">About</a>
+                            <a href="https://yardyadventures.com/demo/about" class="nav-link " aria-current="page">About</a>
                         </li>
                                        
            
