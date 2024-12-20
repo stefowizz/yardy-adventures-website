@@ -5,9 +5,9 @@
  **/
 $dbconfig = [
     'server' => 'localhost',
-    'user' => '{USERNAME_HERE}',
-    'dbname' => '{DATABASE_HERE}',
-    'dbpass' => '{PASSWORD_HERE}',
+    'user' => 'root',
+    'dbname' => 'yardyadventures',
+    'dbpass' => '',
     'charset' => 'utf8mb4'
     ];
 
