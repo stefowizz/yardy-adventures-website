@@ -1,69 +1,74 @@
 <?php
-class HomeController extends Controller{
+class HomeController extends Controller
+{
     
-    public function index(){
-        if($this->isLoggedin()){
-            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])){
-                $this->session->set('affiliate',$_REQUEST['affiliate']);
+    public function index()
+    {
+        if($this->isLoggedin()) {
+            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])) {
+                $this->session->set('affiliate', $_REQUEST['affiliate']);
             }
-            View::assign('user',true);
+            View::assign('user', true);
             
         }else{
-            View::assign('user',false);
+            View::assign('user', false);
         }
         
         View::render('home');
     }
-    public function services(){
+    public function services()
+    {
         
-        if($this->isLoggedin()){
-            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])){
-                $this->session->set('affiliate',$_REQUEST['affiliate']);
+        if($this->isLoggedin()) {
+            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])) {
+                $this->session->set('affiliate', $_REQUEST['affiliate']);
             }
-            View::assign('user',true);
+            View::assign('user', true);
         }else{
-            View::assign('user',false);
+            View::assign('user', false);
         }  
-       if($resources = $this->model->getServices()){
-           View::assign('services',$resources);
-       }     
+        if($resources = $this->model->getServices()) {
+            View::assign('services', $resources);
+        }     
  
         View::render('spage');        
         
     }
-    public function adventures(){
+    public function adventures()
+    {
         
-        if($this->isLoggedin()){
-            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])){
-                $this->session->set('affiliate',$_REQUEST['affiliate']);
+        if($this->isLoggedin()) {
+            if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])) {
+                $this->session->set('affiliate', $_REQUEST['affiliate']);
             }
-            View::assign('user',true);
+            View::assign('user', true);
         }else{
-            View::assign('user',false);
+            View::assign('user', false);
         }  
-       if($resources = $this->model->getServices()){
-           View::assign('services',$resources);
-       }     
+        if($resources = $this->model->getServices()) {
+            View::assign('services', $resources);
+        }     
  
         View::render('adventure');        
         
     }
-    public function product($productID=null){
-        if($this->isLoggedin()){
-            View::assign('user',true);
+    public function product($productID=null)
+    {
+        if($this->isLoggedin()) {
+            View::assign('user', true);
         }else{
-            View::assign('user',false);
+            View::assign('user', false);
         } 
-         if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])){
-            $this->session->set('affiliate',$_REQUEST['affiliate']);
+        if(isset($_REQUEST['affiliate']) || !empty($_REQUEST['affiliate'])) {
+            $this->session->set('affiliate', $_REQUEST['affiliate']);
         }
-        if($productID === null){
-           $productID = $_REQUEST['id'];
+        if($productID === null) {
+            $productID = $_REQUEST['id'];
         }   
-        if($resource = $this->model->getService($productID)){
-            View::assign('service',$resource);
+        if($resource = $this->model->getService($productID)) {
+            View::assign('service', $resource);
         }else{
-            View::assign('service',false);
+            View::assign('service', false);
         }
 
         View::render('checkout/service');            
@@ -71,7 +76,8 @@ class HomeController extends Controller{
         
     }   
 
-    public function send_mail(){
+    public function send_mail()
+    {
         header("Content-Type: application/json; charset=UTF-8");
         $array = [
             'name' => htmlspecialchars($_POST['Name']),
@@ -81,7 +87,7 @@ class HomeController extends Controller{
             ];
 
         
-        if($this->model->put($array,'messages')){
+        if($this->model->put($array, 'messages')) {
             $response = [
                 'message' => 'Message Sent',
                 ];

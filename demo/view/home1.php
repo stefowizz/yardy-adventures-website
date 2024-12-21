@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <?php
-include "home_header.php"; ?>
+require "home_header.php"; ?>
 
 <?php
   $base_url = "/yardy-website/demo/";
@@ -251,7 +251,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="<?php echo $img_url?>Yardy River Tubing.jpeg" width="400px" height="500px"> <br /> 
+                    <<?php echo $img_url?>img src="<?php echo $img_url?>Yardy River Tubing.jpeg" width="400px" height="500px"> <br /> 
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div>
             </a>
@@ -268,7 +268,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="~/css/imgs/Yardy River Walk.jpeg" width="400px" height="500px">
+                    <img src="~<?php echo $img_url?>Yardy River Walk.jpeg" width="400px" height="500px">
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div> 
             </a>
@@ -284,7 +284,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="~/css/imgs/Yardy Park Life.jpeg" width="400px" height="500px">
+                    <img src="<?php echo $img_url?>Yardy Park Life.jpeg" width="400px" height="500px">
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div>
             </a>
@@ -300,7 +300,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="~/css/imgs/Yardy Horseback Riding.jpeg" width="400px" height="500px">
+                    <img src="<?php echo $img_url?>Yardy Horseback Riding.jpeg" width="400px" height="500px">
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div>
             </a>
@@ -317,7 +317,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="~/css/imgs/Breezy Hill ATV Dune Buggy.jpeg" width="630px" height="500px">
+                    <img src="<?php echo $img_url?>Breezy Hill ATV Dune Buggy.jpeg" width="630px" height="500px">
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div>
             </a>
@@ -393,14 +393,14 @@ function showSlides() {
     <div class="gallery"> 
         <div class="photogallery">
 
-            <img src="~/css/imgs/Confluence - Natures Jacuzzi.jpeg" width="400px" height="500px"> <br /> <br />
+            <img src="<?php echo $img_url?>Confluence - Natures Jacuzzi.jpeg" width="400px" height="500px"> <br /> <br />
             <h1>Confluence - Natures Jacuzzi</h1>
 
         </div>
 
         <div class="photogallery">
 
-            <img src="~/css/imgs/Food - Curried Ackee.jpeg" width="400px" height="500px"> <br /><br />
+            <img src="<?php echo $img_url?>Food - Curried Ackee.jpeg" width="400px" height="500px"> <br /><br />
             <h1>Food - Curried Ackee</h1> 
 
         </div>
@@ -409,14 +409,14 @@ function showSlides() {
     <div class="gallery2"> 
         <div class="photogallery">
 
-            <img src="~/css/imgs/Roaring River .jpeg" width="400px" height="500px"> <br /><br />
+            <img src="<?php echo $img_url?>Roaring River .jpeg" width="400px" height="500px"> <br /><br />
             <h1>Roaring River</h1>
 
         </div>
 
         <div class="photogallery">
 
-            <img src="~/css/imgs/Rustic Scenery - Garden Bed  2.jpeg" width="400px" height="500px"> <br /><br />
+            <img src="<?php echo $img_url?>Rustic Scenery - Garden Bed  2.jpeg" width="400px" height="500px"> <br /><br />
             <h1>Rustic Scenery - Garden Bed  2</h1>   
 
         </div>
@@ -426,7 +426,7 @@ function showSlides() {
         
         <div class="photogallery">
             <video height="600px" width="800px" controls>
-                <source src="~/css/imgs/Horseback Riding.mp4" />
+                <source src="<?php echo $img_url?>Horseback Riding.mp4" />
             </video>
         </div> 
 
@@ -437,5 +437,5 @@ function showSlides() {
 
 
 
-<?php include"home_footer.php";?>
+<?php require"home_footer.php";?>
      
