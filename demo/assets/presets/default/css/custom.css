@@ -20,8 +20,9 @@
 }
 
 .heroContainer h2 {
-    color: var(--secondary-yellow);
+    color: var(--primary-yellow);
     margin-bottom: 0;
+    text-shadow: 1px 1px 3px #57451d;
 }
 
 .card-container {
@@ -38,7 +39,7 @@
     width: 100%;
     border-radius: 10px;
     padding: 7px;
-    background-color: rgba(var(--primary-green-rgba), .8);
+    background-color: rgba(var(--primary-green-rgba), .85);
     align-self: center;
 }
 
@@ -155,9 +156,9 @@
 
 .AdventureCardModal-ScrollContainer {
     overflow-y: auto;
-    height: 70vh;
-    min-height: 300px;
-    max-height: 450px;
+    height: 80vh!important;
+    min-height: 200px;
+    max-height: 100%!important;
     border-radius: 10px;
 }
 
@@ -183,13 +184,12 @@
     align-items: center;
     background-color: var(--primary-green);
     backdrop-filter: blur(10px);
-    overflow: hidden;
     text-align: center;
 }
 
 .AdventureCard-modal-imageContainer {
     width: 100%;
-    height: 300px;
+    height: 310px!important;
 }
 
 .AdventureCard-modal-imageContainer img {
@@ -215,40 +215,48 @@
     text-shadow: 1px 1px 2px hsla(30, 2%, 35%, 0.705);
 }
 
+.adventureModalBookNowContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 8px;
+}
+
 .adventureModalBookNow {
     display: block;
-    padding: 17px;
+    padding: 17px 0;
     border-radius: 10px;
     color: var(--neutral)!important;
     text-shadow: 1px 1px 2px hsla(30, 3%, 15%, 0.705);
     background-color: var(--secondary-yellow);
-    width: 95%;
     margin: 20px 0;
     font-size: 20px;
     cursor: pointer;
+    width: 100%!important;
 }
 
 .ModaltableContainer {
-    overflow-y: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 8px;
 }
 
 .Modaltable {
-    width: 95%;
+    width: 100%!important;
     border-collapse: collapse;
     border-spacing: 10px;
-    margin-top: 20px;
 }
 
 .Modaltable thead {
     background-color: #e0b141;
 }
 
-.Modaltable th {
+.Modaltable th, .adventureTablePrice {
     text-wrap: nowrap;
 }
 
 .Modaltable th, .Modaltable td {
-    padding: 20px 5px;
+    padding: 20px 10px;
 }
 
 .Modaltable tbody tr:nth-child(odd) {
@@ -265,17 +273,12 @@
     border-radius: 10px;
 }
 
-.ExploreMainHeading, .ExploreSubHeading, .WhyJoin, .ExploreListContainer li, .Explore > p {
+.ExploreMainHeading, .ExploreSubHeading, .Explore > p {
     color: var(--neutral);
 }
 
-.ExploreListContainer strong {
+.ExploreSubHeading strong {
     color: var(--secondary-yellow);
-}
-
-.ExploreListContainer li {
-    line-height: 1.5;
-    margin: 5px 0;
 }
 
 .Explore > p {
@@ -369,14 +372,14 @@
         font-size: 17px;
     }
 
-    .adventureModalBookNow, .Modaltable {
-        width: 90%;
+    .Explore p {
+        width: 80%;
     }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
     .AdventureCardModalExitAnchor {
-        width: 550px;
+        width: 650px!important;
     }
 }
 
@@ -395,8 +398,12 @@
 
     .GetStarted {
         padding: 20px 60px;
-        margin-top: 20px;
+        margin-top: 30px!important;
         font-size: 18px;
+    }
+
+    .Modaltable, .adventureModalBookNow {
+        width: 95%!important;
     }
 }
 
@@ -423,13 +430,9 @@
         font-size: 20px;
     }
 
-    .adventure-card-title-container {
-        /* height: 75px!important; */
-    }
-
     .GetStarted {
         padding: 25px 80px;
-        margin-top: 25px;
+        margin-top: 40px!important;
         margin-bottom: 10px;
         font-size: 19px;
     }
