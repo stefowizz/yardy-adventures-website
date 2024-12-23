@@ -14,7 +14,7 @@ class HomeController extends Controller
             View::assign('user', false);
         }
         
-        View::render('home');
+        View::render('home1');
     }
     public function services()
     {

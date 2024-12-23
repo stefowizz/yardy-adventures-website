@@ -5,8 +5,9 @@
 require "home_header.php"; ?>
 
 <?php
-  $base_url = "/yardy-website/demo/";
-  $img_url = $base_url . "assets/images/frontend/home/";
+//  $base_url = "/yardy-website/demo/";
+    $base_url = "https://yardyadventures.com/demo/";
+    $img_url = $base_url . "assets/images/frontend/home/";
 ?>
 <style>
 html {
@@ -158,86 +159,7 @@ body {
 }
 </style>
 
-<script>
 
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-
-    for (i = 0; i < slides.length; i++) {
-
-        slides[i].style.display = "none";
-
-    }
-
-    slideIndex++;
-
-    if (slideIndex > slides.length) {
-
-        slideIndex = 1
-
-    }
-
-    for (i = 0; i < dots.length; i++) {
-
-        dots[i].className = dots[i].className.replace(" active", "");
-
-    }
-
-    slides[slideIndex - 1].style.display = "block";
-
-    dots[slideIndex - 1].className += " active";
-
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
-} 
-
-</script>
-
-<section>
-
-    <div style="text-align:center">
-
-        <h3>Jamaica’s Best <br /> Eco-Tourist Attraction</h3>
-        <p>
-            Rustic, tranquil and unscathed<br />
-            landscapes set the stage for boundary<br />
-            less experiences in the park and the<br />
-            surrounding communities of the once<br />
-            booming sugar cane belt, hillside farms<br />
-            and modern technology driven farms.
-        </p>
-        <br />
-        <br />
-        <p>
-            Indulge in the Jamaica’s<br />
-            culture, history and out of many one<br />
-            infused cuisine on the riverbed’s of our<br />
-            limestone purified rushing waters from<br />
-            the Roaring River that flows into the<br />
-            stiller and relaxing Cabaritta awaits you.
-        </p>
-        <br />
-        <br />
-        <p>
-            Completely Off The Beaten Track…
-        </p>
-        <br /><br />
-        <p>
-            Yardy River Adventures is a Unique<br />
-            Lush Rustic Paradise
-        </p>
-
-
-
-        <p></p> 
-    </div>
-
-</section> 
 
 <h1>Services</h1>
 
@@ -268,7 +190,7 @@ function showSlides() {
 
             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
                 <div class="btnpr">
-                    <img src="~<?php echo $img_url?>Yardy River Walk.jpeg" width="400px" height="500px">
+                    <img src="<?php echo $img_url?>Yardy River Walk.jpeg" width="400px" height="500px">
                     <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div> 
             </a>
@@ -435,6 +357,85 @@ function showSlides() {
 </section> 
 
 
+<section>
+
+    <div style="text-align:center">
+
+        <h3>Jamaica’s Best <br /> Eco-Tourist Attraction</h3>
+        <p>
+            Rustic, tranquil and unscathed<br />
+            landscapes set the stage for boundary<br />
+            less experiences in the park and the<br />
+            surrounding communities of the once<br />
+            booming sugar cane belt, hillside farms<br />
+            and modern technology driven farms.
+        </p>
+        <br />
+        <br />
+        <p>
+            Indulge in the Jamaica’s<br />
+            culture, history and out of many one<br />
+            infused cuisine on the riverbed’s of our<br />
+            limestone purified rushing waters from<br />
+            the Roaring River that flows into the<br />
+            stiller and relaxing Cabaritta awaits you.
+        </p>
+        <br />
+        <br />
+        <p>
+            Completely Off The Beaten Track…
+        </p>
+        <br /><br />
+        <p>
+            Yardy River Adventures is a Unique<br />
+            Lush Rustic Paradise
+        </p>
+
+
+
+        <p></p> 
+    </div>
+
+</section> 
+<script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+
+    for (i = 0; i < slides.length; i++) {
+
+        slides[i].style.display = "none";
+
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+
+        slideIndex = 1
+
+    }
+
+    for (i = 0; i < dots.length; i++) {
+
+        dots[i].className = dots[i].className.replace(" active", "");
+
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    dots[slideIndex - 1].className += " active";
+
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+} 
+
+</script>
 
 
 <?php require"home_footer.php";?>
