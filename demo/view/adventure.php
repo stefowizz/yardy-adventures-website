@@ -106,15 +106,13 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row">Booking cycle </th>
-                                                <td class="adventureTableBookingCycle">Hourly | 8am – 4pm</td>
+                                                <td>Hourly | 8am – 4pm</td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <div class="adventureModalBookNowContainer">
-                                        <a class="adventureModalBookNow">Book Now</a>
-                                    </div>
+                                    <a class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +157,7 @@
                                         <tbody>
                                             <tr>
                                                 <th scope="row">Price:</th>
-                                                <td class="adventureTablePrice">USD120 pp Children (6-12 years) N/A</td>
+                                                <td>USD120 pp Children (6-12 years) N/A</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">Includes:</th>
