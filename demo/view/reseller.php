@@ -45,29 +45,37 @@
   
   h1{color: #427A27 !important;}
   
-  .table>:not(caption)>*>* {
-   /* background-color: #427A27 !important; */
+  /* .sellingTable>:not(caption)>*>* {
+   background-color: #427A27 !important;
    text-align: left !important;
-   /* color: #fff ; */
+   color: #fff ;
+    } */
+    .sellingTable {
+      border-collapse: collapse;
+      border-spacing: 20px;
+      min-width: 500px;
     }
-  
-  .table thead tr th {
+    .sellingTable th{
+      padding: 20px 20px;
+    }
+    .sellingTable td {
+      padding: 30px 20px;
+    }
+  .sellingTable thead tr th {
     background-color: #ffc107 !important;
     color: #000 !important;
+    
 }
-  .table tbody  {
-    border: 0 !important;
-    /* background-color: #198754; */
-}
-.table tbody tr:nth-child(odd) {
+.sellingTable tbody tr:nth-child(odd) {
   background-color: #198754 !important; 
-  color: #fff !important;
+  color:rgb(255, 251, 243) !important;
 }
-.table tbody tr:nth-child(even) {
+.sellingTable tbody tr:nth-child(even) {
   background-color: #f0c153 !important;
   /* background-color: #28B9F5 !important; */
-  color: #000 !important;
+  color:rgb(5, 24, 15) !important;
 }
+
   
   
     body {
@@ -104,7 +112,7 @@
     
     /* Hero Banner */
     .hero-banner {
-      background: url('assets/images/frontend/blog/PictureISPBanner.png') no-repeat center center/cover;
+      background: url('/demo/assets/images/frontend/blog/PictureISPBanner.png') no-repeat center center/cover;
       height: 400px;
       display: flex;
       justify-content: center;
@@ -220,7 +228,6 @@ ul {
     
     
   <header>
-      </br></br></br></br>
     <div class="container">
        <h1>Independent Seller Programme</h1>
             <h2>Explore Promote Earn</h2>
@@ -233,46 +240,6 @@ ul {
         <h2>Experience Nature Like Never Before</h2>
     </section> -->
 
-    <div class="row gy-4 justify-content-center mt-2">
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/images/frontend/blog/riverrafting.jpg" class="d-block w-100" alt="First Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <div class="bk"> <h5>Free Registration</h5></div>
-                            <!--<p class="ch">Yardy Tours and Cabaritta Expeditions are ecotourism companies in Williamsfield and Friendship Districts in Westmoreland, Jamaica. We offer a variety of activities including river tubing, horseback riding, and dune buggy riding.</p>-->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/frontend/blog/bn2.png" class="d-block w-100" alt="Second Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                              <div class="bk"> <h5>Earn a 25% commission</h5></div> 
-                            <!--<p>Experience the adventure of a lifetime with our river tubing and jungle expeditions.</p>--->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/frontend/blog/dune.jpg" class="d-block w-100" alt="Third Slide">
-                        <div class="carousel-caption d-none d-md-block">
-                              <div class="bk"><h5>Work Form Anywhere</h5> </div>
-                           <!-- <p>Relax by the river and enjoy the authentic Jamaican cuisine.</p>-->
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
     <section class="hero-banner">
     </section>
     <main>
@@ -281,7 +248,7 @@ ul {
                 <p>Join the Yardy Community</p>
                 <p>The tours, attraction and activities (TAA) sector of the travel industry is in growth mode.  Increasing number of travelers are seeking immersive experiences and thrilling adventures.</p><br>
                 <p>True to our vision, To Innovate Adventures, Preserve Culture and Advance Communities, Yardy has a rich rich product portfolio and unique selling prepositions that are appealing to both local and international travelers.</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSet54wEKNEQJVxaSJRQfpSr_CdgogvuDIweZZ3QGA7l1GE6VQ/viewform"><button class="cta-btn">Register Now</button></a>
+                
             </div>
         </section>
 
@@ -289,19 +256,23 @@ ul {
             <div class="container">
                 
                 <h1 class="ob"><strong>Benefits:</strong></h1>
-   <img src="assets/images/frontend/blog/PictureISPBenefits.png" alt="">
+   <img src="/demo/assets/images/frontend/blog/PictureISPBenefits.png" alt="">
             </div>
         </section>
 
+    <div class="container">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSet54wEKNEQJVxaSJRQfpSr_CdgogvuDIweZZ3QGA7l1GE6VQ/viewform"><button class="cta-btn">Register Now</button></a>
+    </div>
+
         <section class="image-text-section">
-       <div class="container">
+       <div class="container-md">
     <h3 class="text-center mt-4">Yardy Unique Selling Proposition</h3>
     <div class="table-responsive">
-        <table class="table table-bordered">
+        <table class="sellingTable">
             <thead>
                 <tr class="text-center p-2">
-                    <th>Aspect</th>
-                    <th>Description</th>
+                    <th scope="col">Aspect</th>
+                    <th scope="col">Description</th>
                 </tr>
             </thead>
             <tbody>
@@ -312,10 +283,10 @@ ul {
                     <td>
                         
                         <ul>
-                            <li>Seamless augmentation of natural, rustic environment that provide authentic immersive experiences for a variety of nature lovers and eco-culture adventurers:</li><br>
-                            <li><strong>&nbsp;&nbsp;&nbsp;&nbsp;Westmoreland</strong> rainfall is above the national average and the watersheds are preserved limestone mountains that provide a flow of high-quality water all year round. The rushing waters of the Roaring River cascades into deeper and more dramatic Cabaritta with pristine blue holes and shallow water for hiking or lounging.</li><br>
-                            <li>&nbsp;&nbsp;&nbsp;&nbsp;The Georges Plain is used traditionally for farming and has vast expanses of meadows.</li><br>
-                            <li>&nbsp;&nbsp;&nbsp;&nbsp;The surrounding mountains are home to a wide range of flora, fruits, curative herbs, and well-preserved rural living heritage.</li>
+                            <li>Seamless augmentation of natural, rustic environment that provide authentic immersive experiences for a variety of nature lovers and eco-culture adventurers:</li>
+                            <li><strong>Westmoreland</strong> rainfall is above the national average and the watersheds are preserved limestone mountains that provide a flow of high-quality water all year round. The rushing waters of the Roaring River cascades into deeper and more dramatic Cabaritta with pristine blue holes and shallow water for hiking or lounging.</li>
+                            <li>The Georges Plain is used traditionally for farming and has vast expanses of meadows.</li>
+                            <li>The surrounding mountains are home to a wide range of flora, fruits, curative herbs, and well-preserved rural living heritage.</li>
                         </ul>
                         
                     </td>
@@ -326,11 +297,11 @@ ul {
                     </th>
                     <td>
                         <ul>
-                            <li> Proximity to resort areas: <strong>Montego Bay | Negril | South Coast</strong></li><br>
-                            <li> Improving road network: Montego Bay Bypass and South Coast Highway</li><br>
-                            <li> Proximity to additional resort areas: <strong>Falmouth | Ocho Rios | Kingston</strong></li><br>
-                            <li> Proximity to Jamaica: Corporate Clients</li><br>
-                            <li> 80% of tourists in Negril opt for an excursion outside of <strong>Westmoreland</strong> and Hanover because of limited options in these parishes.</li><br>
+                            <li> Proximity to resort areas: <strong>Montego Bay | Negril | South Coast</strong></li>
+                            <li> Improving road network: Montego Bay Bypass and South Coast Highway</li>
+                            <li> Proximity to additional resort areas: <strong>Falmouth | Ocho Rios | Kingston</strong></li>
+                            <li> Proximity to Jamaica: Corporate Clients</li>
+                            <li> 80% of tourists in Negril opt for an excursion outside of <strong>Westmoreland</strong> and Hanover because of limited options in these parishes.</li>
                         </ul>
                         
                     </td>
@@ -341,7 +312,7 @@ ul {
                     </th>
                     <td>
                         <ul>
-                            <li> Differentiated products are priced competitively.</li><br>
+                            <li> Differentiated products are priced competitively.</li>
                             <li> Competitive prices can be leveraged for promotional packages and wholesaling.</li>
                         </ul>
                         
@@ -355,9 +326,9 @@ ul {
 
                     <td>
                         <ul>
-                            <li> Distinguished Segments of Adventurists: <strong>Soft, Moderate, and Hard</strong></li><br>
-                            <li> Nature | Culture | Gastronomy</li><br>
-                            <li> Multiple Dimensions: <strong>Individuals | Family | Friends | Social & Corporate Groups</strong></li><br>
+                            <li> Distinguished Segments of Adventurists: <strong>Soft, Moderate, and Hard</strong></li>
+                            <li> Nature | Culture | Gastronomy</li>
+                            <li> Multiple Dimensions: <strong>Individuals | Family | Friends | Social & Corporate Groups</strong></li>
                         </ul>
                     </td>
                 </tr>
@@ -374,11 +345,11 @@ ul {
         <h3>Terms of Reference</h3>
         <p><strong>Independent Sellers Will:</strong></p>
         <ol>
-          <li> Registration</li><br>
-          <li> Attend and participate in ISP training workshops</li><br>
-          <li> Leverage or augment own marketing and selling channels to sell Yardy product via a unique QR Code </li><br>
-          <li> Utilize Yardy resources only for the purpose intended:  to create and maintain a positive brand </li><br>
-          <li> Sell standardized products as displayed on yardyadventures.com or communicate directly<br> with Manager, Planning and Market Relations for customized groups</li><br>
+          <li>1. Registration</li>
+          <li>2. Attend and participate in ISP training workshops</li>
+          <li>3. Leverage or augment own marketing and selling channels to sell Yardy product via a unique QR Code </li>
+          <li>4. Utilize Yardy resources only for the purpose intended:  to create and maintain a positive brand </li>
+          <li>5. Sell standardized products as displayed on yardyadventures.com or communicate directly<br> with Manager, Planning and Market Relations for customized groups</li><br>
         </ol>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSet54wEKNEQJVxaSJRQfpSr_CdgogvuDIweZZ3QGA7l1GE6VQ/viewform"><button class="cta-btn">Register Now</button></a>
       </div>

@@ -17,7 +17,7 @@ require_once "home_header.php" ?>
         >
 </video>
     <div class="about_content">
-        <h1 class="about_title">About Yardy</h1>
+        <h1 class="about_title">About Yardy</h1>  
 <p>
           Yardy River Adventures is a premier eco-tourist attraction nestled in the flat lands of Fort Williams on the Georges Plain with scenic landscapes, clasped by the Black Heath, Bird and Fort William Mountain ranges that appear to be just a stone throw away.
         </p>
