@@ -10,17 +10,30 @@
     --primary-green-rgba: 66, 122, 39;
 }
 
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+/*adventures page*/
+
 .heroContainer-fluid {
     background-color: var(--primary-green);
     position: relative;
 }
 
-.heroContainer h1 {
+.heroContainer-heading {
     text-shadow: 1px 1px 2px hsla(96, 100%, 99%, 0.311);
+    font-weight: 800;
 }
 
 .heroContainer h2 {
     color: var(--primary-yellow);
+    margin-top: 20px;
     margin-bottom: 0;
     text-shadow: 1px 1px 3px #57451d;
 }
@@ -313,6 +326,7 @@
 
 .comingSoonMainHeading {
     color: var(--primary-green);
+    font-weight: 700;
 }
 
 .comingSoonSpringHeading {
@@ -326,6 +340,24 @@
     border: 2px solid var(--secondary-yellow);
     color: var(--neutral);
     border-radius: 50px;
+}
+
+/*terms page*/
+.terms-heading {
+    color: var(--primary-green);
+}
+
+.terms-section h2 {
+    color: rgba(var(--primary-green-rgba), .9);
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.cancellation-policy li {
+    list-style: disc;
+    opacity: .8;
+    line-height: 1.8;
+    font-size: 17px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
@@ -435,6 +467,18 @@
         margin-top: 40px!important;
         margin-bottom: 10px;
         font-size: 19px;
+    }
+
+    .heroContainer-heading {
+        font-size: 52px;
+    }
+
+    .heroContainer h2 {
+        font-size: 38px;
+    }
+
+    .comingSoonMainHeading {
+        font-size: 55px;
     }
 }
 
