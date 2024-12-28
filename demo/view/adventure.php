@@ -1,7 +1,9 @@
+<?php
+include "home_header.php";
+?>
+
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
-
-
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,13 +41,9 @@
 
 <body>
 
-    <?php
-    require "home_header.php";
-    ?>
-
     <section class="heroContainer-fluid container-fluid d-flex justify-content-center py-5 mb-md-3">
         <div class="heroContainer text-center">
-            <h1 class="mb-3 heading-1 text-body-secondary">Take yourself on an adventure</h1>
+            <h1 class="mb-3 heroContainer-heading">Take yourself on an adventure</h1>
             <h2>Explore your wild side!</h2>
         </div>
     </section>
@@ -820,13 +818,13 @@
     </section>
 
 
-    <div class="comingSoonMainHeadingContainer text-center mt-5 py-3  w-100">
+    <div class="comingSoonMainHeadingContainer text-center mt-5 py-4 py-lg-5 w-100">
         <h1 class="comingSoonMainHeading m-0">Coming Soon</h1>
     </div>
     <section class="container-fluid d-flex flex-column align-items-center mt-lg-3 mb-5">
         <div class="w-100 d-flex flex-column align-items-center comingSoon p-0 my-2 mx-0 my-md-3 my-lg-4 text-center">
             <div class="w-100 d-flex flex-column align-items-center">
-                <h2 class="comingSoonSpringHeading mt-3 mt-lg-3 py-2 px-3 py-lg-3 px-lg-5">Spring 2025</h2>
+                <h2 class="comingSoonSpringHeading mb-3 mb-md-4 mt-3 mt-lg-3 py-2 px-3 py-lg-3 px-lg-5">Spring 2025</h2>
                 <div class="comingSoonSpring container-sm">
                     <div class="AdventureCard-container d-flex justify-content-center">
                         <div class="AdventureCard">
@@ -1091,7 +1089,7 @@
                     </div>
                 </div>
                 <div class="w-100 mt-5 mt-lg-5 d-flex flex-column align-items-center">
-                    <h2 class="comingSoonSummerHeading mt-2 mt-lg-3 py-2 px-3 py-lg-3 px-lg-5">Summer 2025</h2>
+                    <h2 class="comingSoonSummerHeading mb-3 mb-md-4 mt-2 mt-lg-3 py-2 px-3 py-lg-3 px-lg-5">Summer 2025</h2>
                     <div class="comingSoonSummer container-sm">
                         <div class="AdventureCard-container d-flex justify-content-center">
                             <div class="AdventureCard">
@@ -1234,11 +1232,6 @@
                 </div>
             </div>
     </section>
-
-    <?php
-    require "home_footer.php";
-    ?>
-
     <!-- all js link -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -1248,3 +1241,6 @@
 </body>
 
 </html>
+<?php
+include "home_footer.php";
+?>
