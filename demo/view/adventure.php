@@ -64,7 +64,7 @@
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=1" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -112,7 +112,7 @@
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=1" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=5" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -179,7 +179,7 @@
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=5" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=8" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -247,7 +247,7 @@
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=8" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>

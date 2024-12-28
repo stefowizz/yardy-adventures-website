@@ -1,9 +1,9 @@
 <?php
 
 // Database connection parameters
-$dsn = "mysql:host=localhost;dbname=yardieadventures"; // or your database server
-$username = "{DB_USER_HERE}";
-$password = "{PASSWORD_HERE}";
+$dsn = "mysql:host=localhost;dbname=yardyadventures"; // or your database server
+$username = "root";
+$password = "";
 $access="";
 try {
     // Create a PDO instance

@@ -1,9 +1,9 @@
 <?php
 
 // Database connection parameters
-$dsn = "mysql:host=localhost;dbname=yardieadventures"; // or your database server
-$username = "{FIN_USERNAME_HERE}";
-$password = "{FIN_PASSWORD_HERE}";
+$dsn = "mysql:host=localhost;dbname=yardyadventures"; // or your database server
+$username = "root";
+$password = "";
 $price = 0; // Initialize $price as an integer
 $count=0;
 $tran1= array();

@@ -13,9 +13,10 @@
 
     
     $router->addRoute(
-        '/demo/product/:id', 'GET', function ($id) {
+        '/demo/product', 'GET', function () {
             $Controller = new HomeController();
-      
+            $Model = new HomeModel(CONNECTION);
+            $Controller->model = $Model;
             $Controller->route = $_SERVER['REQUEST_URI'];
             $Controller->session = new Session();
             $Controller->product();        
@@ -56,7 +57,11 @@
 
     $router->addRoute(
         '/demo/dashboard', 'GET', function () {
-            View::render('Dashboard/dashboard');
+            $Controller = new DashboardController();
+            $Controller->model = new DashboardModel(CONNECTION);
+            $Controller->route = $_SERVER['REQUEST_URI'];
+            $Controller->session = new Session();
+            $Controller->main();
         }
     );
  
@@ -162,8 +167,6 @@
     );
     
 
-
-
     require SYSTEMS.'routes/apiRoutes.php';  
 
 
@@ -173,7 +176,7 @@
         }
     );
     
-       // added about page 
+    // added about page 
     $router->addRoute(
         path: "/demo/about", method: "GET", handler: function () {
             View::render("about");

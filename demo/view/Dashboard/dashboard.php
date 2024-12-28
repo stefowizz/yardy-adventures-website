@@ -1,10 +1,10 @@
 <?php
-require(VIEWS . "Dashboard/headers.php");
+require VIEWS . "Dashboard/headers.php";
 $username2= htmlspecialchars($uname);
 
 
-require  ("acessconfig.php");
- require ("sidebar.php");
+require  "acessconfig.php";
+require "sidebar.php";
 
 ?>
 
@@ -103,4 +103,4 @@ header.w3-container {
 
 
 
-<?php include("footers.php"); ?>
+<?php require "footers.php"; ?>

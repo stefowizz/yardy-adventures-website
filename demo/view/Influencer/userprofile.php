@@ -43,8 +43,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
         </div>
         <div class="w3-container">
-        <form id="affiliate" class="w3-form">
-            <input name="id" type="hidden" value="<?php if(!empty($affiliate['id'])){echo $affiliate['id'];}?>" />
+        <form id="affiliate" class="w3-form" method="post">
+            <input name="id" type="hidden" value="<?php if(!empty($affiliate['id'])) {echo $affiliate['id'];
+                                                  }?>" />
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Affliliate</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Jamaica</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><?php  print($CurrentUser['email'])?></p>
@@ -53,29 +54,33 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Affiliate Information</b></p>
           <p>Affliate Code</p>
           <div class="w3-light-grey w3-round-xlarge w3-small ">
-            <input value="<?php if(!empty($code)){echo $code;}?>" type="type" id="code" name="code" class="w3-input w3-bordered" disabled/>
+            <input value="<?php if(!empty($code)) {echo $code;
+                          }?>" type="type" id="code" name="code" class="w3-input w3-bordered" disabled/>
           </div>
            <p>Unique Link</p>
           <div class="w3-light-grey w3-round-xlarge w3-small" id="clickCopy">
-            <input value="<?php if(!empty($unique_link)){echo $unique_link;}?>" type="type" id="link" name="link" class="w3-input w3-bordered" disabled/>
+            <input value="<?php if(!empty($unique_link)) {echo $unique_link;
+                          }?>" type="type" id="link" name="link" class="w3-input w3-bordered" disabled/>
           </div>         
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Banking Details</b></p>
-          <?php if(!empty($affiliate['bank_details'])){
-              $bank_details = json_decode($affiliate['bank_details']);
+          <?php if(!empty($affiliate['bank_details'])) {
+                $bank_details = json_decode($affiliate['bank_details']);
           }
-          ?>
+            ?>
           <p>Account Number</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <input type="number" id="account" name="account" value="<?php if(!empty($bank_details->account)){echo $bank_details->account;}?>"  class="w3-input w3-bordered" />
+            <input type="number" id="account" name="account" value="<?php if(!empty($bank_details->account)) {echo $bank_details->account;
+                                                                    }?>"  class="w3-input w3-bordered" />
           </div>
           <p>Name on Account</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-              <input type="text" id="name" name="name" value="<?php if(!empty($bank_details->name)){echo $bank_details->name;}?>" class="w3-input w3-bordered" />
+              <input type="text" id="name" name="name" value="<?php if(!empty($bank_details->name)) {echo $bank_details->name;
+                                                              }?>" class="w3-input w3-bordered" />
           </div>
           <p>Account Type</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <select class="w3-select" name="type">
-                <?php if(!empty($bank_details->type) && $bank_details->type == "Saving"){?>
+                <?php if(!empty($bank_details->type) && $bank_details->type == "Saving") {?>
                 <option value="Checking">Checking</option>
                 <option value="Saving" selected>Saving</option>
                 <?php }else{?>
@@ -86,26 +91,30 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
           <p>Branch/Location</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <input type="text" id="branch" name="branch" value="<?php if(!empty($bank_details->branch)){echo $bank_details->branch;}?>" class="w3-input w3-bordered" />
+            <input type="text" id="branch" name="branch" value="<?php if(!empty($bank_details->branch)) {echo $bank_details->branch;
+                                                                }?>" class="w3-input w3-bordered" />
           </div>
           <br>
           
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Address</b></p>
-          <?php if(!empty($CurrentUser['address'])){
-              $address = json_decode($CurrentUser['address']);
+          <?php if(!empty($CurrentUser['address'])) {
+                $address = json_decode($CurrentUser['address']);
           }
-          ?>
+            ?>
           <p>Street</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <input type="text" id="street" name="street" value="<?php if(!empty($address->street)){echo $address->street;}?>" class="w3-input w3-bordered" />
+            <input type="text" id="street" name="street" value="<?php if(!empty($address->street)) {echo $address->street;
+                                                                }?>" class="w3-input w3-bordered" />
           </div>
           <p>City</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <input type="text" id="street" name="city" class="w3-input w3-bordered" value="<?php if(!empty($address->city)){echo $address->city;}?>"/>
+            <input type="text" id="street" name="city" class="w3-input w3-bordered" value="<?php if(!empty($address->city)) {echo $address->city;
+                                                                                           }?>"/>
           </div>
           <p>Parish/State</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <input type="text" id="state" name="state" class="w3-input w3-bordered" value="<?php if(!empty($address->state)){echo $address->state;}?>"/>
+            <input type="text" id="state" name="state" class="w3-input w3-bordered" value="<?php if(!empty($address->state)) {echo $address->state;
+                                                                                           }?>"/>
           </div>
           <br>
           <div class="w3-padding-16">
@@ -120,15 +129,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <?php 
 $price = 0;
 $count = 0;
-if(!empty($transactions)){
+if(!empty($transactions)) {
     foreach($transactions as $transaction){
         $price += $transaction['price'];
         $count = $count + 1;
-        }
-        
     }
+        
+}
     
-    ?>
+?>
     <!-- Right Column -->
     <div class="w3-twothird">
       <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -138,7 +147,7 @@ if(!empty($transactions)){
                 <div class="w3-container w3-red w3-padding-16">
                     <div class="w3-left"><i class="fa fa-line-chart w3-xxxlarge"></i></div>
                     <div class="w3-right">
-                        <h3><?php echo "$".number_format(($price * 10)/100,2);?></h3>
+                        <h3><?php echo "$".number_format(($price * 10)/100, 2);?></h3>
                     </div>
                     <div class="w3-clear"></div>
                     <h4>Earnings</h4>
@@ -148,7 +157,7 @@ if(!empty($transactions)){
                 <div class="w3-container w3-blue w3-padding-16">
                     <div class="w3-left"><i class="fa fa-money w3-xxxlarge"></i></div>
                     <div class="w3-right">
-                        <h3><?php echo "$".number_format($price,2)?></h3>
+                        <h3><?php echo "$".number_format($price, 2)?></h3>
                     </div>
                     <div class="w3-clear"></div>
                     <h4>Total Sales</h4>
@@ -180,7 +189,7 @@ if(!empty($transactions)){
                 </tr>
               </thead>
               <tbody>
-<?php if(!empty($transactions)){
+<?php if(!empty($transactions)) {
     foreach($transactions as $transaction){
         
             
@@ -190,7 +199,8 @@ if(!empty($transactions)){
                    <td>52,000</td>
                    <td>Jan 2, 2021</td>
                 </tr>
-   <?php }}?>            
+    <?php }
+}?>            
               </tbody>
           </table>
           <hr>
@@ -211,18 +221,19 @@ if(!empty($transactions)){
                 </tr>
               </thead>
               <tbody>
-<?php if(!empty($transactions)){
-            foreach($transactions as $transaction){
+<?php if(!empty($transactions)) {
+    foreach($transactions as $transaction){
                 
-?>
+        ?>
                 <tr>
                    <td><?php echo $transaction['name']?></td> 
                    <td><?php echo $transaction['fname']. " ".$transaction['lname'] ?></td>
-                   <td><?php echo "$".number_format($transaction['price'],2)?></td>
+                   <td><?php echo "$".number_format($transaction['price'], 2)?></td>
                    <td><?php echo $transaction['dateCreated']?></td>
-                   <td><?php echo "$".number_format($transaction['price'] * 10 / 100,2)?></td>
+                   <td><?php echo "$".number_format($transaction['price'] * 10 / 100, 2)?></td>
                 </tr>
-<?php }}?>
+    <?php }
+}?>
               </tbody>
           </table>
           <hr>
