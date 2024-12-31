@@ -2,7 +2,8 @@
 <?php
 $title = "Yardy Adventures";
 require_once "home_header.php" ?>
-<link href="https://yardyadventures.com/demo/assets/about/about.css" rel="stylesheet">
+
+<link href="/demo/assets/about/about.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="about_container">
  
@@ -31,15 +32,15 @@ require_once "home_header.php" ?>
 </section>
 
 <section class="attraction">
-    <h2 class="attraction_title">Jamaica Tourist Board (JTB) Classification: ECO-TOURIST ATTRACTION</h2>
+    <!-- <h2 class="attraction_title">Jamaica Tourist Board (JTB) Classification: ECO-TOURIST ATTRACTION</h2> -->
         <p class="attraction_vision"><strong>Vision:</strong> To Innovate Adventures, Preserve Culture and Advance Communities</p>
         <p class="attraction_mission"><strong>Mission:</strong> To deliver unparalleled, superlative, Yardy Style adventures amidst a preserved eco-tourist attraction by a highly motivated customer-centric team and partners that embraces authentic 'No Problem' service standard</p>
 </section>
 
 <section class="adventures">
-        <h2 class="adventures_title" >Committed to Adventures</h2>
+        <h2 class="adventures_title" >Committed to Immersive and Thrilling Adventures</h2>
         <p >
-          We provide superb guest experiences for hard and soft adventurers. Whether you're an adrenaline junkie eager to take on river rapids or a traveler seeking to immerse yourself in Jamaica's lush landscapes and vibrant culture, we have the adventure for you.
+          Whether you're an adrenaline junkie eager to take on river rapids or a traveler seeking to immerse yourself in Jamaica's lush landscapes and vibrant culture, we have the adventure for you.
         </p>
         <ul class="adventures_list">
           <li>Tube on the rapids or raft over blue holes</li>
@@ -50,7 +51,7 @@ require_once "home_header.php" ?>
           <li>Whet your appetite or indulge in a full onslaught of local gastronomy</li>
         </ul>
         <p>
-          Discover nature one adventure at a time or dive into one of our ½ day or full day Yardy Adventure Paks.
+         Explore the great outdoors one adventure at a time or dive into a ½ day or full day Yardy Adventure.
         </p>
         <p>
           Your adventure is backed by our talented tour guides that not only take your safety seriously but ensure that you capably EXPLORE YOUR WILD SIDE!
