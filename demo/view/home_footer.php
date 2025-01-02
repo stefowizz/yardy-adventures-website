@@ -10,10 +10,16 @@
                          <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
                          <a href="https://www.google.com"><i class="fa-brands fa-google"></i></a>
                          <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                         <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
                     </div>
+                    <p class="footer-item__desc footer-bold">
+                                               Connect | Subscribe | Join | Voice Your Feedback
+                    </p>
                     <p class="footer-item__desc">
-                                               Join us at Yardy Adventures to soak in the lush scenery and enjoy a variety of exciting activities tailored just for you.
-                                            </p>
+                      Explore like a Real Yardy. Embrace the lively spirit of Jamaican culture,
+                       Irie no problem. Adventures in the rustic tranquil.
+                    </p>
+
                    <!-- <ul class="social-list mt-3">
                                                 <li class="social-list__item"><a href="https://www.twitter.com/" class="social-list__link"><i class="fa-brands fa-square-x-twitter"></i></a> </li>
                                                 <li class="social-list__item"><a href="https://www.instagram.com/" class="social-list__link"><i class="fab fa-instagram"></i></a> </li>
@@ -23,6 +29,12 @@
             </div>
             <div class="col-xl-2 col-sm-6">
                 <div class="footer-item">
+                    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                    <div class="elfsight-app-4c93296c-f4a3-4992-bcbe-86d0701301fa" data-elfsight-app-lazy></div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-sm-6">
+                <div style="display:none" class="footer-item">
                     <h5 class="footer-item__title">Important Links</h5>
                     <!--Links here 
                     <ul class="footer-menu">
@@ -59,7 +71,7 @@
                 </div> -->
             </div>
             <div class="col-xl-3 col-sm-6">
-                <div class="footer-item">
+                <div style="display:none" class="footer-item">
                     <h5 class="footer-item__title">Newsletter</h5>
                     <p class="mb-2">Subscribe our latest update</p>
                     <form action="https://yardyadventures.com/demo/subscribe" method="POST">
@@ -181,5 +193,4 @@
 </script>
 
 </body>
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl506098'},{'dcenter':'p3'},{'cp_id':'9984899'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
 </html>

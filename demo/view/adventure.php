@@ -264,7 +264,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=1" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -315,7 +315,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href= "/demo/product?id=1" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +333,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=4" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -380,7 +380,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=4" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -398,7 +398,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=7" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -447,7 +447,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=7" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -465,7 +465,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=2" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -514,7 +514,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=2" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +532,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=3" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -583,7 +583,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=3" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -602,7 +602,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=9" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -653,7 +653,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=9" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -672,7 +672,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=10" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -724,7 +724,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=10" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -743,7 +743,7 @@ include "home_header.php";
                         </div>
                         <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                             <a class="adventure-card-readMore">read more</a>
-                            <a class="adventure-card-bookNow">Book Now</a>
+                            <a href="/demo/product?id=11" class="adventure-card-bookNow">Book Now</a>
                         </div>
                     </div>
                     <div class="AdventureCardModalExitAnchor">
@@ -797,7 +797,7 @@ include "home_header.php";
                                     </table>
                                 </div>
                                 <div class="adventureModalBookNowContainer">
-                                    <a class="adventureModalBookNow">Book Now</a>
+                                    <a href="/demo/product?id=11" class="adventureModalBookNow">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -837,7 +837,7 @@ include "home_header.php";
                                 </div>
                                 <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                                     <a class="adventure-card-readMore">read more</a>
-                                    <a class="adventure-card-bookNow">Book Now</a>
+                                    <a href="/demo/product?id=12" class="adventure-card-bookNow">Book Now</a>
                                 </div>
                             </div>
                             <div class="AdventureCardModalExitAnchor">
@@ -886,7 +886,7 @@ include "home_header.php";
                                             </table>
                                         </div>
                                         <div class="adventureModalBookNowContainer">
-                                            <a class="adventureModalBookNow">Book Now</a>
+                                            <a href="/demo/product?id=12" class="adventureModalBookNow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -905,7 +905,7 @@ include "home_header.php";
                                 </div>
                                 <div class="adventure-card-links p-1 px-1 px-sm-2 text-center">
                                     <a class="adventure-card-readMore">read more</a>
-                                    <a class="adventure-card-bookNow">Book Now</a>
+                                    <a href="/demo/product?id=13" class="adventure-card-bookNow">Book Now</a>
                                 </div>
                             </div>
                             <div class="AdventureCardModalExitAnchor">
@@ -954,7 +954,7 @@ include "home_header.php";
                                             </table>
                                         </div>
                                         <div class="adventureModalBookNowContainer">
-                                            <a class="adventureModalBookNow">Book Now</a>
+                                            <a href="/demo/product?id=13" class="adventureModalBookNow">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
