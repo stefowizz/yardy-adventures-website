@@ -230,8 +230,8 @@ ul {
   <header>
     <div class="container">
        <h1>Independent Seller Programme</h1>
-            <h2>Explore Promote Earn</h2>
-            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">Earn 25% Commission</button></a>
+            <h2>Explore | Promote | Earn</h2>
+            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">25% Commission</button></a>
             <p>This progamme offers a lucrative income opportunity. Every sale generated from your promotional effeorts boosts your income.</p>
         </div>
     </header>
@@ -245,7 +245,8 @@ ul {
     <main>
         <section class="content-section">
             <div class="container">
-                <p>Join the Yardy Community</p>
+                <p>Why Join the Yardy Community?</p>
+                <p>Lucrative income opportunity. Every sale generated from your promotion efforts boost your income. </p>
                 <p>The tours, attraction and activities (TAA) sector of the travel industry is in growth mode.  Increasing number of travelers are seeking immersive experiences and thrilling adventures.</p><br>
                 <p>True to our vision, To Innovate Adventures, Preserve Culture and Advance Communities, Yardy has a rich rich product portfolio and unique selling prepositions that are appealing to both local and international travelers.</p>
                 

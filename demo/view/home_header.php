@@ -505,9 +505,7 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
 
 
     }
-
-
-
+    
     #snackbar.show {
 
 
@@ -536,8 +534,6 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
 
 
     }
-
-
     
 
 
