@@ -13,7 +13,6 @@ include "home_header.php";
 <meta name="keywords" content="Influencer marketing,Social media influencers,Content creation,Brand collaborations,Instagram marketing,YouTube influencers">
 <link rel="shortcut icon" href="https://yardyadventures.com/demo/assets/images/general/favicon.png" type="image/x-icon">
 
-
 <link rel="apple-touch-icon" href="https://yardyadventures.com/demo/assets/images/general/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">

@@ -13,16 +13,11 @@ class ApiController extends Controller
 
         if($resources = $this->model->getServices()) {
 
-
-            
-
             if(isset($_REQUEST["id"])) {
 
                 foreach($resources as $service){
 
                     if($service["id"] == $_REQUEST["id"]) {
-
-
 
                         //Print only the name
 
@@ -34,8 +29,6 @@ class ApiController extends Controller
 
                         }
 
-
-
                         //Print only description
 
                         if(isset(($_REQUEST["desc"]))) {
@@ -45,8 +38,7 @@ class ApiController extends Controller
                             return;
 
                         }
-
-
+                        View::assign('data', $service);
 
                         break;
 
@@ -57,20 +49,25 @@ class ApiController extends Controller
                 unset($service);
 
             }else{
-
                 View::assign('data', $resources);
-
             }
-
-
-
         }     
-
-
-        
 
         View::render('API/index');        
 
+    }
+
+    public function adventuresAvailable(){
+        if($resources = $this->model->getServices()) {
+            if(isset($_REQUEST["date"])){
+            
+            }
+
+            if(isset($_REQUEST["time"])){
+            
+            }
+        }
+        View::render("API/index");
     }
 
     public function user()

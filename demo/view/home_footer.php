@@ -93,22 +93,22 @@
     <!-- all js link -->
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/jquery-3.7.1.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/popper.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/slick.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/odometer.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/viewport.jquery.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/smoothscroll.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/lightcase.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.en.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/wow.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/admin/js/select2.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/ckeditor.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/popper.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/slick.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/odometer.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/viewport.jquery.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/smoothscroll.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/lightcase.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.en.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/wow.min.js"></script>
+<script src="<?php echo $base_url?>/assets/admin/js/select2.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/ckeditor.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/main.js"></script>
 
         <script>
    function addToWishlist(element) {

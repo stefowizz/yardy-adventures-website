@@ -766,7 +766,7 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
         <nav class="navbar navbar-expand-lg">
 
 
-            <a class="navbar-brand logo" href="<?php echo $base_url?>/yardyadventures.com/demo">
+            <a class="navbar-brand logo" href="<?php echo $base_url?>/demo">
 
 
                 <img src="<?php echo $base_url?>/assets/images/general/logo_white.png" alt="InfluencerFly">
@@ -811,7 +811,7 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
                                  <!---           <li class="nav-item ">
 
 
-                        <a href="<?php echo $base_url?>/yardyadventures.com/demo" role="button" aria-current="page" > Home                            <span class="nav-item__icon"><i class="las la-angle-down"></i></span></a>
+                        <a href="<?php echo $base_url?>/demo" role="button" aria-current="page" > Home                            <span class="nav-item__icon"><i class="las la-angle-down"></i></span></a>
 
 
                        
