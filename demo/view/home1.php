@@ -6,8 +6,8 @@ require "home_header.php"; ?>
 
 <?php
 //  $base_url = "/yardy-website/demo/";
-    $base_url = "https://yardyadventures.com/demo/";
-    $img_url = $base_url . "assets/images/frontend/home/";
+//    $base_url = "https://yardyadventures.com/demo";
+    $img_url = $base_url . "/assets/images/frontend/home/";
 ?>
 <style>
 html {

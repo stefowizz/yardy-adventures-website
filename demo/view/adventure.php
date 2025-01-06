@@ -11,25 +11,25 @@ include "home_header.php";
 <meta name="title" Content="Yardy Adventures - Supa Page">
 <meta name="description" content="Unlock the secrets to influencer success with expert insights and practical tips. Join our community and elevate your influence today.">
 <meta name="keywords" content="Influencer marketing,Social media influencers,Content creation,Brand collaborations,Instagram marketing,YouTube influencers">
-<link rel="shortcut icon" href="https://yardyadventures.com/demo/assets/images/general/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="<?php echo $base_url?>/demo/assets/images/general/favicon.png" type="image/x-icon">
 
-<link rel="apple-touch-icon" href="https://yardyadventures.com/demo/assets/images/general/logo.png">
+<link rel="apple-touch-icon" href="<?php echo $base_url?>/demo/assets/images/general/logo.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Yardy Adventures - attractions">
 
 <meta itemprop="name" content="Yardy Adventures - Supa Page">
 <meta itemprop="description" content="">
-<meta itemprop="image" content="https://yardyadventures.com/demo/assets/images/general/default.png">
+<meta itemprop="image" content="<?php echo $base_url?>/demo/assets/images/general/default.png">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Yardy Adventures">
 <meta property="og:description" content="Empower your influence with expert insights, practical tips, and inspiring stories. Join our community of influencers and brands and elevate your social presence today!">
-<meta property="og:image" content="https://yardyadventures.com/demo/assets/images/general/default.png">
+<meta property="og:image" content="<?php echo $base_url?>/demo/assets/images/general/default.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1180">
 <meta property="og:image:height" content="600">
-<meta property="og:url" content="https://yardyadventures.com/demo/supa">
+<meta property="og:url" content="<?php echo $base_url?>/demo/supa">
 
 <meta name="twitter:card" content="summary_large_image">
 <script src="https://kit.fontawesome.com/6d9ea1370a.js" crossorigin="anonymous"></script>
@@ -812,7 +812,7 @@ include "home_header.php";
             <h2 class="ExploreMainHeading">You Will Also Want To Explore</h2>
             <h4 class="ExploreSubHeading"><strong>Become a Yardy Partner</strong> – <strong>Unlock Earnings</strong> in Eco-Adventures!</h4>
             <p>Join Yardy’s growing network of independent sellers and earn up to 25% commission by promoting unique eco-tours and activities.</p>
-            <a href="https://yardyadventures.com/demo/reseller" class="GetStarted">Get Started</a>
+            <a href="<?php echo $base_url?>/demo/reseller" class="GetStarted">Get Started</a>
         </div>
     </section>
 
@@ -1234,8 +1234,8 @@ include "home_header.php";
     <!-- all js link -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
-    <script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $base_url?>/demo/assets/common/js/jquery-3.7.1.min.js"></script>
+    <script src="<?php echo $base_url?>/demo/assets/common/js/bootstrap.bundle.min.js"></script>
     <script src="/demo/assets/presets/default/js/adventure.js"></script>
 </body>
 

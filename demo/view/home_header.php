@@ -167,29 +167,27 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
 
     <link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">
 
+    <script src="<?php echo $base_url?>/assets/common/js/jquery-3.7.1.min.js"></script>
 
+    <script src="<?php echo $base_url?>/assets/presets/default/js/bootstrap.min.js"></script>
 
+    <script src="<?php echo $base_url?>/assets/presets/default/js/popper.min.js"></script>
 
 
 
     <!-- Bootstrap JS -->
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
-
-    
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 
     <!-- JQuery JS -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script> -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>-->
 
 
 
@@ -216,9 +214,7 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
 
       padding-top: 100px; /* Location of the box */
 
-
       left: 0;
-
 
       top: 0;
 
@@ -765,7 +761,7 @@ $base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
             <a class="navbar-brand logo" href="<?php echo $base_url?>/demo">
 
 
-                <img src="<?php echo $base_url?>/assets/images/general/logo_white.png" alt="InfluencerFly">
+                <img src="<?php echo $base_url?>/assets/images/general/logo_white.png" alt="Yardy Adventures">
 
 
             </a>

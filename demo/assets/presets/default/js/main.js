@@ -5,9 +5,13 @@
   /*============== Header Hide Click On Body Js Start ========*/
   $('.navbar-toggler.header-button').on('click', function () {
     if ($('.body-overlay').hasClass('show')) {
-      $('.body-overlay').removeClass('show');
+        $('.body-overlay').removeClass('show');
+        $('.navbar-collapse').hide();
+        $(".navbar-toggler").attr("aria-expanded", false);
     } else {
-      $('.body-overlay').addClass('show');
+        $('.body-overlay').addClass('show');
+        $('.navbar-collapse').show();
+        $(".navbar-toggler").attr("aria-expanded", true);
     }
   });
 

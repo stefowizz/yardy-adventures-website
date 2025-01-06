@@ -39,21 +39,21 @@
                     <!--Links here 
                     <ul class="footer-menu">
                                                     
-                                                    <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/services" class="footer-menu__link">Services </a></li>
-                                                    <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/adventures" class="footer-menu__link">Adventures </a></li>
-                                                    <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/reseller" class="footer-menu__link">Independent Sellers </a></li>
-                                                    <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/contact" class="footer-menu__link">Contact </a></li>
+                                                    <li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/services" class="footer-menu__link">Services </a></li>
+                                                    <li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/adventures" class="footer-menu__link">Adventures </a></li>
+                                                    <li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/reseller" class="footer-menu__link">Independent Sellers </a></li>
+                                                    <li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/contact" class="footer-menu__link">Contact </a></li>
                                                     
                     </ul>  -->
                 </div>
             </div>
-            <div class="col-xl-2 col-sm-6">
+            <div style="display:none" class="col-xl-2 col-sm-6">
                 <div class="footer-item">
                     <h5 class="footer-item__title">Company Links</h5>
                     <ul class="footer-menu">
-                                                               <li class="footer-menu__item"><a href="https://yardyadventures.com/demo/terms" class="footer-menu__link">Terms of Service</a></li>
-                                                <!--<li class="footer-menu__item"><a href="https://yardyadventures.com/demo/policy/privacy-policy/42" class="footer-menu__link">Privacy Policy</a></li>-->
-                                                <!--<li class="footer-menu__item"><a href="https://yardyadventures.com/demo/cookie-policy" class="footer-menu__link">Cookie Policy</a></li>-->
+                                                               <li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/terms" class="footer-menu__link">Terms of Service</a></li>
+                                                <!--<li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/policy/privacy-policy/42" class="footer-menu__link">Privacy Policy</a></li>-->
+                                                <!--<li class="footer-menu__item"><a href="<?php echo $base_url?>/demo/cookie-policy" class="footer-menu__link">Cookie Policy</a></li>-->
                     </ul>
                 </div>
             </div>
@@ -71,10 +71,10 @@
                 </div> -->
             </div>
             <div class="col-xl-3 col-sm-6">
-                <div style="display:none" class="footer-item">
-                    <h5 class="footer-item__title">Newsletter</h5>
-                    <p class="mb-2">Subscribe our latest update</p>
-                    <form action="https://yardyadventures.com/demo/subscribe" method="POST">
+                <div class="footer-item">
+                    <h5 class="footer-item__title">Yardy Stories</h5>
+                    <p class="mb-2">Subscribe our blog</p>
+                    <form action="<?php echo $base_url?>/demo/subscribe" method="POST">
                         <input type="hidden" name="_token" value="X9EYpSxt8xj1Ml7G1z6GtIELZQVPnQQNmTQTd5Ln" autocomplete="off">                        <div class="form-group">
                             <input type="text" class="form--control" name="email" placeholder="Email">
                             <button><i class="fas fa-paper-plane"></i></button>
@@ -165,7 +165,7 @@
         }
     }
 </script>
-        <script src="https://yardyadventures.com/demo/assets/common/js/sweetalert2.min.js"></script>
+        <script src="<?php echo $base_url?>/demo/assets/common/js/sweetalert2.min.js"></script>
 <script></script>
 
 
@@ -176,7 +176,7 @@
         "use strict";
 
         $(".langSel").on("change", function() {
-            window.location.href = "https://yardyadventures.com/demo/change/"+$(this).val() ;
+            window.location.href = "<?php echo $base_url?>/demo/change/"+$(this).val() ;
         });
 
         $('.policy').on('click',function(){

@@ -11,7 +11,7 @@ require_once "home_header.php" ?>
     <!-- place holder video goes here -->
     <section class="about-video-contianer">
          <video
-        src="https://yardyadventures.com/demo/assets/about/placeholder_video/istockphoto-1442643715-640_adpp_is.mp4"
+        src="<?php echo $base_url?>/demo/assets/about/placeholder_video/istockphoto-1442643715-640_adpp_is.mp4"
         autoplay
         muted
         loop
@@ -74,7 +74,7 @@ require_once "home_header.php" ?>
         </p>   
         </div>
  <div class="eco_commitment_diagram">
-      <img  src="https://yardyadventures.com/demo/assets/about/images/diagram.png" alt="Commitment to Eco-Tourism and Community Development chart">
+      <img  src="<?php echo $base_url?>/demo/assets/about/images/diagram.png" alt="Commitment to Eco-Tourism and Community Development chart">
         </div>  
         
         </div>

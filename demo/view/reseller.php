@@ -6,12 +6,6 @@
     <?php
     require "home_header.php"; ?>
     
-    
-
-  
-  
-  
-  
   <style>
   
   
@@ -29,8 +23,6 @@
     padding-left: 60px;
     padding-right: 60px;
   }
-  
-  
   
   .content-section h3 {
     color: #28B9F5 !important;
@@ -231,7 +223,7 @@ ul {
     <div class="container">
        <h1>Independent Seller Programme</h1>
             <h2>Explore | Promote | Earn</h2>
-            <a href="https://yardyadventures.com/demo/register"><button class="cta-btn">25% Commission</button></a>
+            <a href="<?php echo $base_url?>/demo/register"><button class="cta-btn">25% Commission</button></a>
             <p>This progamme offers a lucrative income opportunity. Every sale generated from your promotional effeorts boosts your income.</p>
         </div>
     </header>
@@ -363,22 +355,22 @@ ul {
     <!-- all js link -->
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/common/js/jquery-3.7.1.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/common/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/popper.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/slick.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/odometer.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/viewport.jquery.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/smoothscroll.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/lightcase.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.en.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/wow.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/admin/js/select2.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/ckeditor.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/popper.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/slick.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/odometer.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/viewport.jquery.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/smoothscroll.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/lightcase.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/datepicker.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/datepicker.en.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/wow.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/admin/js/select2.min.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/common/js/ckeditor.js"></script>
+<script src="<?php echo $base_url?>/demo/assets/presets/default/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script>
    function addToWishlist(element) {
