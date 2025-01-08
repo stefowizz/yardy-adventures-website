@@ -12,6 +12,7 @@ require "home_header.php"; ?>
 <style>
 html {
   font-size: 14px;
+  font-family:serif;
 }
 
 @media (min-width: 768px) {
@@ -20,9 +21,207 @@ html {
   }
 }
 
-.horse{
-    
+body {
+    margin-bottom: 60px;
+    font-family:Arial;
+    background-color: #EBF3EF;
 }
+
+.tagline2 {
+    font-size: 300%;
+}
+
+.Jamaica {
+    text-align: left;
+}
+
+.usermessage {
+    animation: bishopmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes bishopmove {
+    from {
+        left: -400px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+.usergreeting {
+    animation: kingmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@keyframes kingmove {
+    from {
+        left: 400px;
+    }
+
+    to {
+        left: 0px; 
+    }
+}
+
+.tagline {
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 400%;
+}
+
+@keyframes newmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+.graph {
+    animation: yourmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    gap: 100px;
+}
+
+
+@keyframes yourmove {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+
+.graph2 {
+    animation: rightmove 5s;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+} 
+
+
+@keyframes rightmove {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 0px;
+    }
+} 
+
+
+
+.gallerybtn {
+    display: flex;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+.sector {
+    text-align: center;
+    justify-content: center; 
+}
+
+.motion{
+    display:flex;
+    justify-content:center;
+    height: 200px;
+    width: 400px;
+}
+
+
+div.horse {
+ 
+    height: 300px;
+    width: 500px;
+    transition: 1s;
+    justify-content: center;
+    text-align: center; 
+    border: 5px solid #2BA9EA;
+}
+
+    div.horse:hover {
+        border: 5px solid #FDD402;
+    }
+
+.gyal {
+    display: flex;
+    justify-content: center;
+    border:5px solid #2BA9EA;
+    width: 210px; 
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+}
+
+.gyal2 {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #2BA9EA;
+    width: 210px;
+    height: 210px;
+    transition: 1s;
+    position: relative;
+    text-align: center;
+} 
+
+.gyalcontainer { 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div.gyal:hover {
+    border: 5px solid #FDD402;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #28B9F5;
+} 
+
+
+.numbertext{
+    justify-content:center;
+    text-align:center;
+}
+
+
+
+
+
+
 
 .gallery {
     display: flex;
@@ -40,11 +239,50 @@ html {
     gap: 70px; 
 }
 
+.navbar {
+    background-color: #FFD402;
+    justify-content: space-around;
+} 
 
 .btnpr{
     display:flex; 
     justify-content: space-between;
+    
 }
+
+#myVideo {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;             
+}  
 
 
 .stillphotos {
@@ -53,31 +291,63 @@ html {
     padding:40px;
 }
 
-f
+
+
+
 * {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Verdana, sans-serif;
-}
 
-.mySlides {
-    display: none;
-    align-content:center; 
-}
 
-img {
-    vertical-align: middle;
-}
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative center;
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align:center;
     justify-content:center;
-    
 }
+
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.centered3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+}
+
+.centered4 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%; 
+}
+
+           
 
 /* Caption text */
 .text {
@@ -110,19 +380,46 @@ img {
     transition: background-color 0.6s ease;
 }
 
+
+
+
 .active {
     background-color: #717171;
+}
+
+
+
+.mySlides {
+    display: none;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: auto;
 }
 
 /* Fading animation */
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    /*slide show*/
+    animation-duration: 5s;
 }
 
+/*slide show image movement in measured pixels*/
+@keyframes mySlides {
+    from {
+        left: -100px;
+    }
+
+    to {
+        left: 100px;
+    }
+}
+
+/*slide show*/
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: 0.8
     }
 
     to {
@@ -130,18 +427,87 @@ img {
     }
 }
 
+
+
+
+
+    
+    
+
+
+
+/* Slideshow */
+.slideshow-container { 
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.greenline {
+    border: 20px solid #427A27;
+    width: 1348px;
+    padding: 1em;
+    margin: 0 -7em;
+}
+
+
+/*slide show image container*/
+.cube {
+    animation: mymove 5s infinite;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+/*slide show image moving left to right*/
+@keyframes mymove {
+    from {
+        left: -145px;
+    }
+
+    to {
+        left: 145px;
+    }
+} 
+
+
+
+
+
+
+
+
+.login-logout-card .card-header {
+    margin: 0px 0px 12px 0px;
+}
+
+.login-logout-card ul.navtabs {
+    margin: 0px 0px -12px 0px;
+}
+
+.login-logout-card li.nav-item {
+    width: 50%;
+}
+
+.login-logout-card a.nav-link {
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    padding: 1rem;
+}
+
+.login-logout-card card-body {
+    padding: 10px 20px;
+}
+
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .text {
         font-size: 11px
     }
 }
-
-
-
-
-
-
 
 
 
@@ -154,117 +520,75 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px; 
-}
 </style>
+<section style="position: relative; justify-content: center;">
+    
+    <div class="slideshow-container">
 
+        <div class="greenline">
 
+            <div class="cube">
 
-<h1>Services</h1>
+                <div class="mySlides fade">
 
-<section>
+                    <img class="caption" src="<?php echo $img_url?>breezyhilldunebuggy44.jpg" width="auto" height="600">
 
-    <div class="slideshow-container"> 
-
-        <h1>explore your wild side!</h1> 
-
-        <div class="mySlides fade">
-
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
-                <div class="btnpr">
-                    <<?php echo $img_url?>img src="<?php echo $img_url?>Yardy River Tubing.jpeg" width="400px" height="500px"> <br /> 
-                    <h1 class="book" style="color:#28B9F5">Book Now</h1>
                 </div>
-            </a>
-            <div>
-                <h1 style="color:#427A27">Yardy River Tubing</h1><br />
-                <div class="numbertext2">
-                    <h3>1 / 5</h3>
-                </div>
+
             </div>
-        </div>
 
 
-        <div class="mySlides fade">
+            <div class="cube">
 
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
-                <div class="btnpr">
-                    <img src="<?php echo $img_url?>Yardy River Walk.jpeg" width="400px" height="500px">
-                    <h1 class="book" style="color:#28B9F5">Book Now</h1>
-                </div> 
-            </a>
-            <div>
-                <h1 style="color:#427A27">Yardy River Walk</h1><br />
-                <div class="numbertext2">
-                    <h3>2 / 5</h3>
+                <div class="mySlides fade">
+
+                    <img class="caption" src="<?php echo $img_url?>HorsebackRiding44.jpg" width="auto" height="600">
+
                 </div>
+
             </div>
-        </div>
 
-        <div class="mySlides fade">
+            <div class="cube">
 
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
-                <div class="btnpr">
-                    <img src="<?php echo $img_url?>Yardy Park Life.jpeg" width="400px" height="500px">
-                    <h1 class="book" style="color:#28B9F5">Book Now</h1>
+                <div class="mySlides fade">
+
+                    <img class="caption" src="<?php echo $img_url?>ParkLife44.jpg" width="auto" height="600">
+
                 </div>
-            </a>
-            <div>
-                <h1 style="color:#427A27">Yardy Park Life</h1><br />
-                <div class="numbertext2">
-                    <h3>3 / 5</h3>
-                </div>
+
             </div>
-        </div>
 
-        <div class="mySlides fade">
+            <div class="cube">
 
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
-                <div class="btnpr">
-                    <img src="<?php echo $img_url?>Yardy Horseback Riding.jpeg" width="400px" height="500px">
-                    <h1 class="book" style="color:#28B9F5">Book Now</h1>
+                <div class="mySlides fade">
+
+                    <img class="caption" src="<?php echo $img_url?>RiverTubing44.jpg" width="auto" height="600">
+
                 </div>
-            </a>
-            <div>
-                <h1 style="color:#427A27">Yardy Horseback Riding</h1><br />
-                <div class="numbertext2">
-                    <h3>4 / 5</h3>
-                </div>
+
             </div>
-        </div>
 
+            <div class="cube">
 
-        <div class="mySlides fade">
+                <div class="mySlides fade">
 
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Adventure">
-                <div class="btnpr">
-                    <img src="<?php echo $img_url?>Breezy Hill ATV Dune Buggy.jpeg" width="630px" height="500px">
-                    <h1 class="book" style="color:#28B9F5">Book Now</h1>
+                    <img class="caption" src="<?php echo $img_url?>WalkTrails44.jpg" width="auto" height="600">
+
                 </div>
-            </a>
-            <div>
-                <h1 style="color:#427A27">Breezy Hill ATV Dune Buggy</h1><br />
-                <div class="numbertext2">
-                    <h3>5 / 5</h3>
-                </div>
+
             </div>
-        </div>
 
-        <br>
-        <h1>Yardy River Adventures </h1>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
         </div>
         
-    </div> 
+        <div>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
 
-     
+    </div>
 
 </section>
 
@@ -309,53 +633,59 @@ body {
 
 </section>  
 
+<section id="gallery" class="sector">   
 
-<section class="stillphotos">
+    <div class="gyalcontainer"> 
 
-    <div class="gallery"> 
-        <div class="photogallery">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo1">
+            <div class="gyal">
+                 <img src="<?php echo $img_url?>Confluence - Natures Jacuzzi.jpeg" width="150" height="200"/>
+            </div>
+        </a>
 
-            <img src="<?php echo $img_url?>Confluence - Natures Jacuzzi.jpeg" width="400px" height="500px"> <br /> <br />
-            <h1>Confluence - Natures Jacuzzi</h1>
-
-        </div>
-
-        <div class="photogallery">
-
-            <img src="<?php echo $img_url?>Food - Curried Ackee.jpeg" width="400px" height="500px"> <br /><br />
-            <h1>Food - Curried Ackee</h1> 
-
-        </div>
-    </div>
-
-    <div class="gallery2"> 
-        <div class="photogallery">
-
-            <img src="<?php echo $img_url?>Roaring River .jpeg" width="400px" height="500px"> <br /><br />
-            <h1>Roaring River</h1>
-
-        </div>
-
-        <div class="photogallery">
-
-            <img src="<?php echo $img_url?>Rustic Scenery - Garden Bed  2.jpeg" width="400px" height="500px"> <br /><br />
-            <h1>Rustic Scenery - Garden Bed  2</h1>   
-
-        </div>
-    </div>
-
-    <div class="gallery">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo2">
+            <div class="gyal">
+                <img src="<?php echo $img_url?>Roaring River .jpeg" width="150" height="200" />
+            </div>
+        </a>
         
-        <div class="photogallery">
-            <video height="600px" width="800px" controls>
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo3">
+            <div class="gyal">
+                <img src="<?php echo $img_url?>we-had-a-blast-river.jpg" width="150" height="200" />
+            </div>
+        </a> 
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Photo4">
+            <div class="gyal">
+                <img src="<?php echo $img_url?>Food - Curried Ackee.jpeg" width="150" height="200" />
+            </div>
+        </a> 
+        
+    </div>
+
+    <br />
+    <br />
+    <br /> 
+
+    <div class="gyalcontainer">
+
+        <div class="horse">
+
+            <video height="290" width="490" controls>
                 <source src="<?php echo $img_url?>Horseback Riding.mp4" />
             </video>
-        </div> 
+
+        </div>
 
     </div>
 
-</section> 
+    <div class="gyalcontainer">
 
+        <h3 style="color:#427A27;"> Yardy Horseback Riding </h3>
+
+    </div>
+
+</section>
 
 <section>
 
@@ -408,34 +738,115 @@ function showSlides() {
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("dot");
 
+
+
     for (i = 0; i < slides.length; i++) {
 
-        slides[i].style.display = "none";
+        slides[i].style.display = "none"; 
+        let slideIndex = 0;
+        showSlides();
 
-    }
+        function showSlides() {
 
-    slideIndex++;
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
 
-    if (slideIndex > slides.length) {
+            for (i = 0; i < slides.length; i++) {
 
-        slideIndex = 1
+                slides[i].style.display = "none";   
 
-    }
+            }
 
-    for (i = 0; i < dots.length; i++) {
+            slideIndex++;
 
-        dots[i].className = dots[i].className.replace(" active", "");
+            if (slideIndex > slides.length) {
 
-    }
+                slideIndex = 1
 
-    slides[slideIndex - 1].style.display = "block";
+            }
 
-    dots[slideIndex - 1].className += " active";
+            for (i = 0; i < dots.length; i++) {
 
-    setTimeout(showSlides, 3000); // Change image every 3 seconds
+                dots[i].className = dots[i].className.replace(" active", "");
+
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides, 5000); // Image appears every 7 second. 
+        }
+
+
+
+
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+
+            if (video.paused) {
+                video.play();
+                //btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                //btn.innerHTML = "Play";
+            }
+        }
+
+        //<button id="myBtn" onclick="myFunction()">Pause</button><br /> //place this tag in the INDEX file. 
+
+    } 
+
 } 
 
+
+
+
+
+
+//This is a replica of the conditional statement above inside the for loop.
+
+
+
+
+//slideIndex++;
+
+//if (slideIndex > slides.length) {
+
+//slideIndex = 1
+
+//}
+
+//for (i = 0; i < dots.length; i++) {
+
+//dots[i].className = dots[i].className.replace(" active", "");
+
+//}
+
+//slides[slideIndex - 1].style.display = "block";
+
+//dots[slideIndex - 1].className += " active";
+
+//setTimeout(showSlides, 3000); // Change image every 3 seconds
+
+//var video = document.getElementById("myVideo");
+//var btn = document.getElementById("myBtn"); 
+
+
+//<button id="myBtn" onclick="myFunction()">Pause</button><br /> //place this tag in the INDEX file. 
 </script>
+
+<script type="application/javascript">
+    
+</script>
+<style>
+#gallery{
+    position: fixed;
+}
+</style>
 
 
 <?php require"home_footer.php";?>
