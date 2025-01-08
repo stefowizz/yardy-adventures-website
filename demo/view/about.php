@@ -11,7 +11,7 @@ require_once "home_header.php" ?>
     <!-- place holder video goes here -->
     <section class="about-video-contianer">
          <video
-        src="<?php echo $base_url?>/demo/assets/about/placeholder_video/istockphoto-1442643715-640_adpp_is.mp4"
+        src="<?php echo $base_url?>/assets/about/placeholder_video/istockphoto-1442643715-640_adpp_is.mp4"
         autoplay
         muted
         loop
@@ -74,13 +74,64 @@ require_once "home_header.php" ?>
         </p>   
         </div>
  <div class="eco_commitment_diagram">
-      <img  src="<?php echo $base_url?>/demo/assets/about/images/diagram.png" alt="Commitment to Eco-Tourism and Community Development chart">
+      <img  src="<?php echo $base_url?>/assets/about/images/diagram.png" alt="Commitment to Eco-Tourism and Community Development chart">
         </div>  
         
         </div>
         
         
       </section>
+
+      <div class="blog_content clearfix">
+        
+        <div class="blog_main">
+          <h1 class="blog_post_title">Yardy Stories</h1>
+
+          <div class="blog_post clearfix">
+            <img src="/demo/assets/images/frontend/adventure/Yardy Horseback Riding.jpg" alt="" class="
+            post_image">
+            <div class="post_preview">
+              <h2>Yardy tours</h2>
+              <i class="far fa-user">Guest user</i>
+              &nbsp;
+              <p class="preview_text">
+              It was a great experience river tubing for the first time. The water was soooo clean and pretty. I'm definitely heading back for more! I'm not a swimmer, but I felt very safe on the tubing gear and in the presence of the experienced guides. I would highly recommend this adventure for all who want to have a great time in Jamaica.
+              </p>
+              <!-- <a>Read More</a> -->
+            </div>
+          </div>
+
+          <div class="blog_post clearfix">
+            <img src="/demo/assets/images/frontend/adventure/Yardy River Walk.png" alt="" class="
+            post_image">
+            <div class="post_preview">
+              <h2>Yardy tours</h2>
+              <i class="far fa-user">Guest user</i>
+              &nbsp;
+              <p class="preview_text">
+              Now, I am not normally the one to do outdoor adventures,but I took the chance on this place, and it was amazing. The ambiance and its natural look were very calming, giving you a chance to relax and enjoy the tour. The staff's are very welcoming, and they ensure that you are safe while participating on each ride.
+              </p>
+              <!-- <a>Read More</a> -->
+            </div>
+          </div>
+
+          <div class="blog_post clearfix">
+            <img src="/demo/assets/images/frontend/adventure/Yardy River Tubing.jpg" alt="" class="
+            post_image">
+            <div class="post_preview">
+              <h2>Yardy tours</h2>
+              <i class="far fa-user">Guest user</i>
+              &nbsp;
+              <p class="preview_text">
+              This is the best water tubing experience I had in Jamaica. The Crystal clear water pressure was perfect. The natural pool was amazing and the tubing was absolutely thrilling. Love it.
+              </p>
+              
+            </div>
+          </div>
+
+          <a href="" class="blog_btn">Read More</a>
+        </div>
+      </div>
 
       <section class="key_features">
        
