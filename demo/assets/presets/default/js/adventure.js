@@ -93,7 +93,7 @@ window.addEventListener("DOMContentLoaded", () => {
             const cardTitlePaddingTop = parseFloat(getComputedStyle(cardTitle).paddingTop);
             const cardTitlePaddingBottom = parseFloat(getComputedStyle(cardTitle).paddingBottom);
             const lineHeight = parseFloat(getComputedStyle(cardTitle).lineHeight)
-            const desiredHeight =  lineHeight * 2 + cardTitlePaddingTop + cardTitlePaddingBottom;
+            const desiredHeight =  lineHeight + cardTitlePaddingTop + cardTitlePaddingBottom + 20;
             cardTitleContainer.style.height = `${desiredHeight}px`;
 
             let truncatedText = cardTitleImmutable;
