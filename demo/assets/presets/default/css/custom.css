@@ -6,8 +6,10 @@
     --secondary-blue: #2BA9EA;
     --secondary-yellow: #F0C153;
     --neutral: #EBF3EF;
+    --card-bg-color: #a0c78e;
 
     --primary-green-rgba: 66, 122, 39;
+    --neutral-rgba: 235, 243, 239;
 }
 
 * {
@@ -16,7 +18,7 @@
 }
 
 a {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 /*adventures page*/
@@ -42,17 +44,17 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 0px !important;
+    padding: 0px!important;
 }
 
 .AdventureCard {
     position: relative;
     min-width: 120px;
-    max-width: 280px;
     width: 100%;
+    max-width: 280px;
     border-radius: 10px;
     padding: 7px;
-    background-color: rgba(var(--primary-green-rgba), .85);
+    background-color: var(--card-bg-color);
     align-self: center;
 }
 
@@ -76,7 +78,7 @@ a {
     overflow: hidden;
 }
 
-.AdventureCard-image > img {
+.AdventureCard-image>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -86,7 +88,7 @@ a {
 .adventure-card-title {
     color: #35462c;
     text-shadow: 1px 2px 3px var(--cta-color);
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
     width: 100%;
 }
 
@@ -103,37 +105,32 @@ a {
 }
 
 .adventure-card-body {
-    background-color: hsl(101, 34%, 67%);
+    background-color: var(--card-bg-color);
     border-radius: 10px;
-    overflow: hidden;
-}
-
-.adventure-card-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .adventure-card-links a {
     cursor: pointer;
+    width: 100%;
 }
 
 .adventure-card-readMore {
-    color: var(--neutral)!important;
-    text-shadow: 1px 1px 2px hsl(103, 6%, 23%);
+    color: var(--neutral) !important;
+    text-shadow: 1px 1px 2px var(--primary-yellow);
 }
 
-.adventure-card-readMore, .adventure-card-bookNow {
+.adventure-card-readMore,
+.adventure-card-bookNow {
     text-wrap: nowrap;
-    margin: 5px 10px!important;
+    margin: 5px 0 !important;
 }
 
 .adventure-card-bookNow {
-    display: inline-block;
+    display: block;
     border-radius: 10px;
     padding: 2px 5px;
-    color: var(--neutral)!important;
+    color: var(--neutral) !important;
     background-color: var(--primary-green);
 }
 
@@ -165,13 +162,13 @@ a {
 .modalExit .x {
     color: var(--secondary-yellow);
     font-size: 30px;
-} 
+}
 
 .AdventureCardModal-ScrollContainer {
     overflow-y: auto;
-    height: 80vh!important;
+    height: 80vh !important;
     min-height: 200px;
-    max-height: 100%!important;
+    max-height: 100% !important;
     border-radius: 10px;
 }
 
@@ -202,7 +199,7 @@ a {
 
 .AdventureCard-modal-imageContainer {
     width: 100%;
-    height: 310px!important;
+    height: 310px !important;
 }
 
 .AdventureCard-modal-imageContainer img {
@@ -218,7 +215,10 @@ a {
     color: var(--secondary-yellow);
 }
 
-.adventureCardModal-card-include, .adventureCardModal-card-include h4, .adventure-modal-info, .adventure-modal-list {
+.adventureCardModal-card-include,
+.adventureCardModal-card-include h4,
+.adventure-modal-info,
+.adventure-modal-list {
     color: var(--neutral);
 }
 
@@ -239,23 +239,24 @@ a {
     display: block;
     padding: 17px 0;
     border-radius: 10px;
-    color: var(--neutral)!important;
+    color: var(--neutral) !important;
     text-shadow: 1px 1px 2px hsla(30, 3%, 15%, 0.705);
     background-color: var(--secondary-yellow);
     margin: 20px 0;
     font-size: 20px;
     cursor: pointer;
-    width: 100%!important;
+    width: 100% !important;
 }
 
 .ModaltableContainer {
     width: 100%;
     margin-top: 20px;
     padding: 0 8px;
+    overflow-x: auto;
 }
 
 .Modaltable {
-    width: 100%!important;
+    width: 100% !important;
     border-collapse: collapse;
     border-spacing: 10px;
 }
@@ -264,11 +265,13 @@ a {
     background-color: #e0b141;
 }
 
-.Modaltable th, .adventureTablePrice {
+.Modaltable th,
+.adventureTablePrice {
     text-wrap: nowrap;
 }
 
-.Modaltable th, .Modaltable td {
+.Modaltable th,
+.Modaltable td {
     padding: 20px 10px;
 }
 
@@ -276,8 +279,12 @@ a {
     background-color: #f0c86a;
 }
 
-.Modaltable tr:nth-child(even) {
+.Modaltable tbody tr:nth-child(even) {
     background-color: var(--secondary-yellow);
+}
+
+.ModalTable tbody th {
+    word-break: break-word;
 }
 
 .Explore {
@@ -286,7 +293,9 @@ a {
     border-radius: 10px;
 }
 
-.ExploreMainHeading, .ExploreSubHeading, .Explore > p {
+.ExploreMainHeading,
+.ExploreSubHeading,
+.Explore>p {
     color: var(--neutral);
 }
 
@@ -294,7 +303,7 @@ a {
     color: var(--secondary-yellow);
 }
 
-.Explore > p {
+.Explore>p {
     font-weight: 500;
     line-height: 1.4;
 }
@@ -302,7 +311,7 @@ a {
 .GetStarted {
     border-radius: 20px;
     background-color: var(--secondary-yellow);
-    color: var(--primary-green)!important;
+    color: var(--primary-green) !important;
     font-weight: 600;
     padding: 15px 40px;
     margin-top: 20px;
@@ -313,7 +322,8 @@ a {
     opacity: .8;
 }
 
-.comingSoonSpring, .comingSoonSummer {
+.comingSoonSpring,
+.comingSoonSummer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -359,6 +369,179 @@ a {
     line-height: 1.8;
     font-size: 17px;
 }
+
+/*booking page*/
+.con {
+    height: 1000px;
+}
+
+.booking_imageTitle_wrapper {
+    position: relative;
+}
+
+.booking-backdrop {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: .4;
+    backdrop-filter: blur(10px);
+}
+
+.calendar,
+.time-container {
+    top: 0;
+    max-width: 500px;
+    width: 100%;
+    z-index: 10;
+}
+
+.booking_title {
+    color: var(--primary-yellow);
+    text-shadow: 1px 1px 2px #19350a73;
+    opacity: .8;
+}
+
+.calendar_time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--neutral);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+}
+
+.time-separator {
+    height: 2px;
+    width: 100%;
+    background-color: #e2eae2;
+}
+
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.time-slots li input {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 6.5px;
+    text-align: center;
+    color: var(--primary-green);
+    background-color: var(--secondary-yellow);
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    transition: background-color .2s ease-in;
+}
+
+.time-slots li input.active,
+.time-slots li input:hover {
+    color: var(--neutral);
+    background-color: var(--primary-green);
+}
+
+.counter-pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--neutral);
+    border-radius: 5px;
+    padding: 30px 15px;
+}
+
+.counter-pc .adult {
+    margin-bottom: 20px;
+}
+
+.counter-pc .adult,
+.children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: #fafef8d3;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+.counter-pc .adult-amount,
+.children-amount {
+    text-align: center;
+}
+
+.counter-pc .adult-amount .adult-amount-original,
+.children-amount .children-amount-original {
+    margin-bottom: 5px;
+}
+
+.counter-pc .adult-amount p strong:first-of-type,
+.children-amount p strong:first-of-type {
+    font-weight: 400;
+    color: #2e2e2eb8;
+    font-size: 1rem;
+}
+
+.counter-pc .adult-amount p strong:not(:first-of-type),
+.children-amount p strong:not(:first-of-type) {
+    color: var(--secondary-yellow);
+    font-size: 1.4rem;
+}
+
+.counter-pc .adult label,
+.children label {
+    margin-bottom: 5px;
+}
+
+.counter-pc .adult-counter,
+.counter-pc .children-counter {
+    display: flex;
+    align-items: center;
+    width: 105px;
+}
+
+.counter-pc .adult-counter>span,
+.counter-pc .children-counter>span {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.counter-pc .adult-counter .Counter,
+.counter-pc .children-counter .Counter {
+    cursor: pointer;
+    color: var(--primary-green);
+    background-color: var(--secondary-yellow);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.counter-pc .adult-counter .adult-total,
+.counter-pc .children-counter .children-total {
+    text-align: center;
+    font-weight: 500;
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px var(--neutral);
+}
+
+
+
+
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     .adventure-card-title {
@@ -407,15 +590,18 @@ a {
     .Explore p {
         width: 80%;
     }
-}
 
-@media only screen and (min-width: 650px) {
-    .AdventureCardModalExitAnchor {
-        width: 650px!important;
+    .counter-pc {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
 @media only screen and (min-width: 650px) {
+    .AdventureCardModalExitAnchor {
+        width: 650px !important;
+    }
+
     .card-container {
         gap: 20px;
     }
@@ -424,33 +610,95 @@ a {
         height: 215px;
     }
 
-    .Explore > p, .ExploreListContainer {
+    .Explore>p,
+    .ExploreListContainer {
         font-size: 18px;
     }
 
     .GetStarted {
         padding: 20px 60px;
-        margin-top: 30px!important;
+        margin-top: 30px !important;
         font-size: 18px;
     }
 
-    .Modaltable, .adventureModalBookNow {
-        width: 95%!important;
+    .Modaltable,
+    .adventureModalBookNow {
+        width: 95% !important;
+    }
+
+    .time-slots li input {
+        padding: 8px;
+        font-size: 1rem;
+    }
+
+    .booking_title {
+        text-shadow: 1px 1px 2px #19350a96;
+    }
+
+    .no-set-time {
+        grid-column: span 2;
+        opacity: .6;
+    }
+
+    .time-heading {
+        font-size: 1.8rem;
+    }
+
+    .counter-pc {
+        padding: 20px;
+    }
+
+    .counter-pc .adult-amount .adult-amount-original,
+    .children-amount .children-amount-original {
+        margin-bottom: 10px;
+    }
+
+    .counter-pc .adult-counter .Counter,
+    .counter-pc .children-counter .Counter {
+        padding: 8px;
+    }
+
+    .counter-pc .adult-counter .Counter,
+    .counter-pc .children-counter .Counter,
+    .counter-pc .adult-counter .adult-total,
+    .counter-pc .children-counter .children-total {
+        font-size: 1.1rem;
+    }
+
+    .counter-pc .adult label,
+    .children label {
+        font-size: 1.3rem;
     }
 }
 
 @media only screen and (min-width: 780px) {
-    .card-container, .comingSoonSpring, .comingSoonSummer {
+
+    .card-container,
+    .comingSoonSpring,
+    .comingSoonSummer {
         grid-template-columns: repeat(3, 1fr);
     }
 
     .Explore {
         border-radius: 20px;
     }
+
+    .counter-pc .adult-counter,
+    .counter-pc .children-counter {
+        width: 120px;
+    }
+
+    .counter-pc .adult-amount p strong:first-of-type,
+    .children-amount p strong:first-of-type {
+        font-size: 1.2rem;
+    }
 }
 
-@media only screen and (min-width: 1000px) {
-    .card-container, .comingSoonSpring, .comingSoonSummer {
+@media only screen and (min-width: 992px) {
+
+    .card-container,
+    .comingSoonSpring,
+    .comingSoonSummer {
         grid-template-columns: repeat(4, 1fr);
     }
 
@@ -464,7 +712,7 @@ a {
 
     .GetStarted {
         padding: 25px 80px;
-        margin-top: 40px!important;
+        margin-top: 40px !important;
         margin-bottom: 10px;
         font-size: 19px;
     }
@@ -480,13 +728,68 @@ a {
     .comingSoonMainHeading {
         font-size: 55px;
     }
+
+    .calendar_time {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .calendar {
+        position: sticky;
+        margin-right: 20px;
+    }
+
+    /* .time-slots li input {
+        padding: 12px;
+        font-size: 1.1rem;
+    } */
+
+    .time-slots {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .counter-pc .adult-amount p,
+    .counter-pc .children-amount p {
+        font-size: 1rem;
+    }
+
+    .counter-pc .adult-amount .adult-amount-original,
+    .children-amount .children-amount-original {
+        margin-bottom: 15px;
+    }
+
+    .counter-pc .adult-amount p strong:first-of-type,
+    .children-amount p strong:first-of-type {
+        font-size: 1.2rem;
+    }
+
+    .counter-pc .adult-amount p strong:last-of-type,
+    .children-amount p strong:last-of-type {
+        font-size: 1.5rem;
+    }
+
+    /* .counter-pc .adult-counter .Counter,
+    .counter-pc .children-counter .Counter {
+        padding: 10px;
+    } */
+
+    .counter-pc .adult-counter .Counter,
+    .counter-pc .children-counter .Counter,
+    .counter-pc .adult-counter .adult-total,
+    .counter-pc .children-counter .children-total {
+        font-size: 1.2rem;
+    }
+
 }
 
 @media only screen and (min-width: 1400px) {
-    .card-container, .comingSoonSpring, .comingSoonSummer {
+
+    .card-container,
+    .comingSoonSpring,
+    .comingSoonSummer {
         grid-template-columns: repeat(5, 1fr);
     }
 }
-
-
-
