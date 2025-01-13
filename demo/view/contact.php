@@ -9,44 +9,44 @@
     <meta name="title" Content="Yardy Adventures - Contact Us">
     <meta name="description" content="Unlock the secrets to influencer success with expert insights and practical tips. Join our community and elevate your influence today.">
     <meta name="keywords" content="Influencer marketing,Social media influencers,Content creation,Brand collaborations,Instagram marketing,YouTube influencers">
-    <link rel="shortcut icon" href="<?php echo $base_url?>/demo/assets/images/general/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $base_url?>/assets/images/general/favicon.png" type="image/x-icon">
 
     
-    <link rel="apple-touch-icon" href="<?php echo $base_url?>/demo/assets/images/general/logo.png">
+    <link rel="apple-touch-icon" href="<?php echo $base_url?>/assets/images/general/logo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Yardy Adventures - Contact Us">
     
     <meta itemprop="name" content="Yardy Adventures - Contact Us">
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="<?php echo $base_url?>/demo/assets/images/general/default.png">
+    <meta itemprop="image" content="<?php echo $base_url?>/assets/images/general/default.png">
     
     <meta property="og:type" content="website">
     <meta property="og:title" content="Yardy Adventures">
     <meta property="og:description" content="Empower your influence with expert insights, practical tips, and inspiring stories. Join our community of influencers and brands and elevate your social presence today!">
-    <meta property="og:image" content="<?php echo $base_url?>/demo/assets/images/general/default.png">
+    <meta property="og:image" content="<?php echo $base_url?>/assets/images/general/default.png">
     <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="1180">
     <meta property="og:image:height" content="600">
-    <meta property="og:url" content="<?php echo $base_url?>/demo/contact">
+    <meta property="og:url" content="<?php echo $base_url?>/contact">
     
     <meta name="twitter:card" content="summary_large_image">
     
-<link href="<?php echo $base_url?>/demo/assets/common/css/bootstrap.min.css" rel="stylesheet">
-<link href="<?php echo $base_url?>/demo/assets/common/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/common/css/line-awesome.min.css">
+<link href="<?php echo $base_url?>/assets/common/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo $base_url?>/assets/common/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/common/css/line-awesome.min.css">
 
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/magnific-popup.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/slick.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/odometer.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/animate.min.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/datepicker.min.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/lightcase.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/admin/css/select2.min.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/main.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/magnific-popup.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/slick.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/odometer.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/animate.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/datepicker.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/lightcase.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/admin/css/select2.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/main.css">
 
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/custom.css">
-<link rel="stylesheet" href="<?php echo $base_url?>/demo/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">--->
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/custom.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">--->
 <?php
 require "home_header.php"; ?>
          
@@ -120,8 +120,8 @@ require "home_header.php"; ?>
 <!--<div class="header" id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand logo" href="<?php echo $base_url?>/demo">
-                <img src="<?php echo $base_url?>/demo/assets/images/general/logo_white.png" alt="InfluencerFly">
+            <a class="navbar-brand logo" href="<?php echo $base_url?>">
+                <img src="<?php echo $base_url?>/assets/images/general/logo_white.png" alt="InfluencerFly">
             </a>
             <button class="navbar-toggler header-button" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -134,7 +134,7 @@ require "home_header.php"; ?>
 
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="<?php echo $base_url?>/demo/" role="button"  aria-expanded="false"> Home                            <span class="nav-item__icon"><i class="las la-angle-down"></i></span></a>
+                        <a class="nav-link" href="<?php echo $base_url?>/" role="button"  aria-expanded="false"> Home                            <span class="nav-item__icon"><i class="las la-angle-down"></i></span></a>
                        
                     </li>
                     
@@ -143,22 +143,22 @@ require "home_header.php"; ?>
                     
                                        
                                             <li class="nav-item">
-                            <a href="<?php echo $base_url?>/demo/influencers" class="nav-link " aria-current="page">Influencers</a>
+                            <a href="<?php echo $base_url?>/influencers" class="nav-link " aria-current="page">Influencers</a>
                         </li>
                     
                                        
                                             <li class="nav-item">
-                            <a href="<?php echo $base_url?>/demo/services" class="nav-link " aria-current="page">Services</a>
+                            <a href="<?php echo $base_url?>/services" class="nav-link " aria-current="page">Services</a>
                         </li>
                     
                                        
                                             <li class="nav-item">
-                            <a href="<?php echo $base_url?>/demo/attract.php" class="nav-link " aria-current="page">Attractions</a>
+                            <a href="<?php echo $base_url?>/attract.php" class="nav-link " aria-current="page">Attractions</a>
                         </li>
                     
                                        
                                             <li class="nav-item">
-                            <a href="<?php echo $base_url?>/demo/contact" class="nav-link active" aria-current="page">Contact</a>
+                            <a href="<?php echo $base_url?>/contact" class="nav-link active" aria-current="page">Contact</a>
                         </li>
                     
                                    </ul>
@@ -177,7 +177,7 @@ require "home_header.php"; ?>
 
                     
                     
-                                            <a class="btn--base mt-2 mt-lg-0" href="<?php echo $base_url?>/demo/login">Sign In</a>
+                                            <a class="btn--base mt-2 mt-lg-0" href="<?php echo $base_url?>/login">Sign In</a>
                     
                 </div>
             </div>
@@ -228,7 +228,7 @@ require "home_header.php"; ?>
             <div class="col-lg-6 my-auto">
                 <div class="thumb">
                     <div class="mt-5 mt-lg-0">
-                        <img src="<?php echo $base_url?>/demo/assets/images/frontend/contact_us/touristman.png"
+                        <img src="<?php echo $base_url?>/assets/images/frontend/contact_us/touristman.png"
                             class="img-fiuld" alt="image">
                     </div>
                 </div>
@@ -240,7 +240,7 @@ require "home_header.php"; ?>
 
    
         
-        <img src="<?php echo $base_url?>/demo/assets/presets/default/images/shape/shape7.png" alt="shape">
+        <img src="<?php echo $base_url?>/assets/presets/default/images/shape/shape7.png" alt="shape">
     </div>
     <div class="container">
 
@@ -355,7 +355,7 @@ require "home_header.php"; ?>
                 <div class="card">
                     <div class="content">
                         <h5><i class="fas fa-phone-square"></i>Whatsapp Phone</h5>
-                        <a href="tel:8768378082">8768378082</a>
+                        <a href="https://api.whatsapp.com/send?phone=18768378082">8768378082</a>
                     </div>
                 </div>
             </div>
@@ -387,7 +387,7 @@ require "home_header.php"; ?>
                 <h2>Shareable QR code</h2>
                  <p>
                     <a href="<?php echo $base_url?>/test">Home</a> /
-                   <a href="<?php echo $base_url?>/demo/contact">Contact Us</a>
+                   <a href="<?php echo $base_url?>/contact">Contact Us</a>
                 </p>
             </div>
         </div>
@@ -405,24 +405,27 @@ require "home_header.php"; ?>
     <!-- all js link -->
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="<?php echo $base_url?>/demo/assets/common/js/jquery-3.7.1.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/common/js/bootstrap.bundle.min.js"></script>
 
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/popper.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/slick.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/odometer.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/viewport.jquery.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/smoothscroll.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/lightcase.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/datepicker.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/datepicker.en.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/wow.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/admin/js/select2.min.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/common/js/ckeditor.js"></script>
-<script src="<?php echo $base_url?>/demo/assets/presets/default/js/main.js"></script>
+<!--
+<script src="<?php echo $base_url?>/assets/common/js/jquery-3.7.1.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/bootstrap.bundle.min.js"></script>
 
-                <script src="<?php echo $base_url?>/demo/assets/common/js/sweetalert2.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/popper.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/slick.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/odometer.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/viewport.jquery.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/smoothscroll.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/lightcase.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.en.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/wow.min.js"></script>
+<script src="<?php echo $base_url?>/assets/admin/js/select2.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/ckeditor.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/main.js"></script>
+
+                <script src="<?php echo $base_url?>/assets/common/js/sweetalert2.min.js"></script>
+--->
 <script>
     const Toast = Swal.mixin({
         toast: true,
@@ -448,11 +451,11 @@ require "home_header.php"; ?>
         "use strict";
 
         $(".langSel").on("change", function() {
-            window.location.href = "<?php echo $base_url?>/demo/change/"+$(this).val() ;
+            window.location.href = "<?php echo $base_url?>/change/"+$(this).val() ;
         });
 
         $('.policy').on('click',function(){
-            $.get('https://yardyadventures.com/demo/cookie/accept', function(response){
+            $.get('https://yardyadventures.com/cookie/accept', function(response){
                 $('.cookies-card').addClass('d-none');
             });
         });
@@ -466,13 +469,6 @@ require "home_header.php"; ?>
 
 </body>
 <?php require"home_footer.php";?>
-     
-
-
-<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl506098'},{'dcenter':'p3'},{'cp_id':'9984899'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
-
-
-
 
 <script>
 $(document).ready(function() {
@@ -490,7 +486,7 @@ $(document).ready(function() {
         // Send AJAX request
         $.ajax({
             type: 'POST',
-            url: '/demo/send-email', // Your endpoint for sending email
+            url: '/send-email', // Your endpoint for sending email
             data: formData,
             success: function(response) {
                 // Handle success response

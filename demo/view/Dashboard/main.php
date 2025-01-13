@@ -217,6 +217,85 @@ if(!isset($addressData->region)){
         display:none;
     }
 
+    /*Earnings dashboard */
+
+    body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+    }
+
+    .earnings-dashboard {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+    }
+
+    .earnings-dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+    }
+
+        .earnings-dashboard-header h2 {
+            font-size: 20px;
+            margin: 0;
+            color: #555;
+        }
+
+        .earnings-dashboard-header .date-range {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stat {
+            flex: 1;
+            min-width: 200px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .stat-title {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007BFF;
+        }
+
+        .stat-value.earnings {
+            color: #28a745;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #aaa;
+        }
+
 </style>
 <nav class="sidebar-navigation">
     <ul>
@@ -251,24 +330,24 @@ if(!isset($addressData->region)){
     <!-- Profile Section -->
     <section>
         <h2>Profile Information</h2>
-        <form id="profile-form" class="profile-info">
+        <form disabled id="profile-form" class="profile-info">
             <img class="profile-image" src="<?php  echo $base_url?>/public/img/user-image/default.jpeg">
             <label for="name">Name</label>
             <div style="display:flex">
-                <input type="text" id="fname" name="fname" placeholder="First" value="<?php echo htmlspecialchars($userData['fname'], ENT_QUOTES, 'utf-8')?>" required>
-                <input type="text" id="lname" name="lname" placeholder="Last" value="<?php echo htmlspecialchars($userData['lname'], ENT_QUOTES, 'utf-8')?>" required>
+                <input disabled type="text" id="fname" name="fname" placeholder="First" value="<?php echo htmlspecialchars($userData['fname'], ENT_QUOTES, 'utf-8')?>" required>
+                <input  disabled type="text" id="lname" name="lname" placeholder="Last" value="<?php echo htmlspecialchars($userData['lname'], ENT_QUOTES, 'utf-8')?>" required>
             </div>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email" value="<?php echo  htmlspecialchars($userData['email'], ENT_QUOTES, 'utf-8')?>" required>
+            <input disabled type="email" id="email" name="email" placeholder="Email" value="<?php echo  htmlspecialchars($userData['email'], ENT_QUOTES, 'utf-8')?>" required>
 
             <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" placeholder="Phone number" value="<?php echo  htmlspecialchars($userData['phone'], ENT_QUOTES, 'utf-8')?>" required>
+            <input disabled type="tel" id="phone" name="phone" placeholder="Phone number" value="<?php echo  htmlspecialchars($userData['phone'], ENT_QUOTES, 'utf-8')?>" required>
 
             <label for="bio">Bio</label>
-            <textarea id="bio" name="bio" placeholder="Tell us about yourself"></textarea>
+            <textarea disabled id="bio" name="bio" placeholder="Tell us about yourself"></textarea>
 
-            <button type="submit">Update Profile</button>
+            <!-- <button type="submit">Update Profile</button> -->
         </form>
         
     </section>
@@ -319,13 +398,29 @@ if(!isset($addressData->region)){
     <div id="qr-image"></div>
   </form>
   </section>
-  <section>
-    <h2>Earnings</h2>
-    <label>Sales</label>
-    <p>0<p>
-    <label>Earnings</label>
-    <p>$0<p>
 
+  <section class="earnings-dashboard">
+    <div>
+        <div class="x-earnings-dashboard-header">
+            <h2>Earnings Dashboard</h2>
+            <span class="date-range">Jan 1, 2023 - Jan 31, 2023</span>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-title">Total Earnings</div>
+                <div class="stat-value earnings">$0.00</div>
+            </div>
+            <div class="stat">
+                <div class="stat-title">Total Sales</div>
+                <div class="stat-value">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-title">Commission Rate</div>
+                <div class="stat-value">15%</div>
+            </div>
+        </div>
+    </div>
   </section>
 </main>
 <?php } ?>

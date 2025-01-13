@@ -242,7 +242,18 @@ div.desc {
 .navbar {
     background-color: #FFD402;
     justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width:100vw;
 } 
+#header, #header>.container{
+    padding: 0;
+    margin:0;
+}
+
+.navbar-brand.logo{
+    height:60px;
+}
 
 .btnpr{
     display:flex; 
@@ -405,7 +416,7 @@ div.desc {
     animation-duration: 5s;
 }
 
-/*slide show image movement in measured pixels*/
+/*slide show image movement in measured pixels*/ 
 @keyframes mySlides {
     from {
         left: -100px;
@@ -445,9 +456,9 @@ div.desc {
 }
 
 .greenline {
-    border: 20px solid #427A27;
-    width: 1348px;
-    padding: 1em;
+    border-top: 20px solid #427A27;
+    border-bottom: 20px solid #427A27;
+    width: 1600px;
     margin: 0 -7em;
 }
 
@@ -521,17 +532,18 @@ html {
 }
 
 </style>
-<section style="position: relative; justify-content: center;">
-    
-    <div class="slideshow-container">
 
-        <div class="greenline">
+<div class="greenline" >
+
+    <div class="slideshow-container" style="position: relative; justify-content: center;">
+
+        <div class="">
 
             <div class="cube">
 
                 <div class="mySlides fade">
 
-                    <img class="caption" src="<?php echo $img_url?>breezyhilldunebuggy44.jpg" width="auto" height="600">
+                    <img class="caption" src="<?php echo $img_url?>breezyhilldunebuggy44.jpg" width="auto" height="900">
 
                 </div>
 
@@ -542,7 +554,7 @@ html {
 
                 <div class="mySlides fade">
 
-                    <img class="caption" src="<?php echo $img_url?>HorsebackRiding44.jpg" width="auto" height="600">
+                    <img class="caption" src="<?php echo $img_url?>HorsebackRiding44.jpg" width="auto" height="900">
 
                 </div>
 
@@ -552,7 +564,7 @@ html {
 
                 <div class="mySlides fade">
 
-                    <img class="caption" src="<?php echo $img_url?>ParkLife44.jpg" width="auto" height="600">
+                    <img class="caption" src="<?php echo $img_url?>ParkLife44.jpg" width="auto" height="900">
 
                 </div>
 
@@ -562,7 +574,7 @@ html {
 
                 <div class="mySlides fade">
 
-                    <img class="caption" src="<?php echo $img_url?>RiverTubing44.jpg" width="auto" height="600">
+                    <img class="caption" src="<?php echo $img_url?>RiverTubing44.jpg" width="auto" height="900">
 
                 </div>
 
@@ -572,26 +584,80 @@ html {
 
                 <div class="mySlides fade">
 
-                    <img class="caption" src="<?php echo $img_url?>WalkTrails44.jpg" width="auto" height="600">
+                    <img class="caption" src="<?php echo $img_url?>WalkTrails44.jpg" width="auto" height="900">
 
                 </div>
 
             </div>
 
-        </div>
-        
-        <div>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
         </div>
 
     </div>
 
-</section>
+</div>
 
+<div class="slideshow-container">
+
+    <div>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div> 
+
+</div>
+    
+
+<br />
+<br />
+
+<section style="text-align:center; justify-content:center; color:#427A27;">
+
+    <div class="graph">
+
+        <h1 class="tagline">Explore your wild side!</h1>
+
+    </div>
+
+    <br />
+    <br /> 
+    <br /> 
+
+    <div class="graph2">
+
+        <h1 class="tagline2"> 
+
+            #Jamaica’s Best Community Eco-Tourist Attraction
+
+        </h1> 
+
+    </div>
+
+    <br />
+    <br />
+    
+    <div class="graph" > 
+
+        <div class="gallerybtn" style="padding-top:30px;"> 
+            
+            <div class="btn btn-group">
+
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gallery">
+
+                    <img src="<?php echo $img_url?>Rustic Scenery - Garden Bed  2.jpeg" width="auto" height="275"> <br />
+
+                    <h4>View Gallery</h4>
+
+                </a> 
+
+            </div> 
+            
+        </div>
+        
+    </div>
+
+<
 <br />
 <br />
 <br />
@@ -603,35 +669,6 @@ html {
 <br />
 <br />
 
-<section>
-
-    <p>
-        Adventures in harmony with nature, <br> 
-        culture and communities.  Choose your <br />
-        vibe!
-    </p>
-
-    <p>
-        
-        <ul>
-            <li>easy going to intense</li>
-            <li>
-                explore on your own, as a family <br />
-                or with friends
-            </li> 
-            <li>
-                a quick 2-hour, half day or <br /> day-long adventure
-            </li> 
-            <li>
-                discover the natural wonders of <br />
-                the park or ascend to the hills for <br />
-                breathtaking panoramic views.
-            </li> 
- 
-        </ul>  
-    </p> 
-
-</section>  
 
 <section id="gallery" class="sector">   
 
@@ -687,46 +724,6 @@ html {
 
 </section>
 
-<section>
-
-    <div style="text-align:center">
-
-        <h3>Jamaica’s Best <br /> Eco-Tourist Attraction</h3>
-        <p>
-            Rustic, tranquil and unscathed<br />
-            landscapes set the stage for boundary<br />
-            less experiences in the park and the<br />
-            surrounding communities of the once<br />
-            booming sugar cane belt, hillside farms<br />
-            and modern technology driven farms.
-        </p>
-        <br />
-        <br />
-        <p>
-            Indulge in the Jamaica’s<br />
-            culture, history and out of many one<br />
-            infused cuisine on the riverbed’s of our<br />
-            limestone purified rushing waters from<br />
-            the Roaring River that flows into the<br />
-            stiller and relaxing Cabaritta awaits you.
-        </p>
-        <br />
-        <br />
-        <p>
-            Completely Off The Beaten Track…
-        </p>
-        <br /><br />
-        <p>
-            Yardy River Adventures is a Unique<br />
-            Lush Rustic Paradise
-        </p>
-
-
-
-        <p></p> 
-    </div>
-
-</section> 
 <script>
 
 let slideIndex = 0;
@@ -844,7 +841,6 @@ function showSlides() {
 </script>
 <style>
 #gallery{
-    position: fixed;
 }
 </style>
 

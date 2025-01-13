@@ -1,4 +1,14 @@
+<?php
 
+if(!isset($title)) {
+
+    $title = "Yardy Adventures";
+
+}
+$base_url = BASE_URL_SSL;
+$base_url = "https://".$_SERVER["SERVER_NAME"]."/demo";
+
+?>
 <!doctype html>
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head>
@@ -8,46 +18,45 @@
     <title> Yardy Adventures - Login</title>
     <meta name="title" Content="Yardy Adventures - Login">
     <meta name="description" content="Unlock the secrets to influencer success with expert insights and practical tips. Join our community and elevate your influence today.">
-    <meta name="keywords" content="Influencer marketing,Social media influencers,Content creation,Brand collaborations,Instagram marketing,YouTube influencers">
-    <link rel="shortcut icon" href="https://yardyadventures.com/demo/assets/images/general/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo $base_url?>/assets/images/general/favicon.png" type="image/x-icon">
 
     
-    <link rel="apple-touch-icon" href="https://yardyadventures.com/demo/assets/images/general/logo.png">
+    <link rel="apple-touch-icon" href="<?php echo $base_url?>/assets/images/general/logo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Yardy Adventures - Login">
     
     <meta itemprop="name" content="Yardy Adventures - Login">
     <meta itemprop="description" content="">
-    <meta itemprop="image" content="https://yardyadventures.com/demo/assets/images/general/default.png">
+    <meta itemprop="image" content="<?php echo $base_url?>/assets/images/general/default.png">
     
     <meta property="og:type" content="website">
     <meta property="og:title" content="Yardy Adventures">
     <meta property="og:description" content="Empower your influence with expert insights, practical tips, and inspiring stories. Join our community of influencers and brands and elevate your social presence today!">
-    <meta property="og:image" content="https://yardyadventures.com/demo/assets/images/general/default.png">
+    <meta property="og:image" content="<?php echo $base_url?>/assets/images/general/default.png">
     <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="1180">
     <meta property="og:image:height" content="600">
-    <meta property="og:url" content="https://yardyadventures.com/demo/login">
+    <meta property="og:url" content="<?php echo $base_url?>/login">
     
     <meta name="twitter:card" content="summary_large_image">
       <!-- all css link -->
     <!-- Bootstrap CSS -->
-<link href="https://yardyadventures.com/demo/assets/common/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://yardyadventures.com/demo/assets/common/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/common/css/line-awesome.min.css">
+<link href="<?php echo $base_url?>/assets/common/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo $base_url?>/assets/common/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/common/css/line-awesome.min.css">
 
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/magnific-popup.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/slick.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/odometer.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/animate.min.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/datepicker.min.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/lightcase.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/admin/css/select2.min.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/main.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/magnific-popup.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/slick.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/odometer.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/animate.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/datepicker.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/lightcase.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/admin/css/select2.min.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/main.css">
 
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/custom.css">
-<link rel="stylesheet" href="https://yardyadventures.com/demo/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/custom.css">
+<link rel="stylesheet" href="<?php echo $base_url?>/assets/presets/default/css/color.php?color=6ee723&secondColor=525CEB">
 
           
 </head>
@@ -78,11 +87,10 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-10 col-md-10 col-12 main">
                         <div class="logo">
-                            <a href="https://yardyadventures.com/demo"><img src="https://yardyadventures.com/demo/assets/images/general/logo_white.png" alt="InfluencerFly"></a>
+                            <a href="<?php echo $base_url?>"><img src="<?php echo $base_url?>/demo/assets/images/general/logo_white.png" alt=""></a>
                         </div>
                         <div class="convert d-flex justify-content-xl-start justify-content-center">
-                            <a href="https://yardyadventures.com/demo/login" class="active">Welcome Back</a>
-                           <!-- <a href="https://yardyadventures.com/demo/influencer/login" class="">Influencer/Reseller</a>-->
+                            <a href="<?php echo $base_url?>/login" class="active">Welcome Back</a>
                         </div>
                         
                         
@@ -119,7 +127,7 @@
                                                 >
                                                 <label class="form-check-label" for="remember">Remember me</label>
                                             </div>
-                                            <a href="https://yardyadventures.com/demo/password/reset" class="text">Forgot Password?</a>
+                                            <a href="<?php echo $base_url?>/password/reset" class="text">Forgot Password?</a>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -133,17 +141,17 @@
 									
                                                                         <div class="col-12">
                                         <div class="social">
-                                                                                        <a href="https://yardyadventures.com/demo/social/login/google" class="icon" target="_blank">
+                                                                                        <a href="<?php echo $base_url?>/social/login/google" class="icon" target="_blank">
                                                 <i class="fa-brands fa-google"></i>
                                             </a>
-                                                                                                                                    <a href="https://yardyadventures.com/demo/social/login/facebook" class="icon" target="_blank">
+                                                                                                                                    <a href="<?php echo $base_url?>/social/login/facebook" class="icon" target="_blank">
                                                 <i class="fa-brands fa-facebook-f"></i>
                                             </a>
                                                                                                                                 </div>
                                     </div>
                                                                         <div class="col-12">
                                         <div class="text-center">
-                                            <p class="text">Don't have any Reseller account?  <a href="https://yardyadventures.com/demo/register"
+                                            <p class="text">Don't have any Reseller account?  <a href="<?php echo $base_url?>/register"
                                                 class="text--base">Create a Reseller Account</a>
                                             </p>
                                         </div>
@@ -156,7 +164,7 @@
             </div>
         </div>
         <div class="col-xl-7 left-side">
-            <img src="https://yardyadventures.com/demo/assets/presets/default/images/signin/sign.jpg" class="d-none d-lg-block" alt="image">
+            <img src="<?php echo $base_url?>/assets/presets/default/images/signin/sign.jpg" class="d-none d-lg-block" alt="image">
         </div>
     </div>
 </section>
@@ -166,24 +174,24 @@
     <!-- all js link -->
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://yardyadventures.com/demo/assets/common/js/jquery-3.7.1.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/jquery-3.7.1.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/popper.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/slick.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/odometer.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/viewport.jquery.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/smoothscroll.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/lightcase.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/datepicker.en.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/wow.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/admin/js/select2.min.js"></script>
-<script src="https://yardyadventures.com/demo/assets/common/js/ckeditor.js"></script>
-<script src="https://yardyadventures.com/demo/assets/presets/default/js/main.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/popper.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/slick.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/odometer.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/viewport.jquery.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/smoothscroll.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/lightcase.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.min.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.en.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/wow.min.js"></script>
+<script src="<?php echo $base_url?>/assets/admin/js/select2.min.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/ckeditor.js"></script>
+<script src="<?php echo $base_url?>/assets/presets/default/js/main.js"></script>
 
-                <script src="https://yardyadventures.com/demo/assets/common/js/sweetalert2.min.js"></script>
+                <script src="<?php echo $base_url?>/assets/common/js/sweetalert2.min.js"></script>
 <script>
     const Toast = Swal.mixin({
         toast: true,
@@ -209,11 +217,11 @@
         "use strict";
 
         $(".langSel").on("change", function() {
-            window.location.href = "https://yardyadventures.com/demo/change/"+$(this).val() ;
+            window.location.href = "<?php echo $base_url?>/change/"+$(this).val() ;
         });
 
         $('.policy').on('click',function(){
-            $.get('https://yardyadventures.com/demo/cookie/accept', function(response){
+            $.get('https://yardyadventures.com/cookie/accept', function(response){
                 $('.cookies-card').addClass('d-none');
             });
         });

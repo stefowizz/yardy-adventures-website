@@ -5,17 +5,17 @@
         <div class="row justify-content-center g-5">
             <div class="col-xl-3 col-sm-6">
                 <div class="footer-item">
-                    <div class="social-icons">
-                         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                         <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
-                         <a href="https://www.google.com"><i class="fa-brands fa-google"></i></a>
-                         <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
-                         <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
                     <p class="footer-item__desc footer-bold">
                                                Connect | Subscribe | Join | Voice Your Feedback
                     </p>
-                    <p class="footer-item__desc">
+                    <div class="social-icons">
+                         <a href="https://www.facebook.com/people/Yardy-River-Adventures/61570120667927/"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://www.instagram.com/yardyriverja"><i class="fa-brands fa-square-instagram"></i></a>
+                         <a href="https://g.co/kgs/UPSia2g"><i class="fa-brands fa-google"></i></a>
+                         <a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+                         <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <p style="display:none" class="footer-item__desc">
                       Explore like a Real Yardy. Embrace the lively spirit of Jamaican culture,
                        Irie no problem. Adventures in the rustic tranquil.
                     </p>
@@ -27,10 +27,8 @@
                                             </ul>-->
                 </div>
             </div>
-            <div class="col-xl-2 col-sm-6">
+            <div style="display:none" class="col-xl-2 col-sm-6">
                 <div class="footer-item">
-                    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-                    <div class="elfsight-app-4c93296c-f4a3-4992-bcbe-86d0701301fa" data-elfsight-app-lazy></div>
                 </div>
             </div>
             <div class="col-xl-2 col-sm-6">
@@ -73,19 +71,23 @@
             <div class="col-xl-3 col-sm-6">
                 <div class="footer-item">
                     <h5 class="footer-item__title">Yardy Stories</h5>
+                    <a href="about#yardy-stories" class="btn--base outline">View our Blog <i class="las la-angle-double-right"></i></a>
+                    <!--
                     <p class="mb-2">Subscribe our blog</p>
                     <form action="<?php echo $base_url?>/demo/subscribe" method="POST">
                         <input type="hidden" name="_token" value="X9EYpSxt8xj1Ml7G1z6GtIELZQVPnQQNmTQTd5Ln" autocomplete="off">                        <div class="form-group">
                             <input type="text" class="form--control" name="email" placeholder="Email">
                             <button><i class="fas fa-paper-plane"></i></button>
+                            
                         </div>
                     </form>
+                    -->
                 </div>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright 2024. All rights reserved.</p>    </div>
+        <p>&copy; 2025 Yardy River Tour Adventures Limited. All rights reserved.</p>    </div>
 </footer>
 <!-- ==================== Footer End ==================== -->
 
@@ -93,6 +95,7 @@
     <!-- all js link -->
     <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="<?php echo $base_url?>/assets/presets/default/js/main.js"></script>
 <script src="<?php echo $base_url?>/assets/common/js/jquery-3.7.1.min.js"></script>
 <script src="<?php echo $base_url?>/assets/common/js/bootstrap.bundle.min.js"></script>
 
@@ -104,11 +107,10 @@
 <script src="<?php echo $base_url?>/assets/presets/default/js/smoothscroll.min.js"></script>
 <script src="<?php echo $base_url?>/assets/presets/default/js/lightcase.js"></script>
 <script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.min.js"></script>
-<script src="<?php echo $base_url?>/assets/presets/default/js/datepicker.en.js"></script>
 <script src="<?php echo $base_url?>/assets/presets/default/js/wow.min.js"></script>
 <script src="<?php echo $base_url?>/assets/admin/js/select2.min.js"></script>
 <script src="<?php echo $base_url?>/assets/common/js/ckeditor.js"></script>
-<script src="<?php echo $base_url?>/assets/presets/default/js/main.js"></script>
+<script src="<?php echo $base_url?>/assets/common/js/sweetalert2.min.js"></script>
 
         <script>
    function addToWishlist(element) {
@@ -165,11 +167,7 @@
         }
     }
 </script>
-        <script src="<?php echo $base_url?>/demo/assets/common/js/sweetalert2.min.js"></script>
 <script></script>
-
-
-
 
 <script>
     (function ($) {

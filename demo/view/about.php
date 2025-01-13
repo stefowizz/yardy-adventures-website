@@ -85,7 +85,7 @@ require_once "home_header.php" ?>
       <div class="blog_content clearfix">
         
         <div class="blog_main">
-          <h1 class="blog_post_title">Yardy Stories</h1>
+          <h1 id="yardy-stories" class="blog_post_title">Yardy Stories</h1>
 
           <div class="blog_post clearfix">
             <img src="/demo/assets/images/frontend/adventure/Yardy Horseback Riding.jpg" alt="" class="

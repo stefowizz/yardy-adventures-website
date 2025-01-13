@@ -55,9 +55,14 @@ class DashboardController extends Controller
             $affilateData = $this->model->currentAffiliate($this->get("userid"));
             $code = $this->model->getRandomString(); //random code, if one isn't already present
 
+            $users = $this->model->getUsers();
+
             View::assign("userData", $userData);
             View::assign("affiliateData", $affilateData);
             View::assign("code", $code);
+
+            View::assign("users", $users);
+
             View::render("Dashboard/main");
         }else{
             header("Location: /login");
@@ -278,7 +283,6 @@ class DashboardController extends Controller
             View::render('Dashboard/users');
         } else{
             View::render('Auth/login');
-            
         }      
     }
 
