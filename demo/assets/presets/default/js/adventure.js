@@ -44,8 +44,10 @@ window.addEventListener("DOMContentLoaded", () => {
             };
 
             // Add event listeners for modal interactions
-            setTimeout(() => modalExit.addEventListener("click", ExitModal), 50);
-            readMore.addEventListener("click", displayModal);
+            setTimeout(() => {
+                modalExit.addEventListener("click", ExitModal);
+                readMore.addEventListener("click", displayModal)
+            }, 50);
             backDrop.addEventListener("click", removeModalOnGlobalClick);
         });
     };
@@ -90,14 +92,15 @@ window.addEventListener("DOMContentLoaded", () => {
             const cardTitleImmutable = card.dataset.originalText;
             const cardTitlePaddingTop = parseFloat(getComputedStyle(cardTitle).paddingTop);
             const cardTitlePaddingBottom = parseFloat(getComputedStyle(cardTitle).paddingBottom);
-            const desiredHeight = parseFloat(getComputedStyle(cardTitle).lineHeight) * 2;
+            const lineHeight = parseFloat(getComputedStyle(cardTitle).lineHeight)
+            const desiredHeight =  lineHeight + cardTitlePaddingTop + cardTitlePaddingBottom + 20;
             cardTitleContainer.style.height = `${desiredHeight}px`;
 
             let truncatedText = cardTitleImmutable;
             cardTitle.textContent = truncatedText;
 
             // Truncate text until it fits within the desired height
-            while (cardTitle.scrollHeight > desiredHeight && truncatedText.length) {
+            while (cardTitle.scrollHeight >= desiredHeight) {
                 truncatedText = truncatedText.slice(0, -1); // Remove the last character
                 cardTitle.textContent = `${truncatedText}`;
             }
@@ -114,7 +117,7 @@ window.addEventListener("DOMContentLoaded", () => {
         adventureCards.forEach((card) => {
             const cardWidth = parseInt(getComputedStyle(card).width, 10);
 
-            if (cardWidth < 220 && window.innerWidth >= 640) {
+            if (cardWidth < 220 && window.innerWidth <= 640) {
                 cardTitle.classList.remove("mediumFont");
                 cardTitle.classList.remove("largeFont");
                 cardTitle.classList.add("smallFont");
