@@ -645,7 +645,7 @@ html {
 
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gallery">
 
-                    <img src="<?php echo $img_url?>Rustic Scenery - Garden Bed  2.jpeg" width="auto" height="275"> <br />
+                    <img src="<?php echo $img_url?>Jamaica Mission 3_Yardy River_B-Roll_1x1_v1.mp4" width="auto" height="275"> <br />
 
                     <h4>View Gallery</h4>
 
