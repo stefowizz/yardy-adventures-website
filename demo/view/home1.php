@@ -645,7 +645,9 @@ html {
 
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gallery">
 
-                    <img src="<?php echo $img_url?>Jamaica Mission 3_Yardy River_B-Roll_1x1_v1.mp4" width="auto" height="275"> <br />
+                    <video class="gallery-item" autoplay loop muted playsinline>
+                        <source src="<?php echo $video_url; ?>"Jamaica Mission 3_Yardy River_B-Roll_1x1_v1.mp4" />
+                    </video> <br />
 
                     <h4>View Gallery</h4>
 
