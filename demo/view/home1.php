@@ -723,6 +723,58 @@ html {
 
     </div>
 
+    <div class="gallery-container">
+
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/012 Good Energy for Family and Friends.MP4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/02 Yardy Community Tourism JSIF Media.mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/03 Yardy Safety Briefing .mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/04 Yardy River Tubing .MP4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/05 Yardy Water Fall Healing Jacuzzi .MP4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/06 Yardy is Perfect for Nature Lovers .mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/07 Promo Yardy Horseback Riding.mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/08 Promo Yardy River Tubing .mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/09 Yardy Thrilling Rapids Unedited .mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/11 Yardy River Tubing and Horseback Riding.mp4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/13 Yardy Family Fun Daze Dun Daze .MP4" />
+        </video>
+    
+        <video class="gallery-item" autoplay loop muted playsinline controls>
+            <source src="~/css/vidz3/14 Yardy is Jamaican Owned and Operated .MP4" />
+        </video>  
+
+    </div> 
+
 </section>
 
 <script>
