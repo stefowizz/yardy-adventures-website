@@ -670,6 +670,7 @@ html {
 <br />
 <br />
 
+<h1>Photos</h1>
 
 <section id="gallery" class="sector">   
 
