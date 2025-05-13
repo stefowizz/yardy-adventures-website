@@ -717,6 +717,54 @@ html {
 
     </div>
 
+    <div class="gallery-container">
+
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>RT_10104.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>RT1002.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>RT1005.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy of BP10001.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy of RT 01001.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy of RT 10102.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy of RT 10103.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy of RT1009.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy_of_HB_1001.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy_of_HB_1002.jpg" alt="">
+        </div>
+    
+        <div class="gallery-item-new">
+            <img src="<?php echo $img_url?>Copy_of_HP_1003.jpg" alt="">
+        </div>
+
+    </div>  
+
     <div class="gyalcontainer">
 
         <h3 style="color:#427A27;"> Yardy Horseback Riding </h3>
@@ -726,51 +774,51 @@ html {
     <div class="gallery-container">
 
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/012 Good Energy for Family and Friends.MP4" />
+            <source src="<?php echo $img_url?>012 Good Energy for Family and Friends.MP4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/02 Yardy Community Tourism JSIF Media.mp4" />
+            <source src="<?php echo $img_url?>02 Yardy Community Tourism JSIF Media.mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/03 Yardy Safety Briefing .mp4" />
+            <source src="<?php echo $img_url?>03 Yardy Safety Briefing .mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/04 Yardy River Tubing .MP4" />
+            <source src="<?php echo $img_url?>04 Yardy River Tubing .MP4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/05 Yardy Water Fall Healing Jacuzzi .MP4" />
+            <source src="<?php echo $img_url?>05 Yardy Water Fall Healing Jacuzzi .MP4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/06 Yardy is Perfect for Nature Lovers .mp4" />
+            <source src="<?php echo $img_url?>06 Yardy is Perfect for Nature Lovers .mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/07 Promo Yardy Horseback Riding.mp4" />
+            <source src="<?php echo $img_url?>07 Promo Yardy Horseback Riding.mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/08 Promo Yardy River Tubing .mp4" />
+            <sourcesrc="<?php echo $img_url?>08 Promo Yardy River Tubing .mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/09 Yardy Thrilling Rapids Unedited .mp4" />
+            <source src="<?php echo $img_url?>09 Yardy Thrilling Rapids Unedited .mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/11 Yardy River Tubing and Horseback Riding.mp4" />
+            <source src="<?php echo $img_url?>11 Yardy River Tubing and Horseback Riding.mp4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/13 Yardy Family Fun Daze Dun Daze .MP4" />
+            <source src="<?php echo $img_url?>13 Yardy Family Fun Daze Dun Daze .MP4" />
         </video>
     
         <video class="gallery-item" autoplay loop muted playsinline controls>
-            <source src="~/css/vidz3/14 Yardy is Jamaican Owned and Operated .MP4" />
+            <source src="<?php echo $img_url?>14 Yardy is Jamaican Owned and Operated .MP4" />
         </video>  
 
     </div> 
