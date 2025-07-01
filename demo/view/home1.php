@@ -659,6 +659,20 @@ html {
         
     </div>
 
+        <br /><br /><br /><br />
+    
+    <div class="slideshow-container navbar-expand-lg">
+        <img class="pics" src="~/css/ads/Advertisement 1.jpg" /> 
+    </div>
+    
+    <br /><br /><br />
+
+    <div class="slideshow-container navbar-expand-lg">
+        <img class="pics" src="~/css/ads/Advertisement 2.jpg" />
+    </div>
+    
+</div> 
+
 <br />
 <br />
 <br />
